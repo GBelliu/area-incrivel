@@ -2,10 +2,10 @@ import { ReactNode } from "react";
 
 import { Container } from "./styles";
 
-export function DiNapoliI() {
+export function DiNapoliII() {
   return (
     <Container>
-      <h1>DiNapoliI</h1>
+      <h1>DiNapoliII</h1>
     </Container>
   );
 }

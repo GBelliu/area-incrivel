@@ -1,16 +1,12 @@
-import { ReactNode } from 'react';
+import { ReactNode } from "react";
 
-import { Container } from './styles';
+import { Container } from "./styles";
 
-interface HeroProps {
-  children: ReactNode;
-}
-
-export function Hero({ children }: HeroProps) {
+export function Hero() {
   return (
     <Container>
-      <h1>Hero</h1>
-      {children}
+      <h1>Área Incrível</h1>
+      <h2>Viver pode ser uma experiência incrível</h2>
     </Container>
   );
 }
