@@ -2,15 +2,22 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 800px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("./home.png");
+  height: fit-content;
+  max-height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: column;
+  position: relative;
+  overflow: hidden;
+  padding: 400px 0;
+  video {
+    position: absolute;
+    z-index: -1;
+    filter: brightness(0.2);
+  }
 
   h1 {
     color: #fff;

@@ -1,6 +1,8 @@
-import styled from "styled-components";
-
-export const Container = styled.div`
+import styled, { css } from "styled-components";
+interface HeaderProps {
+  background: boolean;
+}
+export const Container = styled.div<HeaderProps>`
   display: flex;
   width: 100%;
   height: fit-content;
@@ -8,17 +10,28 @@ export const Container = styled.div`
   background-color: white;
   justify-content: center;
   position: fixed;
-  background-color: transparent;
+  background-color: ${({ background }) =>
+    background ? "rgba(0, 0, 0, 0.6)" : "transparent"};
+
+  ${({ background }) =>
+    background &&
+    css`
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(7px);
+    `};
+
+  z-index: 10;
 `;
 export const Content = styled.div`
   max-width: 1394px;
   height: fit-content;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 0;
-
+  position: relative;
   img {
     height: 65px;
   }
@@ -39,7 +52,9 @@ export const Content = styled.div`
   }
 
   .bm-burger-button {
-    position: sticky;
+    position: absolute;
+    right: 0;
+    top: 18px;
     width: 33px;
     height: 30px;
     margin-top: auto;
@@ -102,7 +117,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
   /* Individual item */
   .bm-item {
     display: inline-block;
-
     color: #fff;
     margin-bottom: 10px;
     text-align: left;

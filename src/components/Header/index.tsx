@@ -5,8 +5,18 @@ import { Container, Content } from "./styles";
 
 export function Header() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 90) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeColor);
   return (
-    <Container>
+    <Container background={color}>
       <Content>
         <a href="/">
           <img src="./logocinza.png" alt="" />

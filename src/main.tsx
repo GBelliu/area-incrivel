@@ -5,8 +5,6 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { DiNapoliI } from "./pages/DiNapoliI/index.tsx";
 import { DiNapoliII } from "./pages/DiNapoliII/index.tsx";
-import { PrismicProvider } from "@prismicio/react";
-import { client } from "./prismic";
 import { ToastContainer } from "react-toastify";
 const router = createBrowserRouter([
   {
@@ -25,9 +23,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <PrismicProvider client={client}>
-      <RouterProvider router={router} />
-      <ToastContainer />
-    </PrismicProvider>
+    <RouterProvider router={router} />
+    <ToastContainer />
   </React.StrictMode>
 );
