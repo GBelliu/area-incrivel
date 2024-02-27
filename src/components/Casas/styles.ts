@@ -1,6 +1,15 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.section`
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  padding: 80px 0;
+  justify-content: center;
+  background-color: #f0f0f0;
+`;
+
+export const Content = styled.div`
   max-width: 1394px;
   height: fit-content;
   width: 100%;
@@ -14,7 +23,11 @@ export const Container = styled.div`
   h1 {
     font-size: 36px;
     font-weight: 700;
-    color: #404040;
+    color: #000;
+
+    span {
+      color: #c21313;
+    }
   }
 
   @media (max-width: 1750px) {
@@ -28,4 +41,12 @@ export const Container = styled.div`
     max-width: 350px;
     align-items: center;
   }
+`;
+
+export const ContentCards = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 25px;
 `;
