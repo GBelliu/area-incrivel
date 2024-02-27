@@ -1,6 +1,13 @@
 import { ReactNode } from "react";
 
-import { Container } from "./styles";
+import {
+  ArrowBottom,
+  ButtonHero,
+  Container,
+  Content,
+  ContentText,
+} from "./styles";
+import { ChevronDown } from "lucide-react";
 
 export function Hero() {
   return (
@@ -8,9 +15,18 @@ export function Hero() {
       <video id="bgVideo" preload="true" autoPlay loop muted>
         <source src="./background.mp4" type="video/mp4" />
       </video>
-      <h1>Área Incrível</h1>
+      <Content>
+        <ContentText>
+          <h1>Realize o sonho de viver em um lugar especial</h1>
 
-      <h2>Viver pode ser uma experiência incrível</h2>
+          <h2>Conheça nossos empreendimentos disponíveis</h2>
+          <ButtonHero>Fale conosco!</ButtonHero>
+        </ContentText>
+        <ArrowBottom>
+          <span>Conheça nossa história</span>
+          <ChevronDown size={40} color="#FFFFFF" />
+        </ArrowBottom>
+      </Content>
     </Container>
   );
 }
