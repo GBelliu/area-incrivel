@@ -1,16 +1,17 @@
-import { ReactNode } from 'react';
+import { ReactNode } from "react";
 
-import { Container } from './styles';
+import { Container, ContentHeader } from "./styles";
 
-interface CardEmpreendimentoProps {
-  children: ReactNode;
-}
+// interface CardEmpreendimentoProps {
+//   children: ReactNode;
+// }
 
-export function CardEmpreendimento({ children }: CardEmpreendimentoProps) {
+export function CardEmpreendimento() {
   return (
     <Container>
-      <h1>CardEmpreendimento</h1>
-      {children}
+      <ContentHeader>
+        <h3>CASA TIPO 1</h3>
+      </ContentHeader>
     </Container>
   );
 }
