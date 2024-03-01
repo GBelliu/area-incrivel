@@ -90,8 +90,16 @@ export const ListItem = styled.div`
   line-height: 150%;
 `;
 
-export const ButtonCard = styled.div`
-  margin: 0 30px;
+export const ContentButton = styled.div`
+  height: fit-content;
+
+  width: 100%;
+  display: flex;
+
+  padding: 0px 30px;
+`;
+
+export const ButtonCard = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;

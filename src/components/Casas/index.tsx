@@ -4,8 +4,22 @@ import { Container, Content, ContentCards } from "./styles";
 import { CardEmpreendimento } from "../elements/CardEmpreendimento";
 
 import { List, ListItem } from "../elements/CardEmpreendimento/styles";
+import { useRef } from "react";
+import {
+  motion,
+  useScroll,
+  useSpring,
+  useTransform,
+  MotionValue,
+} from "framer-motion";
+function useParallax(value: MotionValue<number>, distance: number) {
+  return useTransform(value, [0, 1], [-distance, distance]);
+}
 
 export function Casas() {
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({ target: ref });
+  const y = useParallax(scrollYProgress, 300);
   return (
     <Container>
       <Content>

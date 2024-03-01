@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: fit-content;
+  height: 90vh;
   max-height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,6 +17,7 @@ export const Container = styled.div`
     position: absolute;
     z-index: -1;
     filter: brightness(0.2);
+    width: 100%;
   }
 
   h1 {

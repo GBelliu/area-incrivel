@@ -4,6 +4,7 @@ import {
   ButtonCard,
   Container,
   Content,
+  ContentButton,
   ContentHeader,
   ContentTextInfo,
   Divider,
@@ -36,7 +37,9 @@ export function CardEmpreendimento({
         <Divider />
         {list}
       </Content>
-      <ButtonCard>Tenho interesse</ButtonCard>
+      <ContentButton>
+        <ButtonCard>Tenho interesse</ButtonCard>
+      </ContentButton>
     </Container>
   );
 }

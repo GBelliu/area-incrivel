@@ -6,6 +6,9 @@ export const Container = styled.div`
   height: fit-content;
   padding: 80px 0;
   justify-content: center;
+  background-image: url("paper.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 `;
 
 export const Content = styled.div`

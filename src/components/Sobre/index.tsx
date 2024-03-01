@@ -1,16 +1,17 @@
-import { ReactNode } from 'react';
+import { ReactNode } from "react";
 
-import { Container } from './styles';
+import { Container, Content } from "./styles";
 
 interface SobreProps {
   children: ReactNode;
 }
 
-export function Sobre({ children }: SobreProps) {
+export function Sobre() {
   return (
     <Container>
-      <h1>Sobre</h1>
-      {children}
+      <Content>
+        <h1>Por que a Área Incrível?</h1>
+      </Content>
     </Container>
   );
 }
