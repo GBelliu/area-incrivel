@@ -25,7 +25,7 @@ export const Content = styled.div`
   h1 {
     font-size: 36px;
     font-weight: 700;
-    color: #404040;
+    color: #cccccc;
   }
 
   @media (max-width: 1750px) {
@@ -58,15 +58,11 @@ export const ItemNumeros = styled.div`
     text-align: center;
     font-size: 62px;
     font-weight: 900;
-    background-image: linear-gradient(
-      -90deg,
-      rgba(255, 0, 0, 1),
-      rgba(0, 0, 0, 1)
-    );
-    -webkit-background-clip: text;
+    color: rgba(255, 0, 0, 1);
+    /* -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; */
   }
 
   p {

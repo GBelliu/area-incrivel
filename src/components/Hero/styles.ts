@@ -13,6 +13,7 @@ export const Container = styled.div`
   position: relative;
   overflow: hidden;
   padding: 200px 0 60px 0;
+  background: linear-gradient(#03030370, #030303);
   video {
     position: absolute;
     z-index: -1;
@@ -71,7 +72,7 @@ export const ButtonHero = styled.button`
   color: #505050;
   background: #f8f8f8;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
   box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.15),
     0px 8px 16px rgba(255, 255, 255, 0.1);

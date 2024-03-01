@@ -11,7 +11,7 @@ export const Container = styled.div<HeaderProps>`
   justify-content: center;
   position: fixed;
   background-color: ${({ background }) =>
-    background ? "rgba(0, 0, 0, 0.6)" : "transparent"};
+    background ? "rgba(204, 204, 204, 0.1)" : "transparent"};
 
   ${({ background }) =>
     background &&

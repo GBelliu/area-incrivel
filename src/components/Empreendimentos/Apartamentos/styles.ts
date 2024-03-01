@@ -43,6 +43,8 @@ export const Content = styled.div`
   }
 `;
 
+export const ContentEmpreendimentos = styled.div``;
+
 export const ContentCards = styled.div`
   display: flex;
   justify-content: space-between;
