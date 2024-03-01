@@ -20,10 +20,10 @@ export function Hero() {
           <h1>Realize o sonho de viver em um lugar especial</h1>
 
           <h2>Conheça nossos empreendimentos disponíveis</h2>
-          <ButtonHero>Fale conosco!</ButtonHero>
+          <ButtonHero>Quero conhecer os empreendimentos</ButtonHero>
         </ContentText>
         <ArrowBottom>
-          <span>Conheça nossa história</span>
+          <span>CLIQUE E ASSISTA SOBRE NOSSA HISTÓRIA</span>
           <ChevronDown size={40} color="#FFFFFF" />
         </ArrowBottom>
       </Content>

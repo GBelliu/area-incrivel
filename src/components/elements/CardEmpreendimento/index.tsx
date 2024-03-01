@@ -1,19 +1,5 @@
 import { ReactNode } from "react";
 
-<<<<<<< HEAD
-import { Container, ContentHeader } from "./styles";
-
-// interface CardEmpreendimentoProps {
-//   children: ReactNode;
-// }
-
-export function CardEmpreendimento() {
-  return (
-    <Container>
-      <ContentHeader>
-        <h3>CASA TIPO 1</h3>
-      </ContentHeader>
-=======
 import {
   ButtonCard,
   Container,
@@ -51,7 +37,6 @@ export function CardEmpreendimento({
         {list}
       </Content>
       <ButtonCard>Tenho interesse</ButtonCard>
->>>>>>> 8815ff1bf3322f306d32c2ffc1f761cbdf246d9f
     </Container>
   );
 }

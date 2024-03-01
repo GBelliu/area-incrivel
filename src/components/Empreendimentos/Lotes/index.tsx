@@ -1,24 +1,14 @@
 import { ReactNode } from "react";
 
-<<<<<<< HEAD
-import { Container, Content } from "./styles";
-import { CardEmpreendimento } from "../elements/CardEmpreendimento";
-
-=======
 import { Container, Content, ContentCards } from "./styles";
-import { CardEmpreendimento } from "../elements/CardEmpreendimento";
+import { CardEmpreendimento } from "../../elements/CardEmpreendimento";
 
-import { List, ListItem } from "../elements/CardEmpreendimento/styles";
+import { List, ListItem } from "../../elements/CardEmpreendimento/styles";
 
->>>>>>> 8815ff1bf3322f306d32c2ffc1f761cbdf246d9f
-export function Casas() {
+export function Lotes() {
   return (
     <Container>
       <Content>
-<<<<<<< HEAD
-        <h1>Casas</h1>
-        <CardEmpreendimento />
-=======
         <h1>
           Casas in<span>críveis</span>
         </h1>
@@ -84,7 +74,6 @@ export function Casas() {
             }
           />
         </ContentCards>
->>>>>>> 8815ff1bf3322f306d32c2ffc1f761cbdf246d9f
       </Content>
     </Container>
   );

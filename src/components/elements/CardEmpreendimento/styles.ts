@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-<<<<<<< HEAD
-export const Container = styled.div``;
-export const ContentHeader = styled.div``;
-=======
 interface CardProps {
   type?: string;
 }
@@ -109,4 +105,3 @@ export const ButtonCard = styled.div`
   font-size: 18px;
   font-weight: 500;
 `;
->>>>>>> 8815ff1bf3322f306d32c2ffc1f761cbdf246d9f
