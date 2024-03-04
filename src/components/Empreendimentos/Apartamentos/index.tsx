@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-import { Container, Content, ContentCards } from "./styles";
+import { Container, Content, ContentCards, Image } from "./styles";
 import { CardEmpreendimento } from "../../elements/CardEmpreendimento";
 
 import { List, ListItem } from "../../elements/CardEmpreendimento/styles";
@@ -10,7 +10,7 @@ export function Apartamentos() {
     <Container>
       <Content>
         <h1>
-          Casas in<span>críveis</span>
+          Apartamentos in<span>críveis</span>
         </h1>
         <ContentCards>
           <CardEmpreendimento
@@ -53,28 +53,11 @@ export function Apartamentos() {
               </List>
             }
           />
-          <CardEmpreendimento
-            title="casas tipo 1"
-            preco="R$ 200.000"
-            list={
-              <List>
-                <ListItem>
-                  <span>•</span> Item 1
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Item 2
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Item 3
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Item 4
-                </ListItem>
-              </List>
-            }
-          />
         </ContentCards>
       </Content>
+      <Image>
+        <img src="svgaptos.svg" alt="" />
+      </Image>
     </Container>
   );
 }

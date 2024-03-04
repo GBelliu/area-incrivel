@@ -16,6 +16,7 @@ export const Container = styled.div<CardProps>`
   /* overflow: hidden; */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15), 0px 8px 16px rgba(0, 0, 0, 0.1);
   padding-bottom: 35px;
+  max-width: 350px;
 `;
 export const ContentHeader = styled.div<CardProps>`
   width: 100%;

@@ -4,13 +4,12 @@ export const Container = styled.section`
   display: flex;
   width: 100%;
   height: fit-content;
-  padding: 80px 0;
+  padding: 0;
   justify-content: center;
   background-color: #f0f0f0;
 `;
 
 export const Content = styled.div`
-  max-width: 1394px;
   height: fit-content;
   width: 100%;
   display: flex;
@@ -28,17 +27,5 @@ export const Content = styled.div`
     span {
       color: #c21313;
     }
-  }
-
-  @media (max-width: 1750px) {
-    max-width: 965px;
-    gap: 50px;
-  }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    max-width: 624px;
-  }
-  @media (max-width: 767px) {
-    max-width: 350px;
-    align-items: center;
   }
 `;

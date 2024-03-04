@@ -6,7 +6,8 @@ export const Container = styled.section`
   height: fit-content;
   padding: 80px 0;
   justify-content: center;
-  background-color: #f0f0f0;
+  background-color: #030303;
+  position: relative;
 `;
 
 export const Content = styled.div`
@@ -19,7 +20,7 @@ export const Content = styled.div`
   align-items: center;
   padding: 0;
   gap: 60px;
-
+  z-index: 10;
   h1 {
     font-size: 36px;
     font-weight: 700;
@@ -47,8 +48,14 @@ export const ContentEmpreendimentos = styled.div``;
 
 export const ContentCards = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   width: 100%;
   gap: 25px;
+`;
+
+export const Image = styled.div`
+  position: absolute;
+  left: 0;
+  bottom: 0;
 `;
