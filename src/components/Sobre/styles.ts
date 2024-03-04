@@ -40,3 +40,10 @@ export const Content = styled.div`
     align-items: center;
   }
 `;
+
+export const Abouts = styled.div`
+  display: flex;
+  flex-flow: column;
+  gap: 30px;
+  width: 100%;
+`;
