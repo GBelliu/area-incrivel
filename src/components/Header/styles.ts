@@ -21,7 +21,7 @@ export const Container = styled.div<HeaderProps>`
       -webkit-backdrop-filter: blur(7px);
     `};
 
-  z-index: 10;
+  z-index: 99;
 `;
 export const Content = styled.div`
   max-width: 1394px;
@@ -34,6 +34,7 @@ export const Content = styled.div`
   position: relative;
   img {
     height: 65px;
+    margin-left: 50px;
   }
 
   a {
@@ -101,6 +102,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
     background: #000;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
+    height: 100vh !important;
+    z-index: 99;
   }
 
   /* Morph shape necessary with bubble or elastic */
