@@ -24,7 +24,7 @@ export const Content = styled.div`
   h1 {
     font-size: 36px;
     font-weight: 700;
-    color: #000;
+    color: #ccc;
 
     span {
       color: #c21313;
