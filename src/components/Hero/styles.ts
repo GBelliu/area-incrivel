@@ -17,7 +17,7 @@ export const Container = styled.div`
   video {
     position: absolute;
     z-index: -1;
-    filter: brightness(0.2);
+    filter: brightness(0.7);
     width: 100%;
   }
 
