@@ -14,11 +14,9 @@ export const Content = styled.div`
   height: fit-content;
   width: 100%;
   display: flex;
-  flex-flow: column;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
   padding: 0;
-  gap: 60px;
 
   h1 {
     font-size: 36px;
@@ -27,7 +25,7 @@ export const Content = styled.div`
   }
 
   @media (max-width: 1750px) {
-    max-width: 965px;
+    max-width: 1280px;
     gap: 50px;
   }
   @media (min-width: 768px) and (max-width: 1023px) {
@@ -37,4 +35,46 @@ export const Content = styled.div`
     max-width: 350px;
     align-items: center;
   }
+`;
+
+export const LeftContent = styled.div`
+  display: flex;
+  flex-flow: column;
+  gap: 17px;
+  max-width: 300px;
+  img {
+    max-width: 180px;
+  }
+
+  p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #fff;
+  }
+`;
+export const SocialItems = styled.div`
+  width: 100%;
+  display: flex;
+  gap: 45px;
+  align-items: center;
+`;
+export const ItemContent = styled.div``;
+export const Slice = styled.div``;
+export const Title = styled.h3`
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+`;
+export const Items = styled.div`
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  gap: 7px;
+`;
+export const Item = styled.a`
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #e2e2e2;
 `;
