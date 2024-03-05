@@ -29,10 +29,10 @@ export const Content = styled.div`
   }
 
   iframe {
-    max-width: 847px;
-    height: 600px;
+    /* max-width: 847px; */
+    height: 700px;
     border: none;
-    border-radius: 15px;
+    border-radius: 5px;
   }
 
   @media (max-width: 1750px) {

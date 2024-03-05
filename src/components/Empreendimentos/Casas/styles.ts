@@ -58,4 +58,9 @@ export const Image = styled.div`
   position: absolute;
   left: 0;
   bottom: 0;
+
+  height: 100%;
+  img {
+    height: 100%;
+  }
 `;

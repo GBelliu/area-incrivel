@@ -17,7 +17,6 @@ export const Content = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 0;
-  gap: 60px;
 
   h1 {
     font-size: 36px;

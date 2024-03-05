@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 90vh;
+  height: 85vh;
   max-height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,13 +12,15 @@ export const Container = styled.div`
   flex-flow: column;
   position: relative;
   overflow: hidden;
-  padding: 200px 0 60px 0;
+
   background: linear-gradient(#03030370, #030303);
   video {
     position: absolute;
     z-index: -1;
     filter: brightness(0.7);
     width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   h1 {
