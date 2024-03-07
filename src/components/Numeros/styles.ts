@@ -46,6 +46,18 @@ export const ContentNumeros = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 1750px) {
+    flex-wrap: wrap;
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    justify-content: center;
+    gap: 50px;
+  }
+  @media (max-width: 767px) {
+    justify-content: center;
+    gap: 50px;
+  }
 `;
 
 export const ItemNumeros = styled.div`
@@ -71,5 +83,26 @@ export const ItemNumeros = styled.div`
     font-size: 24px;
     font-weight: 500;
     max-width: 190px;
+  }
+
+  @media (max-width: 1750px) {
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    h2 {
+      font-size: 48px;
+    }
+    p {
+      font-size: 22px;
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 767px) {
+    h2 {
+      font-size: 36px;
+    }
+    p {
+      font-size: 18px;
+      max-width: 100%;
+    }
   }
 `;

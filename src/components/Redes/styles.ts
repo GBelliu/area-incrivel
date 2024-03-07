@@ -36,6 +36,10 @@ export const Content = styled.div`
   @media (max-width: 767px) {
     max-width: 350px;
     align-items: center;
+
+    h1 {
+      text-align: center;
+    }
   }
 `;
 
@@ -44,9 +48,23 @@ export const InstagramContent = styled.div`
   justify-content: space-between;
   align-items: center;
   gap: 55px;
-  img {
+  > img {
     width: 100%;
     max-width: 350px;
+  }
+
+  @media (max-width: 1750px) {
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+  }
+  @media (max-width: 767px) {
+    flex-flow: column-reverse;
+    justify-content: center;
+
+    > img {
+      height: 400px;
+      object-fit: contain;
+    }
   }
 `;
 export const FacebookContent = styled.div`
@@ -57,6 +75,18 @@ export const FacebookContent = styled.div`
   img {
     width: 100%;
     max-width: 350px;
+  }
+
+  @media (max-width: 1750px) {
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+  }
+  @media (max-width: 767px) {
+    flex-flow: column;
+    > img {
+      height: 400px;
+      object-fit: contain;
+    }
   }
 `;
 export const TextContent = styled.div`
@@ -72,6 +102,23 @@ export const TextContent = styled.div`
   p {
     font-size: 24px;
     font-weight: 400;
+  }
+
+  @media (max-width: 1750px) {
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+  }
+  @media (max-width: 767px) {
+    align-items: center;
+    text-align: center;
+
+    h2 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 18px;
+    }
   }
 `;
 

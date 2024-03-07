@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 85vh;
   max-height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,11 +11,12 @@ export const Container = styled.div`
   flex-flow: column;
   position: relative;
   overflow: hidden;
-
+  padding: 250px 0 50px 0;
   background: linear-gradient(#03030370, #030303);
   video {
     position: absolute;
     z-index: -1;
+    top: 0;
     filter: brightness(0.7);
     width: 100%;
     height: 100%;
@@ -42,6 +42,25 @@ export const Container = styled.div`
     font-weight: 400;
     line-height: normal;
   }
+
+  @media (max-width: 1750px) {
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    padding: 200px 0 50px 0;
+
+    h1 {
+      font-size: 56px;
+      line-height: 64px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 24px;
+      text-align: center;
+      line-height: normal;
+    }
+  }
+  @media (max-width: 767px) {
+  }
 `;
 
 export const Content = styled.div`
@@ -50,7 +69,25 @@ export const Content = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
+  max-width: 1394px;
   gap: 60px;
+
+  a {
+    text-decoration: none;
+  }
+
+  @media (max-width: 1750px) {
+    max-width: 965px;
+    gap: 50px;
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    max-width: 624px;
+    gap: 50px;
+  }
+  @media (max-width: 767px) {
+    max-width: 350px;
+    align-items: center;
+  }
 `;
 
 export const ContentText = styled.div`
@@ -78,6 +115,13 @@ export const ButtonHero = styled.button`
   font-size: 20px;
   box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.15),
     0px 8px 16px rgba(255, 255, 255, 0.1);
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    font-size: 18px;
+  }
+  @media (max-width: 767px) {
+    font-size: 16px;
+  }
 `;
 
 export const ArrowBottom = styled.div`

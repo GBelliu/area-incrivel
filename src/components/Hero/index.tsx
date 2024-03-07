@@ -8,6 +8,7 @@ import {
   ContentText,
 } from "./styles";
 import { ChevronDown } from "lucide-react";
+import { Link } from "react-scroll";
 
 export function Hero() {
   return (
@@ -22,10 +23,18 @@ export function Hero() {
           <h2>Conheça nossos empreendimentos disponíveis</h2>
           <ButtonHero>Quero conhecer os empreendimentos</ButtonHero>
         </ContentText>
-        <ArrowBottom>
-          <span>CLIQUE E ASSISTA SOBRE NOSSA HISTÓRIA</span>
-          <ChevronDown size={40} color="#FFFFFF" />
-        </ArrowBottom>
+        <Link
+          to="apresentacao"
+          href="/"
+          smooth={true}
+          duration={1500}
+          offset={-100}
+        >
+          <ArrowBottom>
+            <span>CLIQUE E ASSISTA SOBRE NOSSA HISTÓRIA</span>
+            <ChevronDown size={40} color="#FFFFFF" />
+          </ArrowBottom>
+        </Link>
       </Content>
     </Container>
   );

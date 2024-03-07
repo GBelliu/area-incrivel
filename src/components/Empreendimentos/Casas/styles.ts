@@ -52,6 +52,14 @@ export const ContentCards = styled.div`
   align-items: center;
   width: 100%;
   gap: 25px;
+
+  @media (max-width: 1750px) {
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+  }
+  @media (max-width: 767px) {
+    flex-flow: column;
+  }
 `;
 
 export const Image = styled.div`

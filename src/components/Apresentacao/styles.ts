@@ -41,10 +41,16 @@ export const Content = styled.div`
   }
   @media (min-width: 768px) and (max-width: 1023px) {
     max-width: 624px;
+    iframe {
+      height: 450px;
+    }
   }
   @media (max-width: 767px) {
     max-width: 350px;
     align-items: center;
+    iframe {
+      height: 250px;
+    }
   }
 `;
 
@@ -65,4 +71,14 @@ export const Button = styled.button`
   gap: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+
+  @media (max-width: 1750px) {
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    padding: 15px 20px;
+  }
+  @media (max-width: 767px) {
+    padding: 15px 20px;
+    font-size: 18px;
+  }
 `;
