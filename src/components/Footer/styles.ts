@@ -7,6 +7,10 @@ export const Container = styled.div`
   padding: 80px 0;
   justify-content: center;
   background-color: #272727;
+
+  @media (max-width: 1023px) {
+    padding: 40px 0;
+  }
 `;
 
 export const Content = styled.div`
@@ -56,12 +60,20 @@ export const LeftContent = styled.div`
     line-height: 28px;
     color: #fff;
   }
+
+  @media (max-width: 767px) {
+    max-width: 100%;
+  }
 `;
 export const SocialItems = styled.div`
   width: 100%;
   display: flex;
   gap: 45px;
   align-items: center;
+
+  @media (max-width: 767px) {
+    justify-content: center;
+  }
 `;
 export const ItemContent = styled.div`
   display: flex;

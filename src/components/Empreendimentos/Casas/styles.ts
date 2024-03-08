@@ -8,6 +8,10 @@ export const Container = styled.section`
   justify-content: center;
   background-color: #030303;
   position: relative;
+
+  @media (max-width: 1023px) {
+    padding: 40px 0;
+  }
 `;
 
 export const Content = styled.div`
@@ -70,5 +74,8 @@ export const Image = styled.div`
   height: 100%;
   img {
     height: 100%;
+  }
+  @media (max-width: 767px) {
+    height: 50%;
   }
 `;

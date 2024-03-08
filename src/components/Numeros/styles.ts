@@ -9,6 +9,10 @@ export const Container = styled.div`
   background-image: url("paper.png");
   background-size: cover;
   background-repeat: no-repeat;
+
+  @media (max-width: 1023px) {
+    padding: 40px 0;
+  }
 `;
 
 export const Content = styled.div`

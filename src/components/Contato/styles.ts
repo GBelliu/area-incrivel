@@ -7,6 +7,10 @@ export const Container = styled.section`
   padding: 80px 0;
   justify-content: center;
   background: linear-gradient(#030303, #272727);
+
+  @media (max-width: 1023px) {
+    padding: 40px 0;
+  }
 `;
 
 export const ContentFormulario = styled.div`
@@ -43,6 +47,7 @@ export const Forms = styled.div`
 
   @media (max-width: 900px) {
     align-items: center;
+
     margin-bottom: 50px;
   }
 
@@ -60,6 +65,7 @@ export const Forms = styled.div`
 
     @media (max-width: 900px) {
       font-size: 22px;
+      border-bottom: 2px solid #949494;
     }
 
     @media (max-width: 500px) {
@@ -222,4 +228,8 @@ export const Button = styled.button`
   gap: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+
+  @media (max-width: 900px) {
+    width: 100%;
+  }
 `;

@@ -7,6 +7,10 @@ export const Container = styled.div`
   padding: 80px 0;
   justify-content: center;
   background-color: #030303;
+
+  @media (max-width: 1023px) {
+    padding: 40px 0;
+  }
 `;
 
 export const Content = styled.div`

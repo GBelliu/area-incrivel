@@ -60,6 +60,18 @@ export const Container = styled.div`
     }
   }
   @media (max-width: 767px) {
+    padding: 150px 0 50px 0;
+
+    h1 {
+      font-size: 44px;
+      line-height: 64px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 20px;
+      text-align: center;
+      line-height: normal;
+    }
   }
 `;
 

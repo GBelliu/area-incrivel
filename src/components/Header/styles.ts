@@ -50,6 +50,11 @@ export const Content = styled.div`
   }
   @media (max-width: 767px) {
     max-width: 350px;
+    justify-content: space-between;
+    img {
+      height: 65px;
+      margin-left: 0px;
+    }
   }
 
   .bm-burger-button {
