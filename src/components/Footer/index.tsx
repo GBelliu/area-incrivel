@@ -80,8 +80,6 @@ export function Footer() {
             </Items>
           </Slice>
         </ItemContent>
-        <ItemContent></ItemContent>
-        <ItemContent></ItemContent>
       </Content>
     </Container>
   );

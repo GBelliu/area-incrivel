@@ -1,6 +1,12 @@
 import React, { useRef, useState } from "react";
 import { toast } from "react-toastify";
-import { Container, ContentFormulario, Forms, Informacoes } from "./styles";
+import {
+  Button,
+  Container,
+  ContentFormulario,
+  Forms,
+  Informacoes,
+} from "./styles";
 import emailjs from "@emailjs/browser";
 import Loader from "../elements/Loader";
 import { ArrowRight } from "lucide-react";
@@ -16,51 +22,51 @@ export function Contato() {
   });
   const [loadingForm, setLoadingForm] = useState(false);
   const form = useRef(null);
-  const sendEmail = (e: any) => {
-    e.preventDefault();
-    console.log("aaa");
-    // if (data.acceptData === "Sim") {
-    setLoadingForm(true);
-    emailjs
-      .send("service_o5gmb8t", "template_1qxtc2p", data, "ouHyZsZNc3k8RmyBc")
-      .then(
-        (result) => {
-          toast.success(
-            "Dados enviados com sucesso! Entraremos em contato em breve."
-          );
+  // const sendEmail = (e: any) => {
+  // e.preventDefault();
+  // console.log("aaa");
+  // // if (data.acceptData === "Sim") {
+  // setLoadingForm(true);
+  // emailjs
+  //   .send("service_o5gmb8t", "template_1qxtc2p", data, "ouHyZsZNc3k8RmyBc")
+  //   .then(
+  //     (result) => {
+  //       toast.success(
+  //         "Dados enviados com sucesso! Entraremos em contato em breve."
+  //       );
 
-          setLoadingForm(true);
-          setData({
-            name: "",
-            mail: "",
-            phone: "",
-            empreendimento: "",
-          });
-        },
-        (error) => {
-          toast.error(
-            "Ocorreu um erro ao enviar. Preencha os dados e tente novamente!"
-          );
-          setLoadingForm(true);
-        }
-      )
-      .finally(() => {
-        setLoadingForm(false);
-        setData({
-          name: "",
-          mail: "",
-          phone: "",
-          empreendimento: "",
-        });
-      });
-  };
+  //       setLoadingForm(true);
+  //       setData({
+  //         name: "",
+  //         mail: "",
+  //         phone: "",
+  //         empreendimento: "",
+  //       });
+  //     },
+  //     (error) => {
+  //       toast.error(
+  //         "Ocorreu um erro ao enviar. Preencha os dados e tente novamente!"
+  //       );
+  //       setLoadingForm(true);
+  //     }
+  //   )
+  //   .finally(() => {
+  //     setLoadingForm(false);
+  //     setData({
+  //       name: "",
+  //       mail: "",
+  //       phone: "",
+  //       empreendimento: "",
+  //     });
+  //   });
+  // };
 
   return (
     <Container id="contato">
       <ContentFormulario>
         <Forms>
           <h1>Contato</h1>
-          <form action="" onSubmit={sendEmail} ref={form}>
+          <form action="" onSubmit={() => {}} ref={form}>
             <div className="formItem">
               <input
                 type="text"
@@ -117,11 +123,7 @@ export function Contato() {
               />
             </div>
 
-            {/* <Button
-              type="submit"
-              text={loadingForm ? <Loader /> : "Enviar"}
-              icon={<ArrowRight color="#FFFFFF" />}
-            /> */}
+            <Button type="submit">{loadingForm ? <Loader /> : "Enviar"}</Button>
           </form>
         </Forms>
         <Informacoes>

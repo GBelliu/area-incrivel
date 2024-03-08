@@ -34,10 +34,16 @@ export const Content = styled.div`
   }
   @media (min-width: 768px) and (max-width: 1023px) {
     max-width: 624px;
+    h1 {
+      text-align: center;
+    }
   }
   @media (max-width: 767px) {
     max-width: 350px;
     align-items: center;
+    h1 {
+      text-align: center;
+    }
   }
 `;
 
@@ -48,6 +54,10 @@ export const ContentGarantia = styled.div`
   align-items: center;
   padding: 0;
   gap: 30px;
+
+  @media (max-width: 767px) {
+    flex-flow: column-reverse;
+  }
 `;
 
 export const LeftContent = styled.div`

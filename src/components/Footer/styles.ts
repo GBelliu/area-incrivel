@@ -30,10 +30,14 @@ export const Content = styled.div`
   }
   @media (min-width: 768px) and (max-width: 1023px) {
     max-width: 624px;
+    gap: 30px;
+    flex-flow: column;
   }
   @media (max-width: 767px) {
     max-width: 350px;
-    align-items: center;
+
+    gap: 30px;
+    flex-flow: column;
   }
 `;
 
@@ -59,7 +63,11 @@ export const SocialItems = styled.div`
   gap: 45px;
   align-items: center;
 `;
-export const ItemContent = styled.div``;
+export const ItemContent = styled.div`
+  display: flex;
+  flex-flow: column;
+  gap: 25px;
+`;
 export const Slice = styled.div``;
 export const Title = styled.h3`
   font-size: 18px;

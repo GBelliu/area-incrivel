@@ -113,4 +113,5 @@ export const ButtonCard = styled.button`
   padding: 14px 30px;
   font-size: 18px;
   font-weight: 500;
+  cursor: pointer;
 `;

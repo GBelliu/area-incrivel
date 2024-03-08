@@ -37,6 +37,7 @@ export const Content = styled.div`
   @media (max-width: 767px) {
     max-width: 350px;
     align-items: center;
+    flex-flow: column;
   }
 `;
 

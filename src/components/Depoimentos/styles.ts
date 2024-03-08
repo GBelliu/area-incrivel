@@ -44,15 +44,25 @@ export const GridContent = styled.div`
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   width: 100%;
+
+  @media (max-width: 1750px) {
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    display: flex;
+    flex-flow: column;
+    &:not(:first-child) {
+      flex-flow: column-reverse;
+    }
+  }
+  @media (max-width: 767px) {
+    display: flex;
+    flex-flow: column;
+    &:not(:first-child) {
+      flex-flow: column-reverse;
+    }
+  }
 `;
-export const FirstGallery = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fit);
-  grid-gap: 20px;
-  grid-auto-rows: 150px;
-  grid-auto-flow: row dense;
-  width: 100%;
-`;
+
 export const HorizontalItem = styled.div`
   position: relative;
   display: flex;

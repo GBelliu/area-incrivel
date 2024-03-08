@@ -11,7 +11,7 @@ export const Container = styled.div`
   flex-flow: column;
   position: relative;
   overflow: hidden;
-  padding: 250px 0 50px 0;
+  padding: 200px 0 50px 0;
   background: linear-gradient(#03030370, #030303);
   video {
     position: absolute;

@@ -17,13 +17,14 @@ export const ContentFormulario = styled.div`
   justify-content: center;
   align-items: center;
   gap: 30px;
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     display: flex;
     flex-direction: column;
   }
   @media (max-width: 1750px) {
     max-width: 965px;
   }
+
   @media (min-width: 768px) and (max-width: 1023px) {
     max-width: 624px;
   }
@@ -168,4 +169,57 @@ export const Informacoes = styled.div`
       width: 100%;
     }
   }
+
+  @media (max-width: 1750px) {
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    gap: 25px;
+    .titleInfo {
+      h2 {
+        font-size: 32px;
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    gap: 25px;
+    .titleInfo {
+      h2 {
+        font-size: 28px;
+      }
+    }
+    .infoText {
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+
+      h4 {
+        font-weight: 500;
+        font-size: 20px;
+        color: #494949;
+      }
+
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+`;
+
+export const Button = styled.button`
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: fit-content;
+  width: fit-content;
+  padding: 15px 75px;
+  background-color: #7b7b7b;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  gap: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 `;
