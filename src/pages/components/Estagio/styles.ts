@@ -64,7 +64,7 @@ export const DataContainer = styled.div`
   gap: 50px;
 `;
 export const GraphicContainer = styled.div`
-  width: 250px;
+  width: 50%;
   box-sizing: content-box;
   padding: 25px 75px;
   background-color: #fff;
