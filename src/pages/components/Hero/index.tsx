@@ -58,7 +58,9 @@ export function Hero({
             </Value>
           )}
 
-          <ButtonHero>Tenho interesse!</ButtonHero>
+          <a href={buttonLink}>
+            <ButtonHero>Tenho interesse!</ButtonHero>
+          </a>
         </ContentText>
         <ContentSocial>
           {whatsapp && (
