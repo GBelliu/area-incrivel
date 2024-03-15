@@ -19,10 +19,8 @@ export const Content = styled.div`
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  padding: 30px 0;
+
   gap: 30px;
-  border-top: 1px solid #3f3f3f;
-  border-bottom: 1px solid #3f3f3f;
 
   h1 {
     color: #fff;
@@ -30,13 +28,6 @@ export const Content = styled.div`
     span {
       color: ${(props) => props.theme.primaryColor};
     }
-  }
-
-  iframe {
-    /* max-width: 847px; */
-    height: 700px;
-    border: none;
-    border-radius: 5px;
   }
 
   @media (max-width: 1023px) {
@@ -49,16 +40,10 @@ export const Content = styled.div`
   }
   @media (min-width: 768px) and (max-width: 1023px) {
     max-width: 624px;
-    iframe {
-      height: 450px;
-    }
   }
   @media (max-width: 767px) {
     max-width: 350px;
     align-items: center;
-    iframe {
-      height: 250px;
-    }
   }
 `;
 
@@ -90,11 +75,47 @@ export const Button = styled.button`
     font-size: 18px;
   }
 `;
-export const ContentApresentacao = styled.div`
+export const ContentPontos = styled.div`
   width: 100%;
   display: flex;
-  flex-flow: column;
+  height: 100%;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
+  height: 450px;
+`;
+
+export const Mapa = styled.div`
+  width: 100%;
+  height: 100%;
+
+  iframe {
+    width: 100%;
+    height: 100%;
+
+    border: none;
+    border-radius: 5px;
+  }
+`;
+export const Itens = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 25px 0;
+`;
+
+export const Item = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  span {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+  }
 `;

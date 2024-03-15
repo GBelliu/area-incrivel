@@ -12,7 +12,7 @@ export const Container = styled.div`
   position: relative;
   overflow: hidden;
   padding: 200px 0 50px 0;
-  background: linear-gradient(#03030370, #030303);
+  background: linear-gradient(#28282870, #282828);
   video {
     position: absolute;
     z-index: -1;

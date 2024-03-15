@@ -6,6 +6,7 @@ export const Container = styled.div`
   height: fit-content;
   padding: 80px 0;
   justify-content: center;
+  position: relative;
 
   @media (max-width: 1023px) {
     padding: 40px 0;
@@ -49,14 +50,11 @@ export const Content = styled.div`
   }
 `;
 export const CardsContent = styled.div`
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   gap: 25px;
-
-  img {
-    width: 100%;
-  }
 
   @media (max-width: 1750px) {
   }
@@ -91,4 +89,31 @@ export const Option = styled.div<OptionProps>`
       border-bottom: 2px solid ${(props) => props.theme.primaryColor};
       font-weight: 700;
     `}
+`;
+
+export const LeftImg = styled.div`
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+
+  img {
+    svg {
+      .shirt {
+        fill: red;
+      }
+    }
+  }
+`;
+export const RightImg = styled.div`
+  position: absolute;
+  bottom: -7px;
+  right: 0;
+
+  img {
+    svg {
+      .shirt {
+        fill: red;
+      }
+    }
+  }
 `;

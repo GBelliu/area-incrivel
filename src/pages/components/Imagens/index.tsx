@@ -1,16 +1,70 @@
-import { ReactNode } from 'react';
+import { ReactNode, useEffect, useState } from "react";
 
-import { Container } from './styles';
+import {
+  CardsContent,
+  Container,
+  Content,
+  OptionsContent,
+  Option,
+} from "./styles";
+import { useTheme } from "../../ThemeContext";
+import { imagens } from "./imagens";
 
 interface ImagensProps {
-  children: ReactNode;
+  empreendimento: string;
 }
 
-export function Imagens({ children }: ImagensProps) {
+interface EmpreendimentoItem {
+  title: string;
+  preco: string;
+  list: string[];
+}
+
+interface Empreendimentos {
+  casas: EmpreendimentoItem[];
+  lotes: EmpreendimentoItem[];
+  apartamentos: EmpreendimentoItem[];
+}
+
+export function Imagens({ empreendimento }: ImagensProps) {
+  const theme = useTheme();
+  const [tipoSelecionado, setTipoSelecionado] = useState<any>(
+    String(Object.keys(imagens?.[empreendimento])[0])
+  );
+
+  useEffect(() => {
+    setTipoSelecionado(String(Object.keys(imagens?.[empreendimento])[0]));
+  }, [empreendimento]);
+
+  console.log(imagens?.[empreendimento]);
+
   return (
     <Container>
-      <h1>Imagens</h1>
-      {children}
+      <Content theme={theme}>
+        <h1>
+          Confira mais imagens do seu <span>futuro imóvel</span>!
+        </h1>
+        <OptionsContent>
+          {Object.keys(imagens?.[empreendimento])?.map((key) => {
+            return (
+              <Option
+                onClick={() => {
+                  setTipoSelecionado(key);
+                }}
+                theme={theme}
+                selected={key === tipoSelecionado}
+              >
+                {key}
+              </Option>
+            );
+          })}
+        </OptionsContent>
+        <CardsContent>
+          {imagens?.[empreendimento]?.[tipoSelecionado].map((item: any) => {
+            return <img src={item} alt="" />;
+          })}
+        </CardsContent>
+      </Content>
     </Container>
   );
 }

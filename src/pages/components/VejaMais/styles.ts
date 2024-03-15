@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
@@ -24,9 +24,12 @@ export const Content = styled.div`
   gap: 30px;
 
   h1 {
-    color: #282828;
+    font-size: 27px;
+    font-weight: 400;
+    color: #404040;
+
     span {
-      color: ${(props) => props.theme.primaryColor};
+      font-weight: 700;
     }
   }
 
@@ -48,47 +51,38 @@ export const Content = styled.div`
     }
   }
 `;
-export const CardsContent = styled.div`
+export const Cards = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   width: 100%;
-  gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 45px;
+`;
 
-  img {
-    width: 100%;
-  }
+export const Button = styled.button`
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: fit-content;
+  width: fit-content;
+  padding: 20px 30px;
+  background-color: ${(props) => props.theme.primaryColor};
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  gap: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 
   @media (max-width: 1750px) {
   }
   @media (min-width: 768px) and (max-width: 1023px) {
+    padding: 15px 20px;
   }
   @media (max-width: 767px) {
-    flex-flow: column;
+    padding: 15px 20px;
+    font-size: 18px;
   }
-`;
-
-export const OptionsContent = styled.div`
-  display: flex;
-`;
-
-interface OptionProps {
-  selected: boolean;
-}
-export const Option = styled.div<OptionProps>`
-  width: fit-content;
-  padding: 0 40px 10px 40px;
-  color: #acaeb2;
-  text-transform: capitalize;
-  font-size: 16px;
-  font-weight: 500;
-  border-bottom: 2px solid #acaeb2;
-  cursor: pointer;
-
-  ${({ selected }) =>
-    selected &&
-    css`
-      color: ${(props) => props.theme.primaryColor};
-      border-bottom: 2px solid ${(props) => props.theme.primaryColor};
-      font-weight: 700;
-    `}
 `;

@@ -4,7 +4,6 @@ export const Container = styled.div`
   display: flex;
   width: 100%;
   height: fit-content;
-  background-color: #282828;
   justify-content: center;
   align-items: center;
   flex-flow: column;
@@ -21,44 +20,38 @@ export const Content = styled.div`
   align-items: center;
   padding: 30px 0;
   gap: 30px;
-  border-top: 1px solid #3f3f3f;
-  border-bottom: 1px solid #3f3f3f;
 
   h1 {
-    color: #fff;
-
+    color: #282828;
     span {
       color: ${(props) => props.theme.primaryColor};
     }
   }
 
-  iframe {
-    /* max-width: 847px; */
-    height: 700px;
-    border: none;
-    border-radius: 5px;
-  }
-
   @media (max-width: 1023px) {
     padding: 20px 0;
   }
-
   @media (max-width: 1750px) {
     max-width: 965px;
     gap: 50px;
   }
   @media (min-width: 768px) and (max-width: 1023px) {
     max-width: 624px;
-    iframe {
-      height: 450px;
-    }
   }
   @media (max-width: 767px) {
     max-width: 350px;
     align-items: center;
-    iframe {
-      height: 250px;
-    }
+  }
+`;
+
+export const Content3D = styled.div`
+  width: 100%;
+  display: flex;
+
+  iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
   }
 `;
 
@@ -70,7 +63,7 @@ export const Button = styled.button`
   height: fit-content;
   width: fit-content;
   padding: 20px 30px;
-  background-color: #7b7b7b;
+  background-color: ${(props) => props.theme.primaryColor};
   border: none;
   border-radius: 10px;
   color: #fff;
@@ -89,12 +82,4 @@ export const Button = styled.button`
     padding: 15px 20px;
     font-size: 18px;
   }
-`;
-export const ContentApresentacao = styled.div`
-  width: 100%;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
 `;

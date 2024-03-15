@@ -1,14 +1,16 @@
 import { ReactNode } from "react";
 
-import { Cards, Container, Content } from "./styles";
+import { Button, Cards, Container, Content } from "./styles";
 import { CardPontos } from "../elements/CardPontos";
 import { Home } from "lucide-react";
+import { useTheme } from "../../ThemeContext";
 
-interface PontosProps {
+interface VejaMaisProps {
   empreendimento: string;
 }
 
-export function Pontos({ empreendimento }: PontosProps) {
+export function VejaMais({ empreendimento }: VejaMaisProps) {
+  const theme = useTheme();
   return (
     <Container>
       <Content>
@@ -23,6 +25,9 @@ export function Pontos({ empreendimento }: PontosProps) {
           <CardPontos icon={<Home size={90} />} title="Automação Residencial" />
           <CardPontos icon={<Home size={90} />} title="Automação Residencial" />
         </Cards>
+        <Button theme={theme}>
+          Quero receber uma simulação de financiamento
+        </Button>
       </Content>
     </Container>
   );

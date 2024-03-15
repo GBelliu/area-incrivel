@@ -12,7 +12,7 @@ export const Title = styled.h2`
   font-size: 20px;
   font-weight: 500;
   word-spacing: 20%;
-  color: #443d4b;
+  color: #fff;
   text-align: center;
 `;
 export const Data = styled.h3`
