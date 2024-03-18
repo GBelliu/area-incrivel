@@ -10,7 +10,7 @@ interface DepoimentosProps {
   empreendimento?: string;
 }
 
-export function Depoimentos({ empreendimento }: DepoimentosProps) {
+export function Depoimentos() {
   const theme = useTheme();
   return (
     <Container>
