@@ -66,7 +66,7 @@ export const ContentText = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
-  gap: 35px;
+  gap: 30px;
 
   span {
     font-size: 24px;
@@ -150,9 +150,16 @@ export const Category = styled.div`
   padding: 15px 20px;
 `;
 
+export const Text = styled.div`
+  display: flex;
+  flex-flow: column;
+  gap: 15px;
+`;
+
 export const Value = styled.div`
   display: flex;
   flex-flow: column;
+  gap: 20px;
 `;
 
 export const ButtonHero = styled.button`

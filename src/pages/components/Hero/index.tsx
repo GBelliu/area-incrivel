@@ -7,6 +7,7 @@ import {
   ContentSocial,
   ContentText,
   Value,
+  Text,
 } from "./styles";
 import { ChevronDown } from "lucide-react";
 import { Link } from "react-scroll";
@@ -42,12 +43,14 @@ export function Hero({
       <Content>
         <ContentText>
           <Category>{category}</Category>
-          <span>{subname}</span>
-          <h1>{name}</h1>
-          <h2>{description}</h2>
+          <Text>
+            <span>{subname}</span>
+            <h1>{name}</h1>
+          </Text>
 
           {value && (
             <Value>
+              <h2>{description}</h2>
               <h2>A partir de:</h2>
               <h3>R${value}</h3>
             </Value>
