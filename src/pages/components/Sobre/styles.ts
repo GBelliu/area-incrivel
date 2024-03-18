@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   width: 100%;
   height: fit-content;
-  padding: 80px 0;
+  padding: 60px 0;
   justify-content: center;
 
   @media (max-width: 1023px) {
@@ -64,4 +64,12 @@ export const ButtonAbout = styled.button`
   font-size: 20px;
   box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.15),
     0px 8px 16px rgba(255, 255, 255, 0.1);
+  transition: all 0.2s ease-in-out;
+  &:active {
+    transform: scale(0.95) translateZ(0px) !important;
+  }
+
+  &:hover {
+    transform: scale(1.03) translateZ(0px);
+  }
 `;

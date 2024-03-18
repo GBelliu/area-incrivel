@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   width: 100%;
   height: fit-content;
-  padding: 80px 0;
+  padding: 60px 0;
   justify-content: center;
   background-color: #f0f0f0;
   position: relative;
@@ -109,6 +109,14 @@ export const Button = styled.button`
   gap: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:active {
+    transform: scale(0.95) translateZ(0px) !important;
+  }
+
+  &:hover {
+    transform: scale(1.03) translateZ(0px);
+  }
 `;
 
 export const Security = styled.div`

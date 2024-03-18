@@ -61,7 +61,7 @@ export function Imagens({ empreendimento }: ImagensProps) {
         </OptionsContent>
         <CardsContent>
           {imagens?.[empreendimento]?.[tipoSelecionado].map((item: any) => {
-            return <img src={item} alt="" />;
+            return <img key={item} src={item} alt="" />;
           })}
         </CardsContent>
       </Content>

@@ -2,14 +2,25 @@ import { ReactNode } from "react";
 
 import { Button, Cards, Container, Content } from "./styles";
 import { CardPontos } from "../elements/CardPontos";
-import { Home } from "lucide-react";
+import {
+  BedDouble,
+  Home,
+  LandPlot,
+  ShieldCheck,
+  Sparkles,
+  Sun,
+} from "lucide-react";
 import { useTheme } from "../../ThemeContext";
-
+import { itensVejaMais } from "./items";
 interface VejaMaisProps {
   empreendimento: string;
+  empreendimentoItens: string;
 }
 
-export function VejaMais({ empreendimento }: VejaMaisProps) {
+export function VejaMais({
+  empreendimento,
+  empreendimentoItens,
+}: VejaMaisProps) {
   const theme = useTheme();
   return (
     <Container>
@@ -18,12 +29,9 @@ export function VejaMais({ empreendimento }: VejaMaisProps) {
           Veja mais sobre o <span>{empreendimento}</span>
         </h1>
         <Cards>
-          <CardPontos icon={<Home size={90} />} title="Automação Residencial" />
-          <CardPontos icon={<Home size={90} />} title="Automação Residencial" />
-          <CardPontos icon={<Home size={90} />} title="Automação Residencial" />
-          <CardPontos icon={<Home size={90} />} title="Automação Residencial" />
-          <CardPontos icon={<Home size={90} />} title="Automação Residencial" />
-          <CardPontos icon={<Home size={90} />} title="Automação Residencial" />
+          {itensVejaMais?.[empreendimentoItens].map((item: any) => {
+            return <CardPontos icon={item.icon} title={item.title} />;
+          })}
         </Cards>
         <Button theme={theme}>
           Quero receber uma simulação de financiamento

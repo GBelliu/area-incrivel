@@ -36,11 +36,7 @@ export function Redes({ instagram, facebook }: RedesProps) {
                 <img src="./instalogo.png" alt="" />
               </Icon>
               <Text>
-                <h2>Instagram - @area.incrivel</h2>
-                <p>
-                  Siga nosso instagram e fique por dentro das novidades dos
-                  nossos empreendimentos e do mercado imobiliário.
-                </p>
+                <h2>Siga nosso Insta - @dinapoli.i</h2>
               </Text>
               <a href={instagram}>
                 <Button>Ver perfil</Button>
@@ -51,11 +47,7 @@ export function Redes({ instagram, facebook }: RedesProps) {
                 <img src="./facelogo.png" alt="" />
               </Icon>
               <Text>
-                <h2>Instagram - @area.incrivel</h2>
-                <p>
-                  Siga nosso instagram e fique por dentro das novidades dos
-                  nossos empreendimentos e do mercado imobiliário.
-                </p>
+                <h2>Acompanhe nosso Face - Di Napoli I</h2>
               </Text>
               <a href={facebook}>
                 <Button>Ver perfil</Button>

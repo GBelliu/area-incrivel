@@ -11,7 +11,7 @@ export const Container = styled.div`
   flex-flow: column;
   position: relative;
   overflow: hidden;
-  padding: 200px 0 50px 0;
+  padding: 120px 0 50px 0;
   /* background: linear-gradient(#28282870, #282828); */
   background: #33333365;
   > img {
@@ -178,6 +178,14 @@ export const ButtonHero = styled.button`
   font-size: 20px;
   box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.15),
     0px 8px 16px rgba(255, 255, 255, 0.1);
+  transition: all 0.2s ease-in-out;
+  &:active {
+    transform: scale(0.95) translateZ(0px) !important;
+  }
+
+  &:hover {
+    transform: scale(1.03) translateZ(0px);
+  }
 
   @media (min-width: 768px) and (max-width: 1023px) {
     font-size: 18px;

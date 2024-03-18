@@ -18,7 +18,7 @@ export const Container = styled.div`
 `;
 
 export const Text = styled.span`
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
 `;
 export const PersonDetails = styled.div`

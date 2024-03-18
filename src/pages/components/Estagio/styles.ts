@@ -6,7 +6,7 @@ export const Container = styled.div`
   height: fit-content;
   background-color: #f0f0f0;
   justify-content: center;
-  padding: 80px 0;
+  padding: 60px 0;
 
   @media (max-width: 1023px) {
     padding: 40px 0;

@@ -48,13 +48,11 @@ export function Hero({
             <h1>{name}</h1>
           </Text>
 
-          {value && (
-            <Value>
-              <h2>{description}</h2>
-              <h2>A partir de:</h2>
-              <h3>R${value}</h3>
-            </Value>
-          )}
+          <Value>
+            <h2>{description}</h2>
+            <h2>A partir de:</h2>
+            <h3>R${value}</h3>
+          </Value>
 
           <a href={buttonLink}>
             <ButtonHero>Tenho interesse!</ButtonHero>

@@ -30,6 +30,10 @@ export const Content = styled.div`
     }
   }
 
+  a {
+    text-decoration: none;
+  }
+
   @media (max-width: 1023px) {
     padding: 20px 0;
   }
@@ -72,12 +76,16 @@ export const Social = styled.div`
 `;
 export const Instagram = styled.div`
   width: 100%;
+  display: flex;
+  flex-flow: column;
+  gap: 15px;
 `;
 export const Facebook = styled.div`
   width: 100%;
   display: flex;
   flex-flow: column;
   align-items: flex-end;
+  gap: 15px;
 
   h2 {
     text-align: end;
@@ -90,7 +98,13 @@ export const Facebook = styled.div`
 export const Icon = styled.div`
   width: 65px;
 `;
-export const Text = styled.div``;
+export const Text = styled.div`
+  h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+  }
+`;
 interface ButtonProps {
   rede?: string;
 }
@@ -108,4 +122,12 @@ export const Button = styled.button<ButtonProps>`
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:active {
+    transform: scale(0.95) translateZ(0px) !important;
+  }
+
+  &:hover {
+    transform: scale(1.03) translateZ(0px);
+  }
 `;

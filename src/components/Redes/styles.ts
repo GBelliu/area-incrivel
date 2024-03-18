@@ -149,4 +149,12 @@ export const Button = styled.button<ButtonProps>`
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:active {
+    transform: scale(0.95) translateZ(0px) !important;
+  }
+
+  &:hover {
+    transform: scale(1.03) translateZ(0px);
+  }
 `;
