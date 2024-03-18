@@ -12,8 +12,9 @@ export const Container = styled.div`
   position: relative;
   overflow: hidden;
   padding: 200px 0 50px 0;
-  background: linear-gradient(#28282870, #282828);
-  img {
+  /* background: linear-gradient(#28282870, #282828); */
+  background: #33333365;
+  > img {
     position: absolute;
     z-index: -1;
     top: 0;
@@ -125,10 +126,15 @@ export const ContentText = styled.div`
 export const ContentSocial = styled.div`
   display: flex;
   flex-flow: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   width: 100%;
   gap: 25px;
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
 `;
 
 export const Category = styled.div`

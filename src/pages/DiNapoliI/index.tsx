@@ -88,7 +88,7 @@ export function DiNapoliI() {
           empreendimentoPonto="dinapoli1"
         />
         <Redes instagram="" facebook="" />
-        <Depoimentos empreendimento={empreendimento} />
+        <Depoimentos />
         <Imagens empreendimento="dinapoli1" />
         <VejaMais empreendimento={empreendimento} />
         <Estagio percentageTotal={50} listItems={dataPhase} />

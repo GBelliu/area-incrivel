@@ -58,21 +58,21 @@ export function Hero({
           </a>
         </ContentText>
         <ContentSocial>
-          {whatsapp && (
+          <div>
             <a href={whatsapp}>
               <img src="whatsapp.svg" alt="" />
             </a>
-          )}
-          {instagram && (
+          </div>
+          <div>
             <a href={instagram}>
               <img src="instagram.svg" alt="" />
             </a>
-          )}
-          {facebook && (
+          </div>
+          <div>
             <a href={facebook}>
               <img src="facebook.svg" alt="" />
             </a>
-          )}
+          </div>
         </ContentSocial>
       </Content>
     </Container>
