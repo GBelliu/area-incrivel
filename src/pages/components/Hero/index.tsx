@@ -38,23 +38,18 @@ export function Hero({
 }: HeroProps) {
   return (
     <Container>
-      <video id="bgVideo" preload="true" autoPlay loop muted>
-        <source src={image} type="video/mp4" />
-      </video>
+      <img src={image} alt="" />
       <Content>
         <ContentText>
           <Category>{category}</Category>
-
-          <h1>
-            <span>{subname}</span>
-            {name}
-          </h1>
+          <span>{subname}</span>
+          <h1>{name}</h1>
           <h2>{description}</h2>
 
           {value && (
             <Value>
               <h2>A partir de:</h2>
-              <h3>{value}</h3>
+              <h3>R${value}</h3>
             </Value>
           )}
 

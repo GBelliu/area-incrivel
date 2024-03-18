@@ -6,9 +6,8 @@ export const Container = styled.div`
   height: fit-content;
   padding: 80px 0;
   justify-content: center;
-  background-image: url("paper.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #f0f0f0;
+  position: relative;
 
   @media (max-width: 1023px) {
     padding: 40px 0;
@@ -110,4 +109,10 @@ export const Button = styled.button`
   gap: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+`;
+
+export const Security = styled.div`
+  position: absolute;
+  right: -100px;
+  bottom: -100px;
 `;

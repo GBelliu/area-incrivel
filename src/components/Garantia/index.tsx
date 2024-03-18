@@ -7,6 +7,7 @@ import {
   ContentGarantia,
   LeftContent,
   RightContent,
+  Security,
   Text,
 } from "./styles";
 
@@ -34,6 +35,9 @@ export function Garantia() {
           </RightContent>
         </ContentGarantia>
       </Content>
+      <Security>
+        <img src="security.svg" alt="" />
+      </Security>
     </Container>
   );
 }

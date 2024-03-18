@@ -13,7 +13,7 @@ export const Container = styled.div`
   overflow: hidden;
   padding: 200px 0 50px 0;
   background: linear-gradient(#28282870, #282828);
-  video {
+  img {
     position: absolute;
     z-index: -1;
     top: 0;
@@ -67,23 +67,34 @@ export const ContentText = styled.div`
   width: 100%;
   gap: 35px;
 
+  span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #e4e4e4;
+  }
+
   h1 {
     color: #fff;
     font-family: "Poppins", sans-serif;
-    font-size: 78px;
+    font-size: 40px;
     font-style: normal;
-    font-weight: 600;
-    line-height: 72px;
+    font-weight: 700;
     max-width: 1062px;
   }
 
   h2 {
-    color: #fff;
+    color: #e4e4e4;
     font-family: "Poppins", sans-serif;
-    font-size: 32px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
+  }
+
+  h3 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #e4e4e4;
   }
 
   @media (min-width: 768px) and (max-width: 1023px) {

@@ -20,6 +20,7 @@ import { Depoimentos } from "../components/Depoimentos";
 import { Imagens } from "../components/Imagens";
 import { Garantia } from "../components/Garantia";
 import { EA } from "../components/EA";
+import { PorqueArea } from "../components/PorqueArea";
 
 export function DiNapoliI() {
   const dataPhase = [
@@ -46,7 +47,18 @@ export function DiNapoliI() {
     <ThemeProvider page="dinapoli1">
       <Container>
         <Header />
-        <Hero category="lançamento" />
+        <Hero
+          category="lançamento"
+          image="dinapoli1img.png"
+          subname="Condomínio Residencial"
+          name={empreendimento}
+          description="Casas de 2 ou 3 quartos"
+          value="200.000"
+          facebook="a"
+          instagram="a"
+          whatsapp="a"
+          buttonLink="a"
+        />
         <Numeros />
         <Sobre
           logoEmpreendimento="logodinapoli1.png"
@@ -81,6 +93,7 @@ export function DiNapoliI() {
         <VejaMais empreendimento={empreendimento} />
         <Estagio percentageTotal={50} listItems={dataPhase} />
         <EA />
+        <PorqueArea />
         <Garantia />
         <Footer />
       </Container>

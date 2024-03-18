@@ -12,6 +12,7 @@ import { GrupoMNGT } from "./components/GrupoMNGT";
 import { Contato } from "./components/Contato";
 import { Footer } from "./components/Footer";
 import { Empreendimentos } from "./components/Empreendimentos";
+import { PorqueArea } from "./components/PorqueArea";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       <Empreendimentos />
       <Redes />
       <Depoimentos />
-      <Sobre />
+      {/* <Sobre /> */}
+      <PorqueArea />
       <Garantia />
       <GrupoMNGT />
       <Contato />
