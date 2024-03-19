@@ -30,7 +30,7 @@ export function Footer() {
           </SocialItems>
         </LeftContent>
         <ItemContent>
-          <Slice>
+          {/* <Slice>
             <Title>Nossos Imóveis</Title>
             <Items>
               <Item>Di Napoli I</Item>
@@ -38,7 +38,7 @@ export function Footer() {
               <Item>Siena</Item>
               <Item>Ravena</Item>
             </Items>
-          </Slice>
+          </Slice> */}
           <Slice>
             <Title>Fale conosco</Title>
             <Items>
@@ -76,7 +76,7 @@ export function Footer() {
           <Slice>
             <Title>Fale conosco</Title>
             <Items>
-              <Item>Di Napoli I</Item>
+              <Item>Whatsapp</Item>
             </Items>
           </Slice>
         </ItemContent>

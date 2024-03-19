@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { DiNapoliI } from "./pages/DiNapoliI/index.tsx";
 import { DiNapoliII } from "./pages/DiNapoliII/index.tsx";
 import { ToastContainer } from "react-toastify";
+import { WhatsappButton } from "./components/elements/WhatsappButton/index.tsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,5 +26,6 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <RouterProvider router={router} />
     <ToastContainer />
+    <WhatsappButton />
   </React.StrictMode>
 );
