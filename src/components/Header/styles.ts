@@ -6,7 +6,7 @@ export const Container = styled.div<HeaderProps>`
   display: flex;
   width: 100%;
   height: fit-content;
-  padding: 30px 0;
+  padding: 20px 0;
   background-color: white;
   justify-content: center;
   position: fixed;
@@ -33,7 +33,7 @@ export const Content = styled.div`
   padding: 0;
   position: relative;
   img {
-    height: 65px;
+    height: 50px;
     margin-left: 50px;
   }
 
