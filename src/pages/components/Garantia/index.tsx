@@ -31,7 +31,7 @@ export function Garantia() {
                 construção civil, energias limpas, automação e tecnologia.
               </p>
             </Text>
-            <Button>Visitar site!</Button>
+            <Button>Ver documento!</Button>
           </RightContent>
         </ContentGarantia>
       </Content>

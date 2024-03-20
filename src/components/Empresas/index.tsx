@@ -28,7 +28,7 @@ export function Empresas() {
             </p>
           </EnergiaAmigaContent>
           <LarNoCelularContent>
-            <img src="logogrupo.png" alt="" />
+            <img src="larnocellogo.png" alt="" />
             <h2>Automação Residencial</h2>{" "}
             <p>
               Com a automação residencial mais acessível do mercado, sua casa

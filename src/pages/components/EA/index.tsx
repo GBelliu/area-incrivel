@@ -25,11 +25,10 @@ export function EA() {
                 Garantia de <span>desconto</span> na Energia Amiga
               </h2>
               <p>
-                Com previsão de instalação de 450 usinas solares apenas em 2024,
-                a Energia Amiga tem um modelo de negócio focado em tornar o
-                mundo mais saudável, protegendo os recursos naturais e reduzindo
-                a emissão de CO², ao mesmo tempo que gera economias
-                significativas para seus clientes.
+                O condomínio oferece diferenciais ambientais, alinhados às novas
+                práticas de sustentabilidade, sendo um deles a geração de
+                energia solar limpa e renovável, por meio da parceria com a
+                empresa Energia Amiga, que também compõe o Grupo MNGT.
               </p>
             </Text>
             <Button>Garantir esse benefício</Button>

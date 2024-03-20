@@ -6,9 +6,6 @@ export const Container = styled.div`
   height: fit-content;
   padding: 80px 0;
   justify-content: center;
-  background-image: url("paper.png");
-  background-size: cover;
-  background-repeat: no-repeat;
 
   @media (max-width: 1023px) {
     padding: 40px 0;
@@ -51,6 +48,7 @@ export const Content = styled.div`
 
 export const Abouts = styled.div`
   display: flex;
+  flex-flow: column;
   gap: 30px;
   width: 100%;
 `;
@@ -62,13 +60,13 @@ export const Button = styled.button`
   justify-content: center;
   height: fit-content;
   width: fit-content;
-  padding: 20px 30px;
-  background-color: #282828;
+  padding: 15px 75px;
+  background-color: #7b7b7b;
   border: none;
   border-radius: 10px;
-  color: #ccc;
+  color: #fff;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   gap: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
   cursor: pointer;
@@ -79,15 +77,5 @@ export const Button = styled.button`
 
   &:hover {
     transform: scale(1.03) translateZ(0px);
-  }
-
-  @media (max-width: 1750px) {
-  }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    padding: 15px 20px;
-  }
-  @media (max-width: 767px) {
-    padding: 15px 20px;
-    font-size: 18px;
   }
 `;

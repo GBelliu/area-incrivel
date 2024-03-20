@@ -6,7 +6,7 @@ export const Container = styled.section`
   height: fit-content;
   padding: 80px 0;
   justify-content: center;
-  background-color: #030303;
+  background-color: #282828;
   position: relative;
 
   @media (max-width: 1023px) {

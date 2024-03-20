@@ -61,7 +61,7 @@ export const Button = styled.button`
   height: fit-content;
   width: fit-content;
   padding: 20px 30px;
-  background-color: #030303;
+  background-color: #282828;
   border: none;
   border-radius: 10px;
   color: #ccc;

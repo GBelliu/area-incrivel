@@ -21,6 +21,8 @@ import { Imagens } from "../components/Imagens";
 import { Garantia } from "../components/Garantia";
 import { EA } from "../components/EA";
 import { PorqueArea } from "../components/PorqueArea";
+import { Empresas } from "../../components/Empresas";
+import { SobreArea } from "../components/SobreArea";
 
 export function DiNapoliI() {
   const dataPhase = [
@@ -53,11 +55,11 @@ export function DiNapoliI() {
           subname="Condomínio Residencial"
           name={empreendimento}
           description="Casas de 2 ou 3 quartos"
-          value="200.000"
-          facebook="a"
-          instagram="a"
-          whatsapp="a"
-          buttonLink="a"
+          value="1.030,00"
+          facebook=""
+          instagram=""
+          whatsapp=""
+          buttonLink=""
         />
         <Numeros />
         <Sobre
@@ -78,21 +80,26 @@ export function DiNapoliI() {
           empreendimento={empreendimento}
         />
         <Ofertas empreendimento="dinapoli1" />
+        {/* <ExplicacaoCasas/> */}
+        <Empresas />
+        <Estagio percentageTotal={50} listItems={dataPhase} />
+        <Garantia />
+
+        <Depoimentos />
+        <Imagens empreendimento="dinapoli1" />
         <PontosDeInteresse
           empreendimento="Di Napoli I"
           empreendimentoPonto="dinapoli1"
         />
-        <Redes instagram="" facebook="" />
-        <Depoimentos />
-        <Imagens empreendimento="dinapoli1" />
         <VejaMais
           empreendimento={empreendimento}
           empreendimentoItens="dinapoli1"
         />
-        <Estagio percentageTotal={50} listItems={dataPhase} />
+
         <EA />
-        <PorqueArea />
-        <Garantia />
+        <SobreArea />
+
+        <Redes instagram="" facebook="" />
         <Footer />
       </Container>
     </ThemeProvider>
