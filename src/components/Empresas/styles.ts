@@ -9,6 +9,20 @@ export const Container = styled.div`
   align-items: center;
   flex-flow: column;
   padding: 60px 0;
+  position: relative;
+
+  .reddec {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+  }
+  .graydec {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+  }
 `;
 
 export const Content = styled.div`
@@ -53,60 +67,78 @@ export const Content = styled.div`
   }
 `;
 
-export const ContentRedes = styled.div`
+export const ContentEmpresas = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   width: 100%;
-  display: flex;
   height: 100%;
-  justify-content: space-between;
-  gap: 30px;
-`;
+  justify-content: center;
 
-export const Mockup = styled.div`
-  width: fit-content;
+  gap: 50px;
   img {
-    height: 600px;
+    width: 200px;
   }
-`;
-
-export const Social = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-`;
-export const Instagram = styled.div`
-  width: 100%;
-  display: flex;
-  flex-flow: column;
-  gap: 15px;
-`;
-export const Facebook = styled.div`
-  width: 100%;
-  display: flex;
-  flex-flow: column;
-  align-items: flex-end;
-  gap: 15px;
-
   h2 {
-    text-align: end;
-  }
-  p {
-    text-align: end;
-  }
-`;
-
-export const Icon = styled.div`
-  width: 65px;
-`;
-export const Text = styled.div`
-  h2 {
-    font-size: 28px;
+    font-size: 24px;
+    color: #030303;
     font-weight: 600;
-    color: #fff;
+  }
+
+  p {
+    font-size: 18px;
+    color: #282828;
+    font-weight: 500;
+    text-align: center;
   }
 `;
+
+export const LarIncrivelContent = styled.div`
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 25px;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 8px rgba(255, 255, 255, 0.15),
+    0px 4px 8px rgba(255, 255, 255, 0.1);
+`;
+export const EnergiaAmigaContent = styled.div`
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 25px;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 8px rgba(255, 255, 255, 0.15),
+    0px 4px 8px rgba(255, 255, 255, 0.1);
+`;
+export const LarNoCelularContent = styled.div`
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 25px;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 8px rgba(255, 255, 255, 0.15),
+    0px 4px 8px rgba(255, 255, 255, 0.1);
+`;
+
 interface ButtonProps {
   rede?: string;
 }
@@ -131,27 +163,5 @@ export const Button = styled.button<ButtonProps>`
 
   &:hover {
     transform: scale(1.03) translateZ(0px);
-  }
-`;
-
-export const Video = styled.div`
-  width: 100%;
-  iframe {
-    /* max-width: 847px; */
-    height: 500px;
-    border: none;
-    border-radius: 5px;
-  }
-
-  @media (min-width: 768px) and (max-width: 1023px) {
-    iframe {
-      height: 350px;
-    }
-  }
-  @media (max-width: 767px) {
-    align-items: center;
-    iframe {
-      height: 250px;
-    }
   }
 `;

@@ -55,3 +55,30 @@ export const Abouts = styled.div`
   gap: 30px;
   width: 100%;
 `;
+
+export const Button = styled.button`
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: fit-content;
+  width: fit-content;
+  padding: 15px 75px;
+  background-color: #7b7b7b;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  gap: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:active {
+    transform: scale(0.95) translateZ(0px) !important;
+  }
+
+  &:hover {
+    transform: scale(1.03) translateZ(0px);
+  }
+`;

@@ -13,6 +13,7 @@ import { Contato } from "./components/Contato";
 import { Footer } from "./components/Footer";
 import { Empreendimentos } from "./components/Empreendimentos";
 import { PorqueArea } from "./components/PorqueArea";
+import { Empresas } from "./components/Empresas";
 
 function App() {
   return (
@@ -22,10 +23,13 @@ function App() {
       <Numeros />
       <Apresentacao />
       <Empreendimentos />
-      <Redes />
+
       <Depoimentos />
-      {/* <Sobre /> */}
-      <PorqueArea />
+
+      <Empresas />
+      <Redes facebook="" instagram="" />
+      {/* <PorqueArea /> */}
+      <Sobre />
       <Garantia />
       <GrupoMNGT />
       <Contato />

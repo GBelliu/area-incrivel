@@ -6,9 +6,9 @@ export const Container = styled.section`
   height: fit-content;
   padding: 80px 0;
   justify-content: center;
-  background-color: #030303;
+  background-color: #f0f0f0;
   position: relative;
-
+  overflow: hidden;
   @media (max-width: 1023px) {
     padding: 40px 0;
   }
@@ -28,7 +28,7 @@ export const Content = styled.div`
   h1 {
     font-size: 36px;
     font-weight: 700;
-    color: #ccc;
+    color: #000;
 
     span {
       color: #c21313;
@@ -48,11 +48,9 @@ export const Content = styled.div`
   }
 `;
 
-export const ContentEmpreendimentos = styled.div``;
-
 export const ContentCards = styled.div`
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
   gap: 25px;
@@ -68,13 +66,14 @@ export const ContentCards = styled.div`
 
 export const Image = styled.div`
   position: absolute;
-  left: 0;
-  bottom: 0;
-
+  right: -50px;
+  bottom: -50px;
   height: 100%;
+
   img {
     height: 100%;
   }
+
   @media (max-width: 767px) {
     height: 50%;
   }

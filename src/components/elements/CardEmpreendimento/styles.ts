@@ -39,7 +39,7 @@ export const ContentHeader = styled.div<CardProps>`
 
 export const Content = styled.div`
   height: fit-content;
-
+  max-height: 325px;
   width: 100%;
   display: flex;
   flex-flow: column;
@@ -80,7 +80,11 @@ export const Divider = styled.div`
   border-radius: 1px;
 `;
 
-export const List = styled.div``;
+export const List = styled.div`
+  display: flex;
+  flex-flow: column;
+  gap: 7px;
+`;
 export const ListItem = styled.div`
   span {
     color: #c21313;

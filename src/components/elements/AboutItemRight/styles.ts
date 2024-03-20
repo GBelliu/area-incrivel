@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 export const Container = styled.div`
   display: flex;
   width: 100%;
-  height: 200px;
+  height: fit-content;
   border-radius: 20px;
   overflow: hidden;
   background-color: #fff;
@@ -11,7 +11,7 @@ export const Container = styled.div`
 
 export const LeftContent = styled.div`
   width: 80%;
-  padding: 35px;
+  padding: 25px;
 `;
 
 export const RightContent = styled.div`

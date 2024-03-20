@@ -5,50 +5,41 @@ import { CardEmpreendimento } from "../../elements/CardEmpreendimento";
 
 import { List, ListItem } from "../../elements/CardEmpreendimento/styles";
 
-export function Casas() {
+export function Plantas() {
   return (
     <Container>
       <Content>
         <h1>
-          Casas in<span>críveis</span>
+          Plantas in<span>críveis</span>
         </h1>
         <ContentCards>
           <CardEmpreendimento
-            title="casas tipo 1"
-            preco="R$ 200.000"
+            title="casas - 50m2"
+            preco="R$1030,00"
             list={
               <List>
                 <ListItem>
-                  <span>•</span> Item 1
+                  <span>•</span> 2 quartos, 1 suite, sala, cozinha aberta e
+                  ampla área de lazer/lavanderia
                 </ListItem>
                 <ListItem>
-                  <span>•</span> Item 2
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Item 3
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Item 4
+                  <span>•</span> Vários ambientes, permitindo adaptações
                 </ListItem>
               </List>
             }
           />
           <CardEmpreendimento
-            title="casas tipo 1"
-            preco="R$ 200.000"
+            title="casas - 60m2"
+            preco="R$1226,00"
             list={
               <List>
                 <ListItem>
-                  <span>•</span> Item 1
+                  <span>•</span> 3 quartos, 1 suite, sala, cozinha conceito
+                  aberto e ampla área de lazer/lavanderia
                 </ListItem>
                 <ListItem>
-                  <span>•</span> Item 2
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Item 3
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Item 4
+                  <span>•</span> Projeto potencializa o uso do lote, focando no
+                  conforto
                 </ListItem>
               </List>
             }
@@ -56,7 +47,7 @@ export function Casas() {
         </ContentCards>
       </Content>
       <Image>
-        <img src="svgcasas.svg" alt="" />
+        <img src="family2.png" alt="" />
       </Image>
     </Container>
   );

@@ -14,8 +14,8 @@ export function Lotes() {
         </h1>
         <ContentCards>
           <CardEmpreendimento
-            title="casas tipo 1"
-            preco="R$ 200.000"
+            title="lotes de 105m2"
+            preco="R$641,00"
             list={
               <List>
                 <ListItem>
@@ -34,8 +34,8 @@ export function Lotes() {
             }
           />
           <CardEmpreendimento
-            title="casas tipo 1"
-            preco="R$ 200.000"
+            title="lotes de 120m2"
+            preco="R$641,00"
             list={
               <List>
                 <ListItem>
@@ -56,7 +56,7 @@ export function Lotes() {
         </ContentCards>
       </Content>
       <Image>
-        <img src="svglotes.svg" alt="" />
+        <img src="lote.png" alt="" />
       </Image>
     </Container>
   );

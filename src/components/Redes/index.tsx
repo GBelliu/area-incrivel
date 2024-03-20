@@ -1,53 +1,68 @@
-import { ReactNode } from "react";
-
 import {
-  Button,
   Container,
   Content,
-  FacebookContent,
+  ContentRedes,
+  Facebook,
+  Instagram,
+  Social,
+  Mockup,
   Icon,
   Text,
-  InstagramContent,
-  TextContent,
+  Button,
+  Video,
 } from "./styles";
 
-export function Redes() {
+interface RedesProps {
+  instagram?: string;
+  facebook?: string;
+}
+
+export function Redes({ instagram, facebook }: RedesProps) {
   return (
-    <Container>
+    <Container id="apresentacao">
       <Content>
-        <h1>Confira nossas redes!</h1>
-        <InstagramContent>
-          <img src="insta.png" alt="" />
-          <TextContent>
-            <Icon>
-              <img src="./instalogo.png" alt="" />
-            </Icon>
-            <Text>
-              <h2>Instagram - @area.incrivel</h2>
-              <p>
-                Siga nosso instagram e fique por dentro das novidades dos nossos
-                empreendimentos e do mercado imobiliário.
-              </p>
-            </Text>
-            <Button>Ver perfil</Button>
-          </TextContent>
-        </InstagramContent>
-        <FacebookContent>
-          <TextContent>
-            <Icon>
-              <img src="facelogo.png" alt="" />
-            </Icon>
-            <Text>
-              <h2>Instagram - @area.incrivel</h2>
-              <p>
-                Siga nosso instagram e fique por dentro das novidades dos nossos
-                empreendimentos e do mercado imobiliário.
-              </p>
-            </Text>
-            <Button rede="face">Ver perfil</Button>
-          </TextContent>
-          <img src="face.png" alt="" />
-        </FacebookContent>
+        <h1>
+          Confira nossas <span>redes sociais</span>
+        </h1>
+
+        <ContentRedes>
+          <Mockup>
+            <img src="iphonemockup.png" alt="" />
+          </Mockup>
+          <Social>
+            <Instagram>
+              <Icon>
+                <img src="./instalogo.png" alt="" />
+              </Icon>
+              <Text>
+                <h2>Siga nosso Insta - @area.incrivel</h2>
+              </Text>
+              <a href={instagram}>
+                <Button>Ver perfil</Button>
+              </a>
+            </Instagram>
+            <Facebook>
+              <Icon>
+                <img src="./facelogo.png" alt="" />
+              </Icon>
+              <Text>
+                <h2>Acompanhe nosso Face - Área IncrívelI</h2>
+              </Text>
+              <a href={facebook}>
+                <Button rede="face">Ver perfil</Button>
+              </a>
+            </Facebook>
+          </Social>
+        </ContentRedes>
+        <Video>
+          <iframe
+            width="100%"
+            src="https://www.youtube.com/embed/-2bUkkL6CX8"
+            title="Apresentação do Centro Logístico Rio Claro"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </Video>
       </Content>
     </Container>
   );

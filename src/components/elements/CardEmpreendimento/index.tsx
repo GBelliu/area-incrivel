@@ -30,9 +30,9 @@ export function CardEmpreendimento({
       </ContentHeader>
       <Content>
         <ContentTextInfo>
-          <span>á partir de</span>
+          <span>parcelas mensais á partir de</span>
           <h3>{preco}</h3>
-          <p>SAIBA MAIS SOBRE OS EMPREENDIMENTOS</p>
+          <p>SAIBA MAIS SOBRE AS OPÇÕES</p>
         </ContentTextInfo>
         <Divider />
         {list}

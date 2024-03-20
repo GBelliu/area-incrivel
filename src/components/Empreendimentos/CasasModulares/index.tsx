@@ -14,41 +14,69 @@ export function CasasModulares() {
         </h1>
         <ContentCards>
           <CardEmpreendimento
-            title="modulares tipo 1"
-            preco="R$ 200.000"
+            title="casas de 24m2"
+            preco="R$641,00"
             list={
               <List>
                 <ListItem>
-                  <span>•</span> Item 1
+                  <span>•</span> 1 quarto, 1 banheiro e cozinha
                 </ListItem>
                 <ListItem>
-                  <span>•</span> Item 2
+                  <span>•</span> 24m² de construção
                 </ListItem>
                 <ListItem>
-                  <span>•</span> Item 3
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Item 4
+                  <span>•</span> Estrutura preparada para ampliação
                 </ListItem>
               </List>
             }
           />
           <CardEmpreendimento
-            title="modulares tipo 1"
-            preco="R$ 200.000"
+            title="casas de 36m2"
+            preco="R$740,00"
             list={
               <List>
                 <ListItem>
-                  <span>•</span> Item 1
+                  <span>•</span> 2 quartos, 1 banheiro, cozinha, sala
                 </ListItem>
                 <ListItem>
-                  <span>•</span> Item 2
+                  <span>•</span> 36m² de construção
                 </ListItem>
                 <ListItem>
-                  <span>•</span> Item 3
+                  <span>•</span> Estrutura preparada para ampliação
+                </ListItem>
+              </List>
+            }
+          />
+          <CardEmpreendimento
+            title="casas de 48m2"
+            preco="R$927,00"
+            list={
+              <List>
+                <ListItem>
+                  <span>•</span> 2 quartos, 1 suite, 1 banheiro, cozinha, sala
                 </ListItem>
                 <ListItem>
-                  <span>•</span> Item 4
+                  <span>•</span> 48m² de construção
+                </ListItem>
+                <ListItem>
+                  <span>•</span> Estrutura preparada para ampliação
+                </ListItem>
+              </List>
+            }
+          />
+          <CardEmpreendimento
+            title="casas de 55m2"
+            preco="R$1127,00"
+            list={
+              <List>
+                <ListItem>
+                  <span>•</span> 3 quartos, 1 suite, 1 banheiro, cozinha, sala
+                </ListItem>
+                <ListItem>
+                  <span>•</span> 55m² de construção
+                </ListItem>
+                <ListItem>
+                  <span>•</span> Estrutura preparada para ampliação
                 </ListItem>
               </List>
             }
@@ -56,7 +84,7 @@ export function CasasModulares() {
         </ContentCards>
       </Content>
       <Image>
-        <img src="svgcasas.svg" alt="" />
+        <img src="family.png" alt="" />
       </Image>
     </Container>
   );

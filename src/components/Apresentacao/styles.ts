@@ -23,7 +23,7 @@ export const Content = styled.div`
   height: fit-content;
   width: 100%;
   display: flex;
-
+  flex-flow: column;
   justify-content: space-between;
   align-items: center;
   padding: 0;
@@ -88,7 +88,7 @@ export const Video = styled.div`
   width: 100%;
   iframe {
     /* max-width: 847px; */
-    height: 400px;
+    height: 500px;
     border: none;
     border-radius: 5px;
   }
@@ -111,7 +111,7 @@ export const Text = styled.div`
   display: flex;
   flex-flow: column;
   gap: 10px;
-
+  align-items: center;
   h1 {
     font-size: 28px;
     font-weight: 600;

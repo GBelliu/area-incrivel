@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-import { Abouts, Container, Content } from "./styles";
+import { Abouts, Button, Container, Content } from "./styles";
 import { AboutItemLeft } from "../elements/AboutItemLeft";
 import { AboutItemRight } from "../elements/AboutItemRight";
 
@@ -14,11 +14,38 @@ export function Sobre() {
       <Content>
         <h1>Por que a Área Incrível?</h1>
         <Abouts>
-          <AboutItemLeft></AboutItemLeft>
-          <AboutItemRight></AboutItemRight>
-          <AboutItemLeft></AboutItemLeft>
-          <AboutItemRight></AboutItemRight>
+          <AboutItemLeft
+            img="a"
+            title="Experiência comprovada"
+            paragraph="mais de 20 anos de experiência em construção civil sempre entregando antes do prazo, tendo os clientes superexigentes, como a Whirlpool, a Nestlé, o Grupo CBB, entre outros."
+          ></AboutItemLeft>
+          <AboutItemRight
+            img="a"
+            title="Solidez financeira"
+            paragraph="a Área Incrível faz parte do Grupo MNGT, que possui índice de endividamento inferior a 10% do seu patrimônio."
+          ></AboutItemRight>
+          <AboutItemLeft
+            img="a"
+            title="Independência financeira"
+            paragraph="a Área Incrível não depende do dinheiro da Caixa Econômica Federal para construir e entregar seus empreendimentos."
+          ></AboutItemLeft>
+          <AboutItemRight
+            img="a"
+            title="Focada em Rio Claro"
+            paragraph="diferente de outras construtoras que apostam em várias regiões, a Área Incrível tem um plano de 10 anos focado na cidade de Rio Claro."
+          ></AboutItemRight>
+          <AboutItemLeft
+            img="a"
+            title="Equipe altamente especializada e qualificada"
+            paragraph="nossas pessoas já atuam há anos com incorporação imobiliária e construção. Não somos aventureiros!"
+          ></AboutItemLeft>
+          <AboutItemRight
+            img="a"
+            title="Parcerias incríveis"
+            paragraph="não nos contentamos apenas em entregar os empreendimentos, queremos facilitar a vida de nossos clientes por meio de parcerias incríveis com estabelecimentos e comércios locais, que possam gerar benefícios financeiros diretos aos nossos clientes."
+          ></AboutItemRight>
         </Abouts>
+        <Button>Quero saber mais sobre a Área Incrível</Button>
       </Content>
     </Container>
   );

@@ -56,6 +56,7 @@ export const ContentCards = styled.div`
   align-items: center;
   width: 100%;
   gap: 25px;
+  flex-wrap: wrap;
 
   @media (max-width: 1750px) {
   }
@@ -68,10 +69,10 @@ export const ContentCards = styled.div`
 
 export const Image = styled.div`
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: -50px;
+  bottom: -50px;
 
-  height: 100%;
+  height: 75%;
   img {
     height: 100%;
   }

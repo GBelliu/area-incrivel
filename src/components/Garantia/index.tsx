@@ -29,7 +29,7 @@ export function Garantia() {
                 investimento, seus sonhos e sua família.
               </p>
             </Text>
-            <Button>Visitar site!</Button>
+            <Button>Ver documento!</Button>
           </RightContent>
         </ContentGarantia>
       </Content>
