@@ -58,7 +58,9 @@ export const LeftContent = styled.div`
 `;
 export const RightContent = styled.div`
   width: 100%;
-  background-color: #ccc;
+  background-image: url("mandala.png");
+  background-repeat: no-repeat;
+  background-size: contain;
   height: 510px;
   border-radius: 25px;
 `;

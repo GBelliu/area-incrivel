@@ -13,10 +13,10 @@ export function PorqueArea() {
       <Content>
         <h1>Por que a Área Incrível?</h1>
         <Abouts>
-          <CardPorque title="Atendimento humanizado" />
-          <CardPorque title="Atendimento humanizado" />
-          <CardPorque title="Atendimento humanizado" />
-          <CardPorque title="Atendimento humanizado" />
+          <CardPorque title="Experiência comprovada" />
+          <CardPorque title="Solidez financeira" />
+          <CardPorque title="Equipe especializada" />
+          <CardPorque title="Focada em Rio Claro" />
         </Abouts>
         <Button>Falar com um consultor incrível</Button>
       </Content>

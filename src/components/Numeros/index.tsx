@@ -11,18 +11,18 @@ export function Numeros() {
         <ContentNumeros>
           <ItemNumeros>
             <Home size={90} />
-            <h2>+2500</h2>
-            <p>Template customizado</p>
+            <h2>+20</h2>
+            <p>Anos no mercado</p>
           </ItemNumeros>
           <ItemNumeros>
             <Home size={90} />
-            <h2>400%</h2>
-            <p>Template customizado</p>
+            <h2>5000</h2>
+            <p>Casas de 48m² construídas</p>
           </ItemNumeros>
           <ItemNumeros>
             <Home size={90} />
-            <h2>400%</h2>
-            <p>Template customizado</p>
+            <h2>300</h2>
+            <p>Imóveis previstos para 2024</p>
           </ItemNumeros>
           <ItemNumeros>
             <Home size={90} />
