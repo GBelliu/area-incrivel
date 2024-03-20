@@ -133,8 +133,7 @@ export function Contato() {
           <div className="infoText">
             <h4>
               <span>Endereço: </span>
-              Avenida Cabo Basilio Zechim Junior, 344 Jardim Novo II, Rio Claro
-              - SP
+              R. Quatorze, 914 - Estádio, Rio Claro - SP, 18051-629
             </h4>
           </div>
           <div className="infoMap">

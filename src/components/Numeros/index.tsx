@@ -1,7 +1,7 @@
 import { ReactNode, useEffect } from "react";
 
 import { Container, Content, ContentNumeros, ItemNumeros } from "./styles";
-import { Home } from "lucide-react";
+import { CalendarCheck, HeartHandshake, Home, LandPlot } from "lucide-react";
 
 export function Numeros() {
   return (
@@ -10,24 +10,26 @@ export function Numeros() {
         <h1>Nossos números</h1>
         <ContentNumeros>
           <ItemNumeros>
-            <Home size={90} />
+            <CalendarCheck color="#030303" strokeWidth={2.25} size={90} />
             <h2>+20</h2>
             <p>Anos no mercado</p>
           </ItemNumeros>
           <ItemNumeros>
-            <Home size={90} />
+            <LandPlot color="#030303" strokeWidth={2.25} size={90} />
+
             <h2>5000</h2>
             <p>Casas de 48m² construídas</p>
           </ItemNumeros>
           <ItemNumeros>
-            <Home size={90} />
+            <Home size={90} color="#030303" strokeWidth={2.25} />
             <h2>300</h2>
-            <p>Imóveis previstos para 2024</p>
+            <p>Imóveis para 2024</p>
           </ItemNumeros>
           <ItemNumeros>
-            <Home size={90} />
-            <h2>400%</h2>
-            <p>Template customizado</p>
+            <HeartHandshake color="#030303" strokeWidth={2.25} size={90} />
+
+            <h2>90%</h2>
+            <p>Taxa de conversão</p>
           </ItemNumeros>
         </ContentNumeros>
       </Content>
