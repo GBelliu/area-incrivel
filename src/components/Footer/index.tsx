@@ -40,9 +40,20 @@ export function Footer() {
             </Items>
           </Slice> */}
           <Slice>
-            <Title>Fale conosco</Title>
+            <Title>Área Incrível</Title>
             <Items>
-              <Item>Di Napoli I</Item>
+              <Item>Home</Item>
+              <Item>Nossos números</Item>
+              <Item>Apresentação</Item>
+              <Item>Lotes</Item>
+              <Item>Casas Modulares</Item>
+              <Item>Casas</Item>
+              <Item>Depoimentos</Item>
+              <Item>Empresas parceiras</Item>
+              <Item>Redes Sociais</Item>
+              <Item>Por que a Área?</Item>
+              <Item>Garantia de Entrega</Item>
+              <Item>Grupo MNGT</Item>
             </Items>
           </Slice>
         </ItemContent>
@@ -63,20 +74,6 @@ export function Footer() {
               <Item>Instagram</Item>
               <Item>Facebook</Item>
               <Item>LinkedIn</Item>
-            </Items>
-          </Slice>
-        </ItemContent>
-        <ItemContent>
-          <Slice>
-            <Title>Área Incrível</Title>
-            <Items>
-              <Item>A Área</Item>
-            </Items>
-          </Slice>
-          <Slice>
-            <Title>Fale conosco</Title>
-            <Items>
-              <Item>Whatsapp</Item>
             </Items>
           </Slice>
         </ItemContent>

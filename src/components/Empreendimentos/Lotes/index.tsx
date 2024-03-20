@@ -13,46 +13,8 @@ export function Lotes() {
           Lotes in<span>críveis</span>
         </h1>
         <ContentCards>
-          <CardEmpreendimento
-            title="lotes de 105m2"
-            preco="R$641,00"
-            list={
-              <List>
-                <ListItem>
-                  <span>•</span> Item 1
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Item 2
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Item 3
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Item 4
-                </ListItem>
-              </List>
-            }
-          />
-          <CardEmpreendimento
-            title="lotes de 120m2"
-            preco="R$641,00"
-            list={
-              <List>
-                <ListItem>
-                  <span>•</span> Item 1
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Item 2
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Item 3
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Item 4
-                </ListItem>
-              </List>
-            }
-          />
+          <CardEmpreendimento title="lotes de 105m2" preco="R$641,00" />
+          <CardEmpreendimento title="lotes de 120m2" preco="R$641,00" />
         </ContentCards>
       </Content>
       <Image>

@@ -32,7 +32,7 @@ export function CardEmpreendimento({
       </ContentHeader>
       <Content>
         <ContentTextInfo>
-          <span>á partir de</span>
+          <span>a partir de</span>
           <h3>{preco}</h3>
           <p>SAIBA MAIS SOBRE OS EMPREENDIMENTOS</p>
         </ContentTextInfo>

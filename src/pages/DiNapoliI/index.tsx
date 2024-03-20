@@ -64,12 +64,7 @@ export function DiNapoliI() {
           logoEmpreendimento="logodinapoli1.png"
           about="Bem-vindo ao Di Napoli I, onde a inovação e o conforto se unem para criar um ambiente excepcional para você e sua família. Inspirado no nome da terceira maior cidade italiana, Napoli, que significa 'cidade nova', nosso condomínio de casas térreas é a representação perfeita de qualidade e modernidade."
         />
-        <Explore
-          empreendimento={empreendimento}
-          iframe={
-            <iframe src="https://theta360.com/s/p6F9oVYCSK3Tv3MriTdDIAwD2?fullscreen=true&view=embed&width=100%25&height=100%25&rotation_direction=1&spherical_image=equirectangular_mobile_web_optimized&autoplay_cnt=0" />
-          }
-        />
+
         <Apresentacao
           iframe={
             <iframe
