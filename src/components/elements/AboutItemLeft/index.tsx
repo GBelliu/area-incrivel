@@ -3,16 +3,16 @@ import { ReactNode } from "react";
 import { Container, LeftContent, RightContent } from "./styles";
 
 interface AboutItemLeft {
-  img: string;
+  number: string;
   title: string;
   paragraph: string;
 }
 
-export function AboutItemLeft({ img, title, paragraph }: AboutItemLeft) {
+export function AboutItemLeft({ number, title, paragraph }: AboutItemLeft) {
   return (
     <Container>
       <LeftContent>
-        <img src={img} alt="" />
+        <span>{number}</span>
       </LeftContent>
       <RightContent>
         <h1>{title}</h1>

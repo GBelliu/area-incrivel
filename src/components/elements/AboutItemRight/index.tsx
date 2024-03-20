@@ -3,12 +3,12 @@ import { ReactNode } from "react";
 import { Container, LeftContent, RightContent } from "./styles";
 
 interface AboutItemRight {
-  img: string;
+  number: string;
   title: string;
   paragraph: string;
 }
 
-export function AboutItemRight({ img, title, paragraph }: AboutItemRight) {
+export function AboutItemRight({ number, title, paragraph }: AboutItemRight) {
   return (
     <Container>
       <LeftContent>
@@ -16,7 +16,7 @@ export function AboutItemRight({ img, title, paragraph }: AboutItemRight) {
         <p>{paragraph}</p>
       </LeftContent>
       <RightContent>
-        <img src={img} alt="" />
+        <span>{number}</span>
       </RightContent>
     </Container>
   );
