@@ -2,11 +2,24 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  Navigate,
+  redirect,
+  RouterProvider,
+  useNavigate,
+} from "react-router-dom";
 import { DiNapoliI } from "./pages/DiNapoliI/index.tsx";
 import { DiNapoliII } from "./pages/DiNapoliII/index.tsx";
 import { ToastContainer } from "react-toastify";
 import { WhatsappButton } from "./components/elements/WhatsappButton/index.tsx";
+
+function WhatsappRedirect() {
+  window.location.href =
+    "https://api.whatsapp.com/send?phone=5519999900511&text=Ol%C3%A1%21+Tudo+bem%3F";
+  return null; // Não renderiza nada
+}
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -19,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/di-napoli-ii",
     element: <DiNapoliII />,
+  },
+  {
+    path: "/dn2-folder",
+    element: <WhatsappRedirect />,
   },
 ]);
 
