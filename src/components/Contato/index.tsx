@@ -26,36 +26,36 @@ export function Contato() {
     console.log("aaa");
     // if (data.acceptData === "Sim") {
     setLoadingForm(true);
-    emailjs
-      .send("service_o5gmb8t", "template_opg3y9i", data, "ouHyZsZNc3k8RmyBc")
-      .then(
-        (result) => {
-          toast.success(
-            "Dados enviados com sucesso! Entraremos em contato em breve."
-          );
+    // emailjs
+    //   .send("service_o5gmb8t", "template_opg3y9i", data, "ouHyZsZNc3k8RmyBc")
+    //   .then(
+    //     (result) => {
+    //       toast.success(
+    //         "Dados enviados com sucesso! Entraremos em contato em breve."
+    //       );
 
-          setLoadingForm(true);
-          setData({
-            name: "",
-            mail: "",
-            phone: "",
-          });
-        },
-        (error) => {
-          toast.error(
-            "Ocorreu um erro ao enviar. Preencha os dados e tente novamente!"
-          );
-          setLoadingForm(true);
-        }
-      )
-      .finally(() => {
-        setLoadingForm(false);
-        setData({
-          name: "",
-          mail: "",
-          phone: "",
-        });
-      });
+    //       setLoadingForm(true);
+    //       setData({
+    //         name: "",
+    //         mail: "",
+    //         phone: "",
+    //       });
+    //     },
+    //     (error) => {
+    //       toast.error(
+    //         "Ocorreu um erro ao enviar. Preencha os dados e tente novamente!"
+    //       );
+    //       setLoadingForm(true);
+    //     }
+    //   )
+    //   .finally(() => {
+    //     setLoadingForm(false);
+    //     setData({
+    //       name: "",
+    //       mail: "",
+    //       phone: "",
+    //     });
+    //   });
   };
 
   return (

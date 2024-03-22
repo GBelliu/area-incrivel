@@ -79,13 +79,13 @@ export function DiNapoliII() {
           }
           empreendimento={empreendimento}
         />
-        <Ofertas empreendimento="dinapoli1" />
+        <Ofertas linkButton="" empreendimento="dinapoli1" />
         {/* <ExplicacaoCasas/> */}
         <Empresas />
         <Estagio percentageTotal={50} listItems={dataPhase} />
         <Garantia />
 
-        <Depoimentos />
+        <Depoimentos empreendimento="dinapoli2" />
         <Imagens empreendimento="dinapoli1" />
         <PontosDeInteresse
           empreendimento="Di Napoli II"
