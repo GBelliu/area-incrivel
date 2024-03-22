@@ -17,7 +17,9 @@ export function Garantia() {
       <Content>
         <h1>Garantia de entrega</h1>
         <ContentGarantia>
-          <LeftContent></LeftContent>
+          <LeftContent>
+            <img src="garantiaimg.jpg" alt="" />
+          </LeftContent>
           <RightContent>
             <Text>
               <p>

@@ -100,7 +100,13 @@ export function Header() {
           <Link to="grupo" href="/" smooth={true} duration={500} offset={-100}>
             Grupo MNGT
           </Link>
-          <ButtonHeader>Fale conosco!</ButtonHeader>
+          <a
+            href="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1%21+Tudo+bem%3F"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ButtonHeader>Fale conosco!</ButtonHeader>
+          </a>
         </Menu>
       </Content>
     </Container>

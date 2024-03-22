@@ -10,7 +10,7 @@ import {
 
 export function Empresas() {
   return (
-    <Container id="parcerias">
+    <Container id="parceiras">
       <Content>
         <h1>
           Confira nossas empresas <span>parceiras</span>

@@ -1,6 +1,6 @@
 export const pontos: any = {
   dinapoli1: [
-    "Supercado - 400m",
+    "Supermercado - 400m",
     "Escola - 550m",
     "Farmácia - 550m",
     "Posto de saúde - 350m",

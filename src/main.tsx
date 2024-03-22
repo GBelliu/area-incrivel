@@ -16,7 +16,7 @@ import { WhatsappButton } from "./components/elements/WhatsappButton/index.tsx";
 
 function WhatsappRedirect() {
   window.location.href =
-    "https://api.whatsapp.com/send?phone=5519999900511&text=Ol%C3%A1%21+Tudo+bem%3F";
+    "https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1%21+Tudo+bem%3F";
   return null; // Não renderiza nada
 }
 
