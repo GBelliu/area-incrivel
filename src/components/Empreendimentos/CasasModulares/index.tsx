@@ -66,7 +66,7 @@ export function CasasModulares() {
           />
           <CardEmpreendimento
             title="casas de 55m2"
-            preco="R$1127,00"
+            preco="R$1.127,00"
             list={
               <List>
                 <ListItem>

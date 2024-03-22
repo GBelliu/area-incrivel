@@ -19,20 +19,20 @@ export const empreendimentos: any = {
       },
     ],
   },
-  bellagio: {
-    apartamentos: [
-      {
-        title: "casas tipo 1",
-        preco: "R$ 200.000",
-        list: ["item 1", "item 2", "item 3"],
-      },
-      {
-        title: "casas tipo 2",
-        preco: "R$ 250.000",
-        list: ["item 1", "item 2", "item 3"],
-      },
-    ],
-  },
+  // bellagio: {
+  //   apartamentos: [
+  //     {
+  //       title: "casas tipo 1",
+  //       preco: "R$ 200.000",
+  //       list: ["item 1", "item 2", "item 3"],
+  //     },
+  //     {
+  //       title: "casas tipo 2",
+  //       preco: "R$ 250.000",
+  //       list: ["item 1", "item 2", "item 3"],
+  //     },
+  //   ],
+  // },
   dinapoli2: {
     casas: [
       {
