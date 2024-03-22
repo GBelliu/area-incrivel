@@ -9,6 +9,10 @@ export const Container = styled.div`
   align-items: center;
   flex-flow: column;
   padding: 60px 0;
+
+  @media (max-width: 767px) {
+    padding: 30px 0;
+  }
 `;
 
 export const Content = styled.div`
@@ -41,6 +45,9 @@ export const Content = styled.div`
   @media (max-width: 767px) {
     max-width: 350px;
     align-items: center;
+    h1 {
+      font-size: 28px;
+    }
   }
 `;
 export const ContentDados = styled.div`
@@ -49,4 +56,8 @@ export const ContentDados = styled.div`
   justify-content: space-between;
   align-items: center;
   gap: 30px;
+
+  @media (max-width: 767px) {
+    flex-flow: column;
+  }
 `;

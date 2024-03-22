@@ -21,7 +21,7 @@ interface RedesProps {
 export function Redes({ instagram, facebook, mockupImg }: RedesProps) {
   const theme = useTheme();
   return (
-    <Container id="apresentacao">
+    <Container id="redes">
       <Content theme={theme}>
         <h1>
           Confira nossas <span>redes sociais</span>

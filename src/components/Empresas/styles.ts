@@ -16,12 +16,22 @@ export const Container = styled.div`
     top: 0;
     right: 0;
     width: 150px;
+    z-index: 0;
   }
   .graydec {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 150px;
+    z-index: 0;
+  }
+
+  @media (max-width: 767px) {
+    padding: 30px 0;
+    .reddec,
+    .graydec {
+      width: 50px;
+    }
   }
 `;
 
@@ -33,7 +43,7 @@ export const Content = styled.div`
   flex-flow: column;
   justify-content: center;
   align-items: center;
-
+  z-index: 1;
   gap: 25px;
 
   h1 {
@@ -64,6 +74,10 @@ export const Content = styled.div`
   @media (max-width: 767px) {
     max-width: 350px;
     align-items: center;
+    h1 {
+      font-size: 28px;
+      text-align: center;
+    }
   }
 `;
 
@@ -74,7 +88,6 @@ export const ContentEmpresas = styled.div`
   width: 100%;
   height: 100%;
   justify-content: center;
-
   gap: 25px;
   img {
     height: 70px;

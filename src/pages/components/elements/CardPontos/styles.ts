@@ -18,4 +18,8 @@ export const Title = styled.h2`
   font-weight: 600;
   color: #000;
   text-align: center;
+
+  @media (max-width: 767px) {
+    font-size: 24px;
+  }
 `;

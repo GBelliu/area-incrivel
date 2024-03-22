@@ -30,7 +30,7 @@ export const Container = styled.div`
     padding: 200px 0 50px 0;
   }
   @media (max-width: 767px) {
-    padding: 150px 0 50px 0;
+    padding: 150px 0 30px 0;
   }
 `;
 
@@ -57,6 +57,11 @@ export const Content = styled.div`
   @media (max-width: 767px) {
     max-width: 350px;
     align-items: center;
+    flex-flow: column;
+
+    a {
+      align-self: center;
+    }
   }
 `;
 
@@ -100,26 +105,36 @@ export const ContentText = styled.div`
 
   @media (min-width: 768px) and (max-width: 1023px) {
     h1 {
-      font-size: 56px;
+      font-size: 40px;
       line-height: 64px;
-      text-align: center;
     }
     h2 {
-      font-size: 24px;
-      text-align: center;
+      font-size: 20px;
+
       line-height: normal;
+    }
+    h3 {
+      font-size: 32px;
     }
   }
   @media (max-width: 767px) {
     h1 {
-      font-size: 44px;
+      font-size: 36px;
       line-height: 64px;
       text-align: center;
+      width: 100%;
     }
     h2 {
-      font-size: 20px;
+      font-size: 16px;
       text-align: center;
       line-height: normal;
+      text-align: center;
+      width: 100%;
+    }
+    h3 {
+      font-size: 24px;
+      text-align: center;
+      width: 100%;
     }
   }
 `;
@@ -135,6 +150,10 @@ export const ContentSocial = styled.div`
     width: 50px;
     height: 50px;
   }
+
+  @media (max-width: 767px) {
+    flex-direction: row;
+  }
 `;
 
 export const Category = styled.div`
@@ -148,18 +167,31 @@ export const Category = styled.div`
   color: #fff;
   width: fit-content;
   padding: 15px 20px;
+
+  @media (max-width: 767px) {
+    align-self: center;
+  }
 `;
 
 export const Text = styled.div`
   display: flex;
   flex-flow: column;
   gap: 5px;
+  @media (max-width: 767px) {
+    span {
+      text-align: center;
+    }
+    width: 100%;
+  }
 `;
 
 export const Value = styled.div`
   display: flex;
   flex-flow: column;
   gap: 5px;
+  @media (max-width: 767px) {
+    width: 100%;
+  }
 `;
 
 export const ButtonHero = styled.button`

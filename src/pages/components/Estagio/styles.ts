@@ -11,6 +11,9 @@ export const Container = styled.div`
   @media (max-width: 1023px) {
     padding: 40px 0;
   }
+  @media (max-width: 1767px) {
+    padding: 30px 0;
+  }
 `;
 
 export const Content = styled.div`
@@ -52,6 +55,7 @@ export const Content = styled.div`
     align-items: center;
     h1 {
       text-align: center;
+      font-size: 26px;
     }
   }
 `;
@@ -62,6 +66,10 @@ export const DataContainer = styled.div`
   justify-content: space-between;
   width: 100%;
   gap: 50px;
+
+  @media (max-width: 1023px) {
+    flex-flow: column;
+  }
 `;
 export const GraphicContainer = styled.div`
   width: 50%;

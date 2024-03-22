@@ -11,7 +11,7 @@ export const Container = styled.div<CardProps>`
   align-items: center;
   justify-content: center;
   flex-flow: column;
-  background: #ffffff90;
+  background: #ffffff99;
   border-radius: 4px;
   /* overflow: hidden; */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15), 0px 8px 16px rgba(0, 0, 0, 0.1);

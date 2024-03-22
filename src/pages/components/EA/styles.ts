@@ -10,6 +10,10 @@ export const Container = styled.div`
   @media (max-width: 1023px) {
     padding: 40px 0;
   }
+
+  @media (max-width: 767px) {
+    padding: 30px 0;
+  }
 `;
 
 export const Content = styled.div`
@@ -44,6 +48,7 @@ export const Content = styled.div`
     align-items: center;
     h1 {
       text-align: center;
+      font-size: 28px;
     }
   }
 `;

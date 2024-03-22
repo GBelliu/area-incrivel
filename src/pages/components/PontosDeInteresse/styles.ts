@@ -9,6 +9,10 @@ export const Container = styled.div`
   align-items: center;
   flex-flow: column;
   padding: 60px 0;
+
+  @media (max-width: 767px) {
+    padding: 30px 0;
+  }
 `;
 
 export const Content = styled.div`
@@ -40,10 +44,16 @@ export const Content = styled.div`
   }
   @media (min-width: 768px) and (max-width: 1023px) {
     max-width: 624px;
+    gap: 35px;
   }
   @media (max-width: 767px) {
     max-width: 350px;
     align-items: center;
+    gap: 25px;
+    h1 {
+      font-size: 28px;
+      text-align: center;
+    }
   }
 `;
 
@@ -83,6 +93,11 @@ export const ContentPontos = styled.div`
   align-items: center;
   gap: 30px;
   height: 450px;
+
+  @media (max-width: 767px) {
+    flex-flow: column-reverse;
+    height: fit-content;
+  }
 `;
 
 export const Mapa = styled.div`
@@ -96,6 +111,10 @@ export const Mapa = styled.div`
     border: none;
     border-radius: 5px;
   }
+
+  @media (max-width: 767px) {
+    height: 300px;
+  }
 `;
 export const Itens = styled.div`
   width: 100%;
@@ -105,6 +124,10 @@ export const Itens = styled.div`
   justify-content: space-between;
   align-items: flex-start;
   padding: 25px 0;
+
+  @media (max-width: 767px) {
+    gap: 7px;
+  }
 `;
 
 export const Item = styled.div`
@@ -117,5 +140,16 @@ export const Item = styled.div`
     color: #fff;
     font-size: 24px;
     font-weight: 500;
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    span {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 767px) {
+    span {
+      font-size: 20px;
+    }
   }
 `;

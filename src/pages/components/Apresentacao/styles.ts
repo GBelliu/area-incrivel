@@ -9,6 +9,10 @@ export const Container = styled.div`
   align-items: center;
   flex-flow: column;
   padding: 60px 0;
+
+  @media (max-width: 767px) {
+    padding: 30px 0;
+  }
 `;
 
 export const Content = styled.div`
@@ -58,6 +62,11 @@ export const Content = styled.div`
     align-items: center;
     iframe {
       height: 250px;
+    }
+
+    h1 {
+      font-size: 28px;
+      text-align: center;
     }
   }
 `;

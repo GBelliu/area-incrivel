@@ -21,6 +21,9 @@ export const Container = styled.div`
 export const Text = styled.span`
   font-size: 20px;
   font-weight: 700;
+  @media (max-width: 767px) {
+    font-size: 16px;
+  }
 `;
 export const PersonDetails = styled.div`
   display: flex;
@@ -48,6 +51,10 @@ export const Name = styled.div`
   font-size: 20px;
   font-weight: 700;
   color: #222222;
+
+  @media (max-width: 767px) {
+    font-size: 18px;
+  }
 `;
 export const Sub = styled.div`
   font-size: 18px;

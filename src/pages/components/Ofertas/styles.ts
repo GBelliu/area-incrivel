@@ -23,7 +23,7 @@ export const Container = styled.div<ContainerProps>`
 export const Blur = styled.div`
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(7px);
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.7);
   height: 100%;
   width: 100%;
   position: absolute;
@@ -63,6 +63,7 @@ export const Content = styled.div`
     align-items: center;
     h1 {
       text-align: center;
+      font-size: 28px;
     }
   }
 `;

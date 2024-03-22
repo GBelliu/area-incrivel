@@ -10,6 +10,9 @@ export const Container = styled.div`
   @media (max-width: 1023px) {
     padding: 40px 0;
   }
+  @media (max-width: 767px) {
+    padding: 30px 0;
+  }
 `;
 
 export const Content = styled.div`
@@ -44,6 +47,11 @@ export const Content = styled.div`
     align-items: center;
     p {
       text-align: center;
+      font-size: 20px;
+    }
+
+    img {
+      width: 250px;
     }
   }
 `;
@@ -71,5 +79,9 @@ export const ButtonAbout = styled.a`
 
   &:hover {
     transform: scale(1.03) translateZ(0px);
+  }
+
+  @media (max-width: 767px) {
+    padding: 15px 25px;
   }
 `;

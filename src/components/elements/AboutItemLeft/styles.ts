@@ -21,6 +21,12 @@ export const LeftContent = styled.div`
     font-weight: bold;
     color: #fff;
   }
+
+  @media (max-width: 767px) {
+    span {
+      font-size: 36px;
+    }
+  }
 `;
 
 export const RightContent = styled.div`
@@ -36,5 +42,18 @@ export const RightContent = styled.div`
     font-size: 16px;
     font-weight: 500;
     color: #282828;
+  }
+
+  @media (max-width: 767px) {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    h1 {
+      font-size: 20px;
+      text-align: start;
+    }
+    p {
+      font-size: 16px;
+    }
   }
 `;
