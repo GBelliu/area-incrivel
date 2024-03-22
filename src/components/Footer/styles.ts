@@ -18,7 +18,7 @@ export const Content = styled.div`
   height: fit-content;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   padding: 0;
 

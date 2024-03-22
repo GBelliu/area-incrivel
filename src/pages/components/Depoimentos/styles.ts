@@ -60,8 +60,8 @@ export const Cards = styled.div`
   display: grid;
   width: 100%;
   grid-template-columns: repeat(3, 1fr);
-  grid-row-gap: 25px;
-  gap: 25px;
+  grid-row-gap: 20px;
+  gap: 20px;
 
   @media (max-width: 767px) {
     display: flex;
