@@ -5,7 +5,7 @@ import { CalendarCheck, HeartHandshake, Home, LandPlot } from "lucide-react";
 
 export function Numeros() {
   return (
-    <Container>
+    <Container id="numeros">
       <Content>
         <h1>Nossos números</h1>
         <ContentNumeros>

@@ -19,7 +19,7 @@ interface RedesProps {
 
 export function Redes({ instagram, facebook }: RedesProps) {
   return (
-    <Container id="apresentacao">
+    <Container id="redes">
       <Content>
         <h1>
           Confira nossas <span>redes sociais</span>
@@ -37,7 +37,7 @@ export function Redes({ instagram, facebook }: RedesProps) {
               <Text>
                 <h2>Siga nosso Insta - @area.incrivel</h2>
               </Text>
-              <a href={instagram}>
+              <a href={instagram} target="_blank">
                 <Button>Ver perfil</Button>
               </a>
             </Instagram>

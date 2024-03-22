@@ -12,8 +12,8 @@ export const Container = styled.div`
   position: relative;
   overflow: hidden;
   padding: 120px 0 50px 0;
-  /* background: linear-gradient(#28282870, #282828); */
-  background: #33333365;
+  background: linear-gradient(#28282860, #282828);
+  /* background: #33333365; */
   > img {
     position: absolute;
     z-index: -1;
@@ -129,7 +129,7 @@ export const ContentSocial = styled.div`
   align-items: flex-end;
   justify-content: center;
   width: 100%;
-  gap: 25px;
+  gap: 20px;
 
   img {
     width: 50px;
@@ -153,13 +153,13 @@ export const Category = styled.div`
 export const Text = styled.div`
   display: flex;
   flex-flow: column;
-  gap: 15px;
+  gap: 5px;
 `;
 
 export const Value = styled.div`
   display: flex;
   flex-flow: column;
-  gap: 20px;
+  gap: 5px;
 `;
 
 export const ButtonHero = styled.button`

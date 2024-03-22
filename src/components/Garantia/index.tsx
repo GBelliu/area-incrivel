@@ -13,7 +13,7 @@ import {
 
 export function Garantia() {
   return (
-    <Container>
+    <Container id="garantia">
       <Content>
         <h1>Garantia de entrega</h1>
         <ContentGarantia>

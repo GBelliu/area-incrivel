@@ -12,7 +12,7 @@ import { Link } from "react-scroll";
 
 export function Hero() {
   return (
-    <Container>
+    <Container id="home">
       <video id="bgVideo" preload="true" autoPlay loop muted>
         <source src="./background.mp4" type="video/mp4" />
       </video>
@@ -21,7 +21,15 @@ export function Hero() {
           <h1>Realize o sonho de viver em um lugar especial</h1>
 
           <h2>Conheça nossos empreendimentos disponíveis</h2>
-          <ButtonHero>Quero conhecer os empreendimentos</ButtonHero>
+          <Link
+            to="empreendimentos"
+            href="/"
+            smooth={true}
+            duration={1500}
+            offset={-100}
+          >
+            <ButtonHero>Quero conhecer os empreendimentos</ButtonHero>
+          </Link>
         </ContentText>
         <Link
           to="apresentacao"

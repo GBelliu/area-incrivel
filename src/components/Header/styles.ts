@@ -72,12 +72,12 @@ export const Content = styled.div`
 
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #fff;
+    background: #c3c3c3;
   }
 
   /* Color/shape of burger icon bars on hover*/
   .bm-burger-bars-hover {
-    background: #fff !important;
+    background: #c3c3c390 !important;
   }
 
   /* Position and sizing of clickable cross button */

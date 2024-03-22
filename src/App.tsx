@@ -27,7 +27,10 @@ function App() {
       <Depoimentos />
 
       <Empresas />
-      <Redes facebook="" instagram="" />
+      <Redes
+        facebook="https://www.facebook.com/area.incrivelrc"
+        instagram="https://www.instagram.com/area.incrivel/"
+      />
       {/* <PorqueArea /> */}
       <Sobre />
       <Garantia />

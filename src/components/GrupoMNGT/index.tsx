@@ -11,7 +11,7 @@ import {
 
 export function GrupoMNGT() {
   return (
-    <Container>
+    <Container id="grupo">
       <Content>
         <LeftContent>
           <img src="logogrupo.png" alt="" />
@@ -24,11 +24,11 @@ export function GrupoMNGT() {
               logística, segurança e tecnologias de energia limpa e automação.
             </p>
           </Text>
-          <Button>Visitar site!</Button>
+          <a href="https://www.grupomngt.com.br/" target="_blank">
+            <Button>Visitar site!</Button>
+          </a>
         </LeftContent>
-        <RightContent>
-          
-        </RightContent>
+        <RightContent></RightContent>
       </Content>
     </Container>
   );

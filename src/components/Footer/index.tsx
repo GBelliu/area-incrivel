@@ -12,6 +12,7 @@ import {
   Title,
 } from "./styles";
 import { Facebook, Instagram, Youtube } from "lucide-react";
+import { Link } from "react-scroll";
 
 export function Footer() {
   return (
@@ -24,9 +25,13 @@ export function Footer() {
             e comercializa todas as etapas de um projeto.
           </p>
           <SocialItems>
-            <Facebook size={20} color="#ffffff" strokeWidth={1.75} />
-            <Instagram size={20} color="#ffffff" strokeWidth={1.75} />
-            <Youtube size={20} color="#ffffff" strokeWidth={1.75} />
+            <a href="https://www.facebook.com/area.incrivelrc">
+              <Facebook size={20} color="#ffffff" strokeWidth={1.75} />
+            </a>
+            <a href="https://www.instagram.com/area.incrivel/">
+              <Instagram size={20} color="#ffffff" strokeWidth={1.75} />
+            </a>
+            {/* <Youtube size={20} color="#ffffff" strokeWidth={1.75} /> */}
           </SocialItems>
         </LeftContent>
         <ItemContent>
@@ -42,38 +47,127 @@ export function Footer() {
           <Slice>
             <Title>Área Incrível</Title>
             <Items>
-              <Item>Home</Item>
-              <Item>Nossos números</Item>
-              <Item>Apresentação</Item>
-              <Item>Lotes</Item>
-              <Item>Casas Modulares</Item>
-              <Item>Casas</Item>
-              <Item>Depoimentos</Item>
-              <Item>Empresas parceiras</Item>
-              <Item>Redes Sociais</Item>
-              <Item>Por que a Área?</Item>
+              <Link to="home" href="/" smooth={true} duration={500}>
+                <Item>Home</Item>
+              </Link>
+              <Link
+                to="numeros"
+                href="/"
+                smooth={true}
+                duration={500}
+                offset={-100}
+              >
+                <Item>Nossos números</Item>
+              </Link>
+              <Link
+                to="apresentacao"
+                href="/"
+                smooth={true}
+                duration={500}
+                offset={-100}
+              >
+                <Item>Apresentação</Item>
+              </Link>
+              <Link
+                to="empreendimentos"
+                href="/"
+                smooth={true}
+                duration={1000}
+                offset={-100}
+              >
+                <Item>Empreendimentos</Item>
+              </Link>
+
+              <Link
+                to="depoimentos"
+                href="/"
+                smooth={true}
+                duration={500}
+                offset={-100}
+              >
+                <Item>Depoimentos</Item>
+              </Link>
+              <Link
+                to="parceiras"
+                href="/"
+                smooth={true}
+                duration={500}
+                offset={-100}
+              >
+                <Item>Empresas parceiras</Item>
+              </Link>
+              <Link
+                to="redes"
+                href="/"
+                smooth={true}
+                duration={500}
+                offset={-100}
+              >
+                <Item>Redes Sociais</Item>
+              </Link>
+              <Link
+                to="porquearea"
+                href="/"
+                smooth={true}
+                duration={500}
+                offset={-100}
+              >
+                <Item>Por que a Área?</Item>
+              </Link>
+              <Link
+                to="garantia"
+                href="/"
+                smooth={true}
+                duration={500}
+                offset={-100}
+              ></Link>
               <Item>Garantia de Entrega</Item>
-              <Item>Grupo MNGT</Item>
+              <Link
+                to="grupo"
+                href="/"
+                smooth={true}
+                duration={500}
+                offset={-100}
+              >
+                <Item>Grupo MNGT</Item>
+              </Link>
             </Items>
           </Slice>
         </ItemContent>
         <ItemContent>
           <Slice>
-            <Title>Fale com um corretor</Title>
-            <Items>
-              <Item>WhatsApp</Item>
-              <Item>E-mail</Item>
-            </Items>
-          </Slice>
-          <Slice>
             <Title>Fale conosco</Title>
             <Items>
-              <Item>Site</Item>
-              <Item>WhatsApp</Item>
-              <Item>E-mail</Item>
-              <Item>Instagram</Item>
-              <Item>Facebook</Item>
-              <Item>LinkedIn</Item>
+              <a
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=5519999900511&text=Ol%C3%A1%21+Tudo+bem%3F"
+              >
+                <Item>WhatsApp</Item>
+              </a>
+              <a href="mailto:">
+                <Item>E-mail</Item>
+              </a>
+              <a
+                href="https://www.instagram.com/area.incrivel/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Item>Instagram</Item>
+              </a>
+              <a
+                href="https://www.facebook.com/area.incrivelrc"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Item>Facebook</Item>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/grupomngt/mycompany/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Item>LinkedIn</Item>
+              </a>
             </Items>
           </Slice>
         </ItemContent>

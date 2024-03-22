@@ -28,40 +28,76 @@ export function Header() {
           onOpen={() => setIsOpenMenu(true)}
           onClose={() => setIsOpenMenu(false)}
         >
-          <Link to="form" href="/" smooth={true} duration={500} offset={-100}>
+          <Link to="home" href="/" smooth={true} duration={500} offset={-100}>
             Home
           </Link>
-          <Link to="form" href="/" smooth={true} duration={500} offset={-100}>
+          <Link
+            to="numeros"
+            href="/"
+            smooth={true}
+            duration={500}
+            offset={-100}
+          >
             Nossos números
           </Link>
-          <Link to="form" href="/" smooth={true} duration={500} offset={-100}>
+          <Link
+            to="apresentacao"
+            href="/"
+            smooth={true}
+            duration={500}
+            offset={-100}
+          >
             Apresentação
           </Link>
-          <Link to="form" href="/" smooth={true} duration={500} offset={-100}>
-            Lotes
+          <Link
+            to="empreendimentos"
+            href="/"
+            smooth={true}
+            duration={500}
+            offset={-100}
+          >
+            Empreendimentos
           </Link>
-          <Link to="form" href="/" smooth={true} duration={500} offset={-100}>
-            Casas Modulares
-          </Link>
-          <Link to="form" href="/" smooth={true} duration={500} offset={-100}>
-            Casas
-          </Link>
-          <Link to="form" href="/" smooth={true} duration={500} offset={-100}>
+          <Link
+            to="depoimentos"
+            href="/"
+            smooth={true}
+            duration={500}
+            offset={-100}
+          >
             Depoimentos
           </Link>
-          <Link to="form" href="/" smooth={true} duration={500} offset={-100}>
+          <Link
+            to="parceiras"
+            href="/"
+            smooth={true}
+            duration={500}
+            offset={-100}
+          >
             Empresas parceiras
           </Link>
-          <Link to="form" href="/" smooth={true} duration={500} offset={-100}>
+          <Link to="redes" href="/" smooth={true} duration={500} offset={-100}>
             Redes Sociais
           </Link>
-          <Link to="form" href="/" smooth={true} duration={500} offset={-100}>
+          <Link
+            to="porquearea"
+            href="/"
+            smooth={true}
+            duration={500}
+            offset={-100}
+          >
             Por que a Área?
           </Link>
-          <Link to="form" href="/" smooth={true} duration={500} offset={-100}>
+          <Link
+            to="garantia"
+            href="/"
+            smooth={true}
+            duration={500}
+            offset={-100}
+          >
             Garantia de Entrega
           </Link>
-          <Link to="form" href="/" smooth={true} duration={500} offset={-100}>
+          <Link to="grupo" href="/" smooth={true} duration={500} offset={-100}>
             Grupo MNGT
           </Link>
           <ButtonHeader>Fale conosco!</ButtonHeader>

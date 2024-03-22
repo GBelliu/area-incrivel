@@ -18,7 +18,6 @@ export function Contato() {
     name: "",
     mail: "",
     phone: "",
-    empreendimento: "",
   });
   const [loadingForm, setLoadingForm] = useState(false);
   const form = useRef(null);
@@ -40,7 +39,7 @@ export function Contato() {
   //         name: "",
   //         mail: "",
   //         phone: "",
-  //         empreendimento: "",
+  //
   //       });
   //     },
   //     (error) => {
@@ -56,7 +55,7 @@ export function Contato() {
   //       name: "",
   //       mail: "",
   //       phone: "",
-  //       empreendimento: "",
+  //
   //     });
   //   });
   // };
@@ -109,19 +108,6 @@ export function Contato() {
                 required
               />
             </div>
-            <div className="formItem">
-              <input
-                type="text"
-                name="empreendimento"
-                id="empreendimento"
-                placeholder="Empreendimento"
-                value={data.empreendimento}
-                onChange={(e) =>
-                  setData({ ...data, empreendimento: e.target.value })
-                }
-                required
-              />
-            </div>
 
             <Button type="submit">{loadingForm ? <Loader /> : "Enviar"}</Button>
           </form>
@@ -138,7 +124,7 @@ export function Contato() {
           </div>
           <div className="infoMap">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14750.377985472096!2d-47.5729214!3d-22.4442834!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7da820ebaf8ab%3A0xab8e56ce548e0249!2sCentro%20Logistico%20de%20Rio%20Claro!5e0!3m2!1spt-BR!2sbr!4v1705677829174!5m2!1spt-BR!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14753.530420263805!2d-47.569245!3d-22.4146208!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7db90c8793a41%3A0xec99218804b19b3a!2s%C3%81rea%20Incr%C3%ADvel%20-%20Incorporadora!5e0!3m2!1spt-BR!2sbr!4v1711057968720!5m2!1spt-BR!2sbr"
               style={{ border: "0", borderRadius: "20px" }}
               allowFullScreen={true}
               loading="lazy"

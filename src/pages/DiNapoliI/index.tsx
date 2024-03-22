@@ -51,13 +51,13 @@ export function DiNapoliI() {
         <Header />
         <Hero
           category="lançamento"
-          image="dinapoli1img.png"
+          image="fachadadn1.jpg"
           subname="Condomínio Residencial"
           name={empreendimento}
           description="Casas de 2 ou 3 quartos"
           value="1.030,00"
-          facebook=""
-          instagram=""
+          facebook="https://www.facebook.com/area.incrivelrc"
+          instagram="https://www.instagram.com/dinapoli_residencial/"
           whatsapp=""
           buttonLink=""
         />

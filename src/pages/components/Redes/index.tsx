@@ -38,7 +38,7 @@ export function Redes({ instagram, facebook }: RedesProps) {
               <Text>
                 <h2>Siga nosso Insta - @dinapoli.i</h2>
               </Text>
-              <a href={instagram}>
+              <a href={instagram} target="_blank">
                 <Button>Ver perfil</Button>
               </a>
             </Instagram>

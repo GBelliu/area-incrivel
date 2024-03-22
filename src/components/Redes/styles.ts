@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   width: 100%;
   height: fit-content;
-  background-color: #282828;
+  background: linear-gradient(#282828, #23000070);
   justify-content: center;
   align-items: center;
   flex-flow: column;

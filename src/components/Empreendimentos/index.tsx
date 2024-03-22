@@ -6,7 +6,7 @@ import { Plantas } from "./Plantas";
 
 export function Empreendimentos() {
   return (
-    <Container>
+    <Container id="empreendimentos">
       <Content>
         <Lotes />
         <CasasModulares />

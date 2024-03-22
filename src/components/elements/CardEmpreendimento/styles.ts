@@ -102,6 +102,10 @@ export const ContentButton = styled.div`
   display: flex;
 
   padding: 0px 30px;
+
+  a {
+    text-decoration: none;
+  }
 `;
 
 export const ButtonCard = styled.button`

@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import {
   ButtonHero,
   Category,
@@ -9,8 +8,6 @@ import {
   Value,
   Text,
 } from "./styles";
-import { ChevronDown } from "lucide-react";
-import { Link } from "react-scroll";
 
 interface HeroProps {
   image?: string;

@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   width: 100%;
   height: fit-content;
-  padding: 80px 0;
+  padding: 80px 0 20px 0;
   justify-content: center;
   background-color: #282828;
 
@@ -43,9 +43,9 @@ export const Content = styled.div`
   }
 `;
 
-export const GridContent = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+export const FlexContent = styled.div`
+  display: flex;
+  flex-flow: row;
   gap: 20px;
   width: 100%;
 
@@ -67,74 +67,20 @@ export const GridContent = styled.div`
   }
 `;
 
-export const HorizontalItem = styled.div`
-  position: relative;
+export const Column = styled.div`
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  box-sizing: border-box;
-  background: #ccc;
-  color: #fff;
-  grid-column-start: auto;
-  grid-row-start: auto;
-  color: #fff;
-  background-size: cover;
-  background-position: center;
-  box-shadow: -2px 2px 10px 0px rgba(#444, 0.4);
-  transition: transform 0.3s ease-in-out;
-  cursor: pointer;
-  counter-increment: item-counter;
-  grid-column-end: span 3;
+  flex-flow: column;
+  gap: 20px;
   width: 100%;
-  border-radius: 10px;
 `;
-export const SmallItem = styled.div`
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  box-sizing: border-box;
-  background: #ccc;
-  color: #fff;
-  grid-column-start: auto;
-  grid-row-start: auto;
-  color: #fff;
-  background-size: cover;
-  background-position: center;
-  box-shadow: -2px 2px 10px 0px rgba(#444, 0.4);
-  transition: transform 0.3s ease-in-out;
-  cursor: pointer;
-  counter-increment: item-counter;
-  grid-column-end: span 2;
+
+export const TestemonialCard = styled.div`
   width: 100%;
+  height: fit-content;
   border-radius: 10px;
-`;
-export const VerticalItem = styled.div`
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  box-sizing: border-box;
-  background: #ccc;
-  color: #fff;
-  grid-column-start: auto;
-  grid-row-start: auto;
-  color: #fff;
-  background-size: cover;
-  background-position: center;
   box-shadow: -2px 2px 10px 0px rgba(#444, 0.4);
-  transition: transform 0.3s ease-in-out;
-  cursor: pointer;
-  counter-increment: item-counter;
-  grid-row-end: span 2;
-  width: 100%;
-  border-radius: 10px;
-`;
-export const Gallery = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fit);
-  grid-gap: 20px;
-  grid-auto-rows: 150px;
-  grid-auto-flow: row dense;
-  width: 100%;
+  img {
+    border-radius: inherit;
+    max-width: 300px;
+  }
 `;
