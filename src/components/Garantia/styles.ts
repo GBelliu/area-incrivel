@@ -131,4 +131,8 @@ export const Security = styled.div`
   position: absolute;
   right: -100px;
   bottom: -100px;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
 `;

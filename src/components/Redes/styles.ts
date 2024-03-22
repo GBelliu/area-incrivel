@@ -50,6 +50,9 @@ export const Content = styled.div`
   @media (max-width: 767px) {
     max-width: 350px;
     align-items: center;
+    h1 {
+      text-align: center;
+    }
   }
 `;
 
@@ -62,12 +65,21 @@ export const ContentRedes = styled.div`
   height: 100%;
   justify-content: space-between;
   gap: 30px;
+  @media (max-width: 767px) {
+    flex-flow: column-reverse;
+  }
 `;
 
 export const Mockup = styled.div`
   width: fit-content;
   img {
     height: 600px;
+  }
+
+  @media (max-width: 767px) {
+    img {
+      height: 400px;
+    }
   }
 `;
 

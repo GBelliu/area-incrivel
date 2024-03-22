@@ -83,4 +83,11 @@ export const TestemonialCard = styled.div`
     border-radius: inherit;
     max-width: 300px;
   }
+
+  @media (max-width: 767px) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `;
