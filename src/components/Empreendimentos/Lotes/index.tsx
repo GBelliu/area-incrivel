@@ -14,7 +14,7 @@ export function Lotes() {
         </h1>
         <ContentCards>
           <CardEmpreendimento title="lotes de 105m2" preco="R$641,00" />
-          <CardEmpreendimento title="lotes de 120m2" preco="R$641,00" />
+          <CardEmpreendimento title="lotes de 120m2" preco="R$732,00" />
         </ContentCards>
       </Content>
       <Image>

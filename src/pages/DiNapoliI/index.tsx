@@ -23,7 +23,7 @@ import { EA } from "../components/EA";
 import { PorqueArea } from "../components/PorqueArea";
 import { Empresas } from "../../components/Empresas";
 import { SobreArea } from "../components/SobreArea";
-
+import { Helmet } from "react-helmet";
 export function DiNapoliI() {
   const dataPhase = [
     {
@@ -47,6 +47,11 @@ export function DiNapoliI() {
   const empreendimento = "Di Napoli I";
   return (
     <ThemeProvider page="dinapoli1">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Residencial Di Napoli I</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <Container>
         <Header />
         <Hero

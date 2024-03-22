@@ -29,7 +29,7 @@ export const ContentHeader = styled.div<CardProps>`
 
   h2 {
     font-size: 24px;
-    color: #fff;
+    color: #443d4b;
     line-height: 150%;
     letter-spacing: 6px;
     font-weight: 500;
@@ -111,12 +111,12 @@ export const ButtonCard = styled.a`
   height: fit-content;
   width: 100%;
   background-color: ${(props) => props.theme.primaryColor};
-  color: #fff;
+  color: #443d4b;
   border-radius: 4px;
   border: none;
   padding: 14px 30px;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   &:active {

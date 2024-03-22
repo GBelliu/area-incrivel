@@ -23,7 +23,7 @@ export const Container = styled.div<ContainerProps>`
 export const Blur = styled.div`
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(7px);
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(0, 0, 0, 0.3);
   height: 100%;
   width: 100%;
   position: absolute;
