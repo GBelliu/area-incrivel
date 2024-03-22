@@ -21,44 +21,42 @@ export function Contato() {
   });
   const [loadingForm, setLoadingForm] = useState(false);
   const form = useRef(null);
-  // const sendEmail = (e: any) => {
-  // e.preventDefault();
-  // console.log("aaa");
-  // // if (data.acceptData === "Sim") {
-  // setLoadingForm(true);
-  // emailjs
-  //   .send("service_o5gmb8t", "template_1qxtc2p", data, "ouHyZsZNc3k8RmyBc")
-  //   .then(
-  //     (result) => {
-  //       toast.success(
-  //         "Dados enviados com sucesso! Entraremos em contato em breve."
-  //       );
+  const sendEmail = (e: any) => {
+    e.preventDefault();
+    console.log("aaa");
+    // if (data.acceptData === "Sim") {
+    setLoadingForm(true);
+    emailjs
+      .send("service_o5gmb8t", "template_opg3y9i", data, "ouHyZsZNc3k8RmyBc")
+      .then(
+        (result) => {
+          toast.success(
+            "Dados enviados com sucesso! Entraremos em contato em breve."
+          );
 
-  //       setLoadingForm(true);
-  //       setData({
-  //         name: "",
-  //         mail: "",
-  //         phone: "",
-  //
-  //       });
-  //     },
-  //     (error) => {
-  //       toast.error(
-  //         "Ocorreu um erro ao enviar. Preencha os dados e tente novamente!"
-  //       );
-  //       setLoadingForm(true);
-  //     }
-  //   )
-  //   .finally(() => {
-  //     setLoadingForm(false);
-  //     setData({
-  //       name: "",
-  //       mail: "",
-  //       phone: "",
-  //
-  //     });
-  //   });
-  // };
+          setLoadingForm(true);
+          setData({
+            name: "",
+            mail: "",
+            phone: "",
+          });
+        },
+        (error) => {
+          toast.error(
+            "Ocorreu um erro ao enviar. Preencha os dados e tente novamente!"
+          );
+          setLoadingForm(true);
+        }
+      )
+      .finally(() => {
+        setLoadingForm(false);
+        setData({
+          name: "",
+          mail: "",
+          phone: "",
+        });
+      });
+  };
 
   return (
     <Container id="contato">
