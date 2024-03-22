@@ -15,14 +15,12 @@ interface CardDepoimentosProps {
   text: string;
   imgDepoimento?: string;
   nameDepoimento: string;
-  subDepoimento: string;
 }
 
 export function CardDepoimentos({
   text,
   imgDepoimento,
   nameDepoimento,
-  subDepoimento,
 }: CardDepoimentosProps) {
   const theme = useTheme();
   return (
@@ -30,11 +28,14 @@ export function CardDepoimentos({
       <Text>"{text}"</Text>
       <PersonDetails>
         <ProfileImage>
-          <img src={imgDepoimento} alt="" />
+          {imgDepoimento ? (
+            <img src={imgDepoimento} alt="" />
+          ) : (
+            <img src="profile.png" alt="" />
+          )}
         </ProfileImage>
         <ProfileDescription>
           <Name>{nameDepoimento}</Name>
-          <Sub>{subDepoimento}</Sub>
         </ProfileDescription>
       </PersonDetails>
     </Container>

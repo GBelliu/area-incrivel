@@ -35,7 +35,7 @@ export function Hero({
   facebook,
 }: HeroProps) {
   return (
-    <Container>
+    <Container id="home">
       <img src={image} alt="" />
       <Content>
         <ContentText>
@@ -51,23 +51,23 @@ export function Hero({
             <h3>R${value}</h3>
           </Value>
 
-          <a href={buttonLink}>
+          <a href={buttonLink} target="_blank">
             <ButtonHero>Tenho interesse!</ButtonHero>
           </a>
         </ContentText>
         <ContentSocial>
           <div>
-            <a href={whatsapp}>
+            <a href={whatsapp} target="_blank">
               <img src="whatsapp.svg" alt="" />
             </a>
           </div>
           <div>
-            <a href={instagram}>
+            <a href={instagram} target="_blank">
               <img src="instagram.svg" alt="" />
             </a>
           </div>
           <div>
-            <a href={facebook}>
+            <a href={facebook} target="_blank">
               <img src="facebook.svg" alt="" />
             </a>
           </div>

@@ -16,6 +16,7 @@ interface CardEmpreendimentoProps {
   preco?: string;
   list?: ReactNode;
   type?: string;
+  linkButton?: string;
 }
 
 export function CardEmpreendimento({
@@ -23,6 +24,7 @@ export function CardEmpreendimento({
   preco,
   list,
   type,
+  linkButton,
 }: CardEmpreendimentoProps) {
   const theme = useTheme();
   return (
@@ -32,15 +34,17 @@ export function CardEmpreendimento({
       </ContentHeader>
       <Content>
         <ContentTextInfo>
-          <span>a partir de</span>
+          <span>parcelas mensais a partir de</span>
           <h3>{preco}</h3>
-          <p>SAIBA MAIS SOBRE OS EMPREENDIMENTOS</p>
+          <p>SAIBA MAIS SOBRE ESSA OPÇÃO</p>
         </ContentTextInfo>
         <Divider theme={theme} />
         {list}
       </Content>
       <ContentButton>
-        <ButtonCard theme={theme}>Quero esse!</ButtonCard>
+        <ButtonCard href={linkButton} theme={theme}>
+          Quero esse!
+        </ButtonCard>
       </ContentButton>
     </Container>
   );

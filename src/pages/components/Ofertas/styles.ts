@@ -1,11 +1,18 @@
 import styled, { css } from "styled-components";
 
-export const Container = styled.div`
+interface ContainerProps {
+  backgroundImg?: string;
+}
+
+export const Container = styled.div<ContainerProps>`
   display: flex;
   width: 100%;
   height: fit-content;
   padding: 60px 0;
   justify-content: center;
+  position: relative;
+  background-image: url(${({ backgroundImg }) => backgroundImg});
+  background-size: cover;
   position: relative;
 
   @media (max-width: 1023px) {
@@ -13,6 +20,16 @@ export const Container = styled.div`
   }
 `;
 
+export const Blur = styled.div`
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(7px);
+  background: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding: inherit;
+  top: 0;
+`;
 export const Content = styled.div`
   max-width: 1394px;
   height: fit-content;
@@ -23,7 +40,7 @@ export const Content = styled.div`
   align-items: center;
   padding: 0;
   gap: 30px;
-
+  z-index: 2;
   h1 {
     color: #282828;
     span {
@@ -55,6 +72,7 @@ export const CardsContent = styled.div`
   align-items: center;
   width: 100%;
   gap: 25px;
+  flex-wrap: wrap;
 
   @media (max-width: 1750px) {
   }

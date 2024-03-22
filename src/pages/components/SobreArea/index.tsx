@@ -45,7 +45,13 @@ export function SobreArea() {
             paragraph="não nos contentamos apenas em entregar os empreendimentos, queremos facilitar a vida de nossos clientes por meio de parcerias incríveis com estabelecimentos e comércios locais, que possam gerar benefícios financeiros diretos aos nossos clientes."
           ></AboutItemRight>
         </Abouts>
-        <Button>Quero saber mais sobre a Área Incrível</Button>
+        <a
+          href="https://api.whatsapp.com/send?phone=5519999900511&text=Ol%C3%A1%21+Tudo+bem%3F"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button>Quero saber mais sobre a Área Incrível</Button>
+        </a>
       </Content>
     </Container>
   );

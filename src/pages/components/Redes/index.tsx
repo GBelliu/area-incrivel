@@ -15,9 +15,10 @@ import { useTheme } from "../../ThemeContext";
 interface RedesProps {
   instagram?: string;
   facebook?: string;
+  mockupImg?: string;
 }
 
-export function Redes({ instagram, facebook }: RedesProps) {
+export function Redes({ instagram, facebook, mockupImg }: RedesProps) {
   const theme = useTheme();
   return (
     <Container id="apresentacao">
@@ -28,7 +29,7 @@ export function Redes({ instagram, facebook }: RedesProps) {
 
         <ContentRedes>
           <Mockup>
-            <img src="iphonemockup.png" alt="" />
+            <img src={mockupImg} alt="" />
           </Mockup>
           <Social>
             <Instagram>

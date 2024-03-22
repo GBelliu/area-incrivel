@@ -59,12 +59,13 @@ export function DiNapoliI() {
           facebook="https://www.facebook.com/area.incrivelrc"
           instagram="https://www.instagram.com/dinapoli_residencial/"
           whatsapp=""
-          buttonLink=""
+          buttonLink="https://api.whatsapp.com/send?phone=5519999900511&text=Ol%C3%A1%21+Tudo+bem%3F"
         />
         <Numeros />
         <Sobre
           logoEmpreendimento="logodinapoli1.png"
           about="Bem-vindo ao Di Napoli I, onde a inovação e o conforto se unem para criar um ambiente excepcional para você e sua família. Inspirado no nome da terceira maior cidade italiana, Napoli, que significa 'cidade nova', nosso condomínio de casas térreas é a representação perfeita de qualidade e modernidade."
+          linkButton="https://api.whatsapp.com/send?phone=5519999900511&text=Ol%C3%A1%21+Tudo+bem%3F"
         />
 
         <Apresentacao
@@ -79,13 +80,17 @@ export function DiNapoliI() {
           }
           empreendimento={empreendimento}
         />
-        <Ofertas empreendimento="dinapoli1" />
+        <Ofertas
+          empreendimento="dinapoli1"
+          linkButton="https://api.whatsapp.com/send?phone=5519999900511&text=Ol%C3%A1%21+Tudo+bem%3F"
+          background="/fachadadn1.jpg"
+        />
         {/* <ExplicacaoCasas/> */}
         <Empresas />
         <Estagio percentageTotal={50} listItems={dataPhase} />
         <Garantia />
 
-        <Depoimentos />
+        <Depoimentos empreendimento="dinapoli1" />
         <Imagens empreendimento="dinapoli1" />
         <PontosDeInteresse
           empreendimento="Di Napoli I"
@@ -99,7 +104,11 @@ export function DiNapoliI() {
         <EA />
         <SobreArea />
 
-        <Redes instagram="" facebook="" />
+        <Redes
+          instagram="https://www.instagram.com/dinapoli_residencial/"
+          facebook="https://www.facebook.com/dinapoli1.residencial"
+          mockupImg="/dn1/mockupdn1.png"
+        />
         <Footer />
       </Container>
     </ThemeProvider>

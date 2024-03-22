@@ -34,7 +34,7 @@ export const Content = styled.div`
   justify-content: center;
   align-items: center;
 
-  gap: 30px;
+  gap: 25px;
 
   h1 {
     font-size: 36px;
@@ -56,7 +56,7 @@ export const Content = styled.div`
 
   @media (max-width: 1750px) {
     max-width: 965px;
-    gap: 50px;
+    gap: 20px;
   }
   @media (min-width: 768px) and (max-width: 1023px) {
     max-width: 624px;
@@ -75,7 +75,7 @@ export const ContentEmpresas = styled.div`
   height: 100%;
   justify-content: center;
 
-  gap: 50px;
+  gap: 25px;
   img {
     height: 70px;
   }

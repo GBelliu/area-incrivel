@@ -8,6 +8,7 @@ import {
   OptionsContent,
   Option,
   RightImg,
+  Blur,
 } from "./styles";
 import { useTheme } from "../../ThemeContext";
 import { CardEmpreendimento } from "../elements/CardEmpreendimento";
@@ -16,6 +17,8 @@ import { empreendimentos } from "./empreendimentos";
 
 interface OfertasProps {
   empreendimento: string;
+  linkButton: string;
+  background?: string;
 }
 
 interface EmpreendimentoItem {
@@ -30,7 +33,11 @@ interface Empreendimentos {
   apartamentos: EmpreendimentoItem[];
 }
 
-export function Ofertas({ empreendimento }: OfertasProps) {
+export function Ofertas({
+  empreendimento,
+  linkButton,
+  background,
+}: OfertasProps) {
   const theme = useTheme();
   const [tipoSelecionado, setTipoSelecionado] = useState<any>(
     String(Object.keys(empreendimentos?.[empreendimento])[0])
@@ -45,7 +52,8 @@ export function Ofertas({ empreendimento }: OfertasProps) {
   console.log(String(Object.keys(empreendimentos?.[empreendimento])[0]));
 
   return (
-    <Container>
+    <Container backgroundImg={background}>
+      <Blur />
       <Content theme={theme}>
         <h1>
           Confira nossas <span>ofertas</span>!
@@ -73,6 +81,7 @@ export function Ofertas({ empreendimento }: OfertasProps) {
                   key={item}
                   title={item.title}
                   preco={item.preco}
+                  linkButton={linkButton}
                   list={
                     <List>
                       {item.list.map((itemList: any) => {
@@ -90,7 +99,7 @@ export function Ofertas({ empreendimento }: OfertasProps) {
           )}
         </CardsContent>
       </Content>
-      <LeftImg>
+      {/* <LeftImg>
         <svg
           width="285"
           height="384"
@@ -221,7 +230,7 @@ export function Ofertas({ empreendimento }: OfertasProps) {
             fill="#2F2E41"
           />
         </svg>
-      </RightImg>
+      </RightImg> */}
     </Container>
   );
 }

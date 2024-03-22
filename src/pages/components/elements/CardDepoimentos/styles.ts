@@ -8,13 +8,14 @@ export const Container = styled.div`
     );
   background-size: cover;
   background-repeat: no-repeat;
-  height: 350px;
+  height: fit-content;
   width: 100%;
   border-radius: 20px;
   padding: 25px;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
+  gap: 25px;
 `;
 
 export const Text = styled.span`
@@ -31,6 +32,11 @@ export const ProfileImage = styled.div`
   height: 60px;
   border-radius: 100%;
   /* background-color: red; */
+
+  img {
+    width: 100%;
+    border-radius: inherit;
+  }
 `;
 export const ProfileDescription = styled.div`
   display: flex;

@@ -48,6 +48,7 @@ export function Sobre() {
         <a
           href="https://api.whatsapp.com/send?phone=5519999900511&text=Ol%C3%A1%21+Tudo+bem%3F"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <Button>Quero saber mais sobre a Área Incrível</Button>
         </a>

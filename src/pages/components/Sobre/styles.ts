@@ -47,7 +47,7 @@ export const Content = styled.div`
     }
   }
 `;
-export const ButtonAbout = styled.button`
+export const ButtonAbout = styled.a`
   background-color: ${(props) => props.theme.primaryColor};
   color: #fff;
 

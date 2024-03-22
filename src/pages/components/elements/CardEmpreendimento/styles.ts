@@ -6,12 +6,12 @@ interface CardProps {
 
 export const Container = styled.div<CardProps>`
   width: 100%;
-
+  flex-grow: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: column;
-  background: #fff;
+  background: #ffffff90;
   border-radius: 4px;
   /* overflow: hidden; */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15), 0px 8px 16px rgba(0, 0, 0, 0.1);
@@ -80,7 +80,11 @@ export const Divider = styled.div`
   border-radius: 1px;
 `;
 
-export const List = styled.div``;
+export const List = styled.div`
+  display: flex;
+  flex-flow: column;
+  gap: 7px;
+`;
 export const ListItem = styled.div`
   span {
     color: ${(props) => props.theme.primaryColor};
@@ -100,7 +104,7 @@ export const ContentButton = styled.div`
   padding: 0px 30px;
 `;
 
-export const ButtonCard = styled.button`
+export const ButtonCard = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
