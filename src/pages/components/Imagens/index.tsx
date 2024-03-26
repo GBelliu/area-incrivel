@@ -10,6 +10,7 @@ import {
 } from "./styles";
 import { useTheme } from "../../ThemeContext";
 import { imagens } from "./imagens";
+import { ModalEmpreendimentos } from "../elements/ModalEmpreendimentos";
 
 interface ImagensProps {
   empreendimento: string;
@@ -62,6 +63,24 @@ export function Imagens({ empreendimento }: ImagensProps) {
       );
     }
   }, [empreendimento, tipoSelecionado, loadedImages]);
+
+  const [isOpen, setIsOpen] = useState(false);
+  const [modalImg, setModalImg] = useState("");
+  const openModal = (item: any) => {
+    setIsOpen(true);
+    setModalImg(item);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+
+  const handleOutsideClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (e.target === e.currentTarget) {
+      closeModal();
+    }
+  };
+
   return (
     <Container>
       <Content theme={theme}>
@@ -85,7 +104,7 @@ export function Imagens({ empreendimento }: ImagensProps) {
         </OptionsContent>
         <CardsContent>
           {imagensExibidas.map((item: string) => (
-            <img key={item} src={item} alt="" />
+            <img onClick={() => openModal(item)} key={item} src={item} alt="" />
           ))}
         </CardsContent>
         {imagens[empreendimento]?.[tipoSelecionado]?.length > loadedImages && (
@@ -94,6 +113,14 @@ export function Imagens({ empreendimento }: ImagensProps) {
           </LoadMoreButton>
         )}
       </Content>
+      {isOpen && (
+        <ModalEmpreendimentos
+          onClickModal={handleOutsideClick}
+          onClickClose={closeModal}
+        >
+          <img src={modalImg} alt="Modal Image" />
+        </ModalEmpreendimentos>
+      )}
     </Container>
   );
 }

@@ -16,6 +16,7 @@ import {
 } from "./styles";
 import { useTheme } from "../../../ThemeContext";
 import { X } from "lucide-react";
+import { ModalEmpreendimentos } from "../ModalEmpreendimentos";
 
 interface CardEmpreendimentoProps {
   title?: string;
@@ -77,14 +78,20 @@ export function CardEmpreendimento({
         </ButtonCard>
       </ContentButton>
       {isOpen && (
-        <ModalWrapper onClick={handleOutsideClick}>
-          <ModalContent>
-            <CloseButton onClick={closeModal}>
-              <X size={24} />
-            </CloseButton>
-            <img src={modalImg} alt="Modal Image" />
-          </ModalContent>
-        </ModalWrapper>
+        // <ModalWrapper onClick={handleOutsideClick}>
+        //   <ModalContent>
+        //     <CloseButton onClick={closeModal}>
+        //       <X size={24} />
+        //     </CloseButton>
+        //     <img src={modalImg} alt="Modal Image" />
+        //   </ModalContent>
+        // </ModalWrapper>
+        <ModalEmpreendimentos
+          onClickModal={handleOutsideClick}
+          onClickClose={closeModal}
+        >
+          <img src={modalImg} alt="Modal Image" />
+        </ModalEmpreendimentos>
       )}
     </Container>
   );
