@@ -130,7 +130,7 @@ export const Button = styled.button<ButtonProps>`
   width: fit-content;
   background-color: ${({ rede }) => (rede === "face" ? "#1877F2" : "#FE0A5D")};
   color: #fff;
-  border-radius: 4px;
+  border-radius: 10px;
   border: none;
   padding: 14px 30px;
   font-size: 18px;

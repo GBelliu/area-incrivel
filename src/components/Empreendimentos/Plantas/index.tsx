@@ -47,7 +47,10 @@ export function Plantas() {
         </ContentCards>
       </Content>
       <Image>
-        <img src="family2.png" alt="" />
+        <img
+          src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492202/public/family2_wgvr3b.png"
+          alt=""
+        />
       </Image>
     </Container>
   );

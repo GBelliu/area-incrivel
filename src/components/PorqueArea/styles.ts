@@ -6,7 +6,7 @@ export const Container = styled.div`
   height: fit-content;
   padding: 80px 0;
   justify-content: center;
-  background-image: url("paper.png");
+  background-image: url("https://res.cloudinary.com/duv6mjghr/image/upload/v1711492248/public/paper_gmir3l.png");
   background-size: cover;
   background-repeat: no-repeat;
 

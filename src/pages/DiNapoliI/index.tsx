@@ -24,6 +24,7 @@ import { PorqueArea } from "../components/PorqueArea";
 import { Empresas } from "../../components/Empresas";
 import { SobreArea } from "../components/SobreArea";
 import { Helmet } from "react-helmet";
+import { GrupoMNGT } from "../../components/GrupoMNGT";
 export function DiNapoliI() {
   const dataPhase = [
     {
@@ -56,7 +57,7 @@ export function DiNapoliI() {
         <Header />
         <Hero
           category="lançamento"
-          image="fachadadn1.jpg"
+          image="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492541/public/dn1/fachadadn1_mnz6x0.jpg"
           subname="Condomínio Residencial"
           name={empreendimento}
           description="Casas de 2 ou 3 quartos"
@@ -68,7 +69,7 @@ export function DiNapoliI() {
         />
         <Numeros />
         <Sobre
-          logoEmpreendimento="logodinapoli1.png"
+          logoEmpreendimento="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492231/public/logodinapoli1_wapdvq.png"
           about="Bem-vindo ao Di Napoli I, onde a inovação e o conforto se unem para criar um ambiente excepcional para você e sua família. Inspirado no nome da terceira maior cidade italiana, Napoli, que significa 'cidade nova', nosso condomínio de casas térreas é a representação perfeita de qualidade e modernidade."
           linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1%21+Tudo+bem%3F"
         />
@@ -100,7 +101,7 @@ export function DiNapoliI() {
         <Ofertas
           empreendimento="dinapoli1"
           linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1%21+Tudo+bem%3F"
-          background="/fachadadn1.jpg"
+          background="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492541/public/dn1/fachadadn1_mnz6x0.jpg"
         />
         {/* <ExplicacaoCasas/> */}
         <Empresas />
@@ -124,8 +125,9 @@ export function DiNapoliI() {
         <Redes
           instagram="https://www.instagram.com/dinapoli_residencial/"
           facebook="https://www.facebook.com/dinapoli1.residencial"
-          mockupImg="/dn1/mockupdn1.png"
+          mockupImg="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492175/public/dn1/mockupdn1_ee7p8o.png"
         />
+        <GrupoMNGT />
         <Footer />
       </Container>
     </ThemeProvider>

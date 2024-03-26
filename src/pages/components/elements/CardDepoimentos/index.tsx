@@ -14,7 +14,7 @@ import { useTheme } from "../../../ThemeContext";
 
 interface CardDepoimentosProps {
   text: string;
-  imgDepoimento?: string;
+  // imgDepoimento?: string;
   nameDepoimento: string;
   subDepoimento?: string;
   iframe?: ReactNode;
@@ -22,7 +22,7 @@ interface CardDepoimentosProps {
 
 export function CardDepoimentos({
   text,
-  imgDepoimento,
+  // imgDepoimento,
   nameDepoimento,
   subDepoimento,
   iframe,
@@ -33,13 +33,13 @@ export function CardDepoimentos({
       <Iframe>{iframe}</Iframe>
       <Text>"{text}"</Text>
       <PersonDetails>
-        <ProfileImage>
+        {/* <ProfileImage>
           {imgDepoimento ? (
             <img src={imgDepoimento} alt="" />
           ) : (
             <img src="profile.png" alt="" />
           )}
-        </ProfileImage>
+        </ProfileImage> */}
         <ProfileDescription>
           <Name>{nameDepoimento}</Name>
           <Sub>{subDepoimento}</Sub>

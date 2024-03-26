@@ -30,8 +30,6 @@ export const Content = styled.div`
   border-bottom: 1px solid #fff;
 
   h1 {
-    font-size: 27px;
-    font-weight: 400;
     color: #404040;
 
     span {

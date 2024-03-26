@@ -7,8 +7,10 @@ export const empreendimentos: any = {
         list: [
           "É composta por 02 dormitórios, sala de estar, sala de jantar, banheiro, lavanderia, cozinha, varanda e garagem, totalizando 55,65 m²",
         ],
-        planta: "/dn1/plantas/PLANTAA.png",
-        modal: "/dn1/modal/TIPOA.jpg",
+        planta:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492208/public/dn1/plantas/PLANTAA_ggavld.png",
+        modal:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492176/public/dn1/modal/TIPOA_l6aihw.jpg",
       },
       {
         title: "casas - tipo b",
@@ -16,8 +18,10 @@ export const empreendimentos: any = {
         list: [
           "É composta por 03 dormitórios ou 02 dormitórios mais home-office, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, pátio descoberto, corredor, varanda coberta e garagem, totalizando 59,66 m²",
         ],
-        planta: "/dn1/plantas/PLANTAB.png",
-        modal: "/dn1/modal/TIPOB.jpg",
+        planta:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492212/public/dn1/plantas/PLANTAB_hy8rxn.png",
+        modal:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492176/public/dn1/modal/TIPOA_l6aihw.jpg",
       },
       {
         title: "casas - tipo c",
@@ -25,8 +29,10 @@ export const empreendimentos: any = {
         list: [
           "É composta por 03 dormitórios ou 02 dormitórios mais home-office, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, pátio descoberto, corredor, varanda coberta e garagem, totalizando 65,01 m²",
         ],
-        planta: "/dn1/plantas/PLANTAC.png",
-        modal: "/dn1/modal/TIPOC.jpg",
+        planta:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492212/public/dn1/plantas/PLANTAC_ngwpet.png",
+        modal:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492178/public/dn1/modal/TIPOC_xeqiux.jpg",
       },
       {
         title: "casas - tipo d",
@@ -34,8 +40,10 @@ export const empreendimentos: any = {
         list: [
           "Composta por 03 dormitórios ou 02 dormitórios mais home-office, cozinha, sala de jantar e sala de estar, banheiro, banheiro suíte (É composta por 02 dormitórios, sendo 01 suíte), área de serviços, pátio descoberto, corredor, varanda coberta e garagem, totalizando 70,47 m²",
         ],
-        planta: "/dn1/plantas/PLANTAD.png",
-        modal: "/dn1/modal/TIPOD.jpg",
+        planta:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492213/public/dn1/plantas/PLANTAD.png",
+        modal:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492182/public/dn1/modal/TIPOD_zkajbs.jpg",
       },
       {
         title: "casas - tipo e",
@@ -43,8 +51,10 @@ export const empreendimentos: any = {
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar integrados, banheiro, corredor e garagem, totalizando 56,84 m²",
         ],
-        planta: "/dn1/plantas/PLANTAE.png",
-        modal: "/dn1/modal/TIPOE.jpg",
+        planta:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492217/public/dn1/plantas/PLANTAE_crmzbo.png",
+        modal:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492182/public/dn1/modal/TIPOD_zkajbs.jpg",
       },
       {
         title: "casas - tipo f",
@@ -52,8 +62,10 @@ export const empreendimentos: any = {
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar, banheiro, banheiro suíte (É composta por 02 dormitórios, sendo 01 suíte), área de serviços, pátio descoberto, varanda coberta e garagem, totalizando 57,05 m²",
         ],
-        planta: "/dn1/plantas/PLANTAFG.png",
-        modal: "/dn1/modal/TIPOF.jpg",
+        planta:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492263/public/dn1/plantas/PLANTAFG_vblwo1.png",
+        modal:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492180/public/dn1/modal/TIPOF_edxecr.jpg",
       },
       {
         title: "casas - tipo g",
@@ -61,8 +73,10 @@ export const empreendimentos: any = {
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar, banheiro, banheiro suíte (É composta por 02 dormitórios, sendo 01 suíte), área de serviços, pátio descoberto, varanda coberta e garagem para 01 veículo, totalizando 57,05 m²",
         ],
-        planta: "/dn1/plantas/PLANTAFG.png",
-        modal: "/dn1/modal/TIPOG.jpg",
+        planta:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492263/public/dn1/plantas/PLANTAFG_vblwo1.png",
+        modal:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492181/public/dn1/modal/TIPOG_rigfgg.jpg",
       },
       {
         title: "casas - tipo h",
@@ -70,8 +84,10 @@ export const empreendimentos: any = {
         list: [
           "Composta por 03 dormitórios ou 02 dormitórios mais home-office, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, pátio descoberto, corredor, varanda coberta e garagem, totalizando 63,28 m²",
         ],
-        planta: "/dn1/plantas/PLANTAH.png",
-        modal: "/dn1/modal/TIPOH.jpg",
+        planta:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492222/public/dn1/plantas/PLANTAH_xcscde.png",
+        modal:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492189/public/dn1/modal/TIPOH_atbs8s.jpg",
       },
       {
         title: "casas - tipo i",
@@ -79,8 +95,10 @@ export const empreendimentos: any = {
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar integrados, banheiro, corredor e garagem, totalizando 43,36 m²",
         ],
-        planta: "/dn1/plantas/PLANTAI.png",
-        modal: "/dn1/modal/TIPOI.jpg",
+        planta:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492230/public/dn1/plantas/PLANTAI_apdijc.png",
+        modal:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492185/public/dn1/modal/TIPOI_dfjfp6.jpg",
       },
       {
         title: "casas - tipo j",
@@ -88,8 +106,10 @@ export const empreendimentos: any = {
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, pátio descoberto, varanda coberta e garagem, totalizando 53,26 m²",
         ],
-        planta: "/dn1/plantas/PLANTAJK.png",
-        modal: "/dn1/modal/TIPOJ.jpg",
+        planta:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492238/public/dn1/plantas/PLANTAJK_ej1ctq.png",
+        modal:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492186/public/dn1/modal/TIPOJ_sv1wsy.jpg",
       },
       {
         title: "casas - tipo k",
@@ -97,8 +117,10 @@ export const empreendimentos: any = {
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, pátio descoberto, varanda coberta e garagem, totalizando 53,26 m²",
         ],
-        planta: "/dn1/plantas/PLANTAJK.png",
-        modal: "/dn1/modal/TIPOK.jpg",
+        planta:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492238/public/dn1/plantas/PLANTAJK_ej1ctq.png",
+        modal:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492187/public/dn1/modal/TIPOK_rdrhm8.jpg",
       },
       {
         title: "casas - tipo l",
@@ -106,8 +128,10 @@ export const empreendimentos: any = {
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, varanda coberta e garagem, totalizando 46,55 m²",
         ],
-        planta: "/dn1/plantas/PLANTAL.png",
-        modal: "/dn1/modal/TIPOL.jpg",
+        planta:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492243/public/dn1/plantas/PLANTAL_rgbdri.png",
+        modal:
+          "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492190/public/dn1/modal/TIPOL_veq3vs.jpg",
       },
     ],
   },

@@ -84,7 +84,10 @@ export function CasasModulares() {
         </ContentCards>
       </Content>
       <Image>
-        <img src="family.png" alt="" />
+        <img
+          src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492200/public/family_e0bzfz.png"
+          alt=""
+        />
       </Image>
     </Container>
   );

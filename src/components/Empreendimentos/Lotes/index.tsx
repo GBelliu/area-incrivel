@@ -18,7 +18,10 @@ export function Lotes() {
         </ContentCards>
       </Content>
       <Image>
-        <img src="lote.png" alt="" />
+        <img
+          src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492242/public/lote_rbkbxn.png"
+          alt=""
+        />
       </Image>
     </Container>
   );

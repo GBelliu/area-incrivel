@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background-image: url("texturedep.png"),
+  background-image: url("https://res.cloudinary.com/duv6mjghr/image/upload/v1711492233/public/logoea_rb4ovb.png"),
     linear-gradient(
       ${(props) => props.theme.primaryColor}70,
       ${(props) => props.theme.secondaryColor}70

@@ -18,7 +18,10 @@ export function Empresas() {
 
         <ContentEmpresas>
           <EnergiaAmigaContent>
-            <img src="logoenergia.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492235/public/logoenergia_zppn2b.png"
+              alt=""
+            />
             <h2>Energia Fotovoltaica</h2>{" "}
             <p>
               Alinhado às novas práticas de sustentabilidade, o condomínio
@@ -28,7 +31,10 @@ export function Empresas() {
             </p>
           </EnergiaAmigaContent>
           <LarIncrivelContent>
-            <img src="logolar.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492239/public/logolar_m5m4nx.png"
+              alt=""
+            />
             <h2>Lar Incrivel: Construtora</h2>{" "}
             <p>
               A Lar Incrível é uma construtora comprometida com a inovaçao, seja
@@ -42,7 +48,10 @@ export function Empresas() {
           </LarIncrivelContent>
 
           <LarNoCelularContent>
-            <img src="larnocellogo.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492225/public/larnocellogo_ligc0q.png"
+              alt=""
+            />
             <h2>Automação Residencial</h2>{" "}
             <p>
               Com a automação residencial mais acessível do mercado, sua casa
@@ -54,8 +63,16 @@ export function Empresas() {
         </ContentEmpresas>
       </Content>
 
-      <img className="reddec" src="reddec.svg" alt="" />
-      <img className="graydec" src="graydec.svg" alt="" />
+      <img
+        className="reddec"
+        src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492250/public/reddec_tzid6m.svg"
+        alt=""
+      />
+      <img
+        className="graydec"
+        src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492209/public/graydec_u1iwzv.svg"
+        alt=""
+      />
     </Container>
   );
 }

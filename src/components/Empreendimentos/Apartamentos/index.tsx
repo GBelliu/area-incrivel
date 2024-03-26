@@ -56,7 +56,10 @@ export function Apartamentos() {
         </ContentCards>
       </Content>
       <Image>
-        <img src="svgaptos.svg" alt="" />
+        <img
+          src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492252/public/svgaptos_uah1fs.svg"
+          alt=""
+        />
       </Image>
     </Container>
   );

@@ -51,7 +51,7 @@ export function DiNapoliII() {
         <Header />
         <Hero
           category="lançamento"
-          image="dinapoli1img.png"
+          image="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492175/public/dinapoli1img_utx995.png"
           subname="Condomínio Residencial"
           name={empreendimento}
           description="Casas de 2 ou 3 quartos"
@@ -63,7 +63,7 @@ export function DiNapoliII() {
         />
         <Numeros />
         <Sobre
-          logoEmpreendimento="logodinapoli1.png"
+          logoEmpreendimento="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492231/public/logodinapoli1_wapdvq.png"
           about="Bem-vindo ao Di Napoli II, onde a inovação e o conforto se unem para criar um ambiente excepcional para você e sua família. Inspirado no nome da terceira maior cidade italiana, Napoli, que significa 'cidade nova', nosso condomínio de casas térreas é a representação perfeita de qualidade e modernidade."
         />
 

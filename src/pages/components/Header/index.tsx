@@ -19,7 +19,10 @@ export function Header() {
     <Container background={color}>
       <Content>
         <a href="/">
-          <img src="./logocinza.png" alt="" />
+          <img
+            src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492229/public/logocinza_cqnkti.png"
+            alt=""
+          />
         </a>
         <Menu
           right

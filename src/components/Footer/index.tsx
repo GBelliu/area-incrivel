@@ -19,19 +19,27 @@ export function Footer() {
     <Container>
       <Content>
         <LeftContent>
-          <img src="logocinza.png" alt="" />
+          <img
+            src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492229/public/logocinza_cqnkti.png"
+            alt=""
+          />
           <p>
             Somos a Área Incrível, uma incorporadora que desenvolve, administra
             e comercializa todas as etapas de um projeto.
           </p>
           <SocialItems>
-            <a href="https://www.facebook.com/area.incrivelrc">
+            <a href="https://www.facebook.com/area.incrivelrc" target="_blank">
               <Facebook size={20} color="#ffffff" strokeWidth={1.75} />
             </a>
-            <a href="https://www.instagram.com/area.incrivel/">
+            <a href="https://www.instagram.com/area.incrivel/" target="_blank">
               <Instagram size={20} color="#ffffff" strokeWidth={1.75} />
             </a>
-            {/* <Youtube size={20} color="#ffffff" strokeWidth={1.75} /> */}
+            <a
+              href="https://www.youtube.com/watch?v=VlG1ZN_yhVg&list=PLrhUN9V8vTNU3-e29YaSodR0WpPhW2uol"
+              target="_blank"
+            >
+              <Youtube size={20} color="#ffffff" strokeWidth={1.75} />
+            </a>{" "}
           </SocialItems>
         </LeftContent>
         <ItemContent>

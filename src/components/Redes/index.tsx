@@ -27,12 +27,18 @@ export function Redes({ instagram, facebook }: RedesProps) {
 
         <ContentRedes>
           <Mockup>
-            <img src="iphonemockup.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492224/public/iphonemockup_zz8x54.png"
+              alt=""
+            />
           </Mockup>
           <Social>
             <Instagram>
               <Icon>
-                <img src="./instalogo.png" alt="" />
+                <img
+                  src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492221/public/instalogo_hv7iob.png"
+                  alt=""
+                />
               </Icon>
               <Text>
                 <h2>Siga nosso Insta - @area.incrivel</h2>
@@ -43,7 +49,10 @@ export function Redes({ instagram, facebook }: RedesProps) {
             </Instagram>
             <Facebook>
               <Icon>
-                <img src="./facelogo.png" alt="" />
+                <img
+                  src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492199/public/facelogo_ktfypu.png"
+                  alt=""
+                />
               </Icon>
               <Text>
                 <h2>Acompanhe nosso Face - Área IncrívelI</h2>

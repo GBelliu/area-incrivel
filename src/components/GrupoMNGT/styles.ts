@@ -6,7 +6,7 @@ export const Container = styled.div`
   height: fit-content;
   padding: 80px 0;
   justify-content: center;
-  background-image: url("paper.png");
+  background-image: url("https://res.cloudinary.com/duv6mjghr/image/upload/v1711492248/public/paper_gmir3l.png");
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -58,7 +58,7 @@ export const LeftContent = styled.div`
 `;
 export const RightContent = styled.div`
   width: 100%;
-  background-image: url("mandala.png");
+  background-image: url("https://res.cloudinary.com/duv6mjghr/image/upload/v1711492246/public/mandala_vp8fvi.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

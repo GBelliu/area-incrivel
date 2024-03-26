@@ -113,7 +113,7 @@ export const Informacoes = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  background-image: url("paper.png");
+  background-image: url("https://res.cloudinary.com/duv6mjghr/image/upload/v1711492248/public/paper_gmir3l.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 15px 25px;

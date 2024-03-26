@@ -14,7 +14,10 @@ export function GrupoMNGT() {
     <Container id="grupo">
       <Content>
         <LeftContent>
-          <img src="logogrupo.png" alt="" />
+          <img
+            src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492236/public/logogrupo_pbwxkr.png"
+            alt=""
+          />
           <Text>
             <p>
               Com mais de 20 anos em Rio Claro, construímos vidas, histórias,

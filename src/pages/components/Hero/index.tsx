@@ -58,17 +58,26 @@ export function Hero({
         <ContentSocial>
           <div>
             <a href={whatsapp} target="_blank">
-              <img src="whatsapp.svg" alt="" />
+              <img
+                src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492260/public/whatsapp_ax6srf.svg"
+                alt=""
+              />
             </a>
           </div>
           <div>
             <a href={instagram} target="_blank">
-              <img src="instagram.svg" alt="" />
+              <img
+                src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492219/public/instagram_qgknfv.svg"
+                alt=""
+              />
             </a>
           </div>
           <div>
             <a href={facebook} target="_blank">
-              <img src="facebook.svg" alt="" />
+              <img
+                src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492196/public/facebook_tn3piu.svg"
+                alt=""
+              />
             </a>
           </div>
         </ContentSocial>

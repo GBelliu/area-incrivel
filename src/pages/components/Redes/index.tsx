@@ -34,7 +34,10 @@ export function Redes({ instagram, facebook, mockupImg }: RedesProps) {
           <Social>
             <Instagram>
               <Icon>
-                <img src="./instalogo.png" alt="" />
+                <img
+                  src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492221/public/instalogo_hv7iob.png"
+                  alt=""
+                />
               </Icon>
               <Text>
                 <h2>Siga nosso Insta - @dinapoli.i</h2>
@@ -45,7 +48,10 @@ export function Redes({ instagram, facebook, mockupImg }: RedesProps) {
             </Instagram>
             <Facebook>
               <Icon>
-                <img src="./facelogo.png" alt="" />
+                <img
+                  src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492199/public/facelogo_ktfypu.png"
+                  alt=""
+                />
               </Icon>
               <Text>
                 <h2>Acompanhe nosso Face - Di Napoli I</h2>

@@ -12,7 +12,10 @@ export function WhatsappButton() {
         rel="noopener noreferrer"
         aria-label="Whatsapp"
       >
-        <img src="whatsappicon.svg" alt="" />
+        <img
+          src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492261/public/whatsappicon_arkpst.svg"
+          alt=""
+        />
       </a>
     </Container>
   );

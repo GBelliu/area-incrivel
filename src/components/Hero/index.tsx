@@ -14,7 +14,10 @@ export function Hero() {
   return (
     <Container id="home">
       <video id="bgVideo" preload="true" autoPlay loop muted>
-        <source src="./backgroundai.mp4" type="video/mp4" />
+        <source
+          src="https://res.cloudinary.com/duv6mjghr/video/upload/v1711492245/public/backgroundai_ees96e.mp4"
+          type="video/mp4"
+        />
       </video>
       <Content>
         <ContentText>

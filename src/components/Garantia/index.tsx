@@ -18,7 +18,10 @@ export function Garantia() {
         <h1>Garantia de entrega</h1>
         <ContentGarantia>
           <LeftContent>
-            <img src="garantiaimg.jpg" alt="" />
+            <img
+              src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492252/public/svgaptos_uah1fs.svg"
+              alt=""
+            />
           </LeftContent>
           <RightContent>
             <Text>
@@ -31,12 +34,15 @@ export function Garantia() {
                 investimento, seus sonhos e sua família.
               </p>
             </Text>
-            <Button>Ver documento!</Button>
+            {/* <Button>Ver documento!</Button> */}
           </RightContent>
         </ContentGarantia>
       </Content>
       <Security>
-        <img src="security.svg" alt="" />
+        <img
+          src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492209/public/graydec_u1iwzv.svg"
+          alt=""
+        />
       </Security>
     </Container>
   );

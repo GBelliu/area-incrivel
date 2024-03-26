@@ -17,7 +17,10 @@ export function EA() {
         <h1>Área Incrível 🤝 Energia Amiga</h1>
         <ContentEA>
           <LeftContent>
-            <img src="logoea.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492233/public/logoea_rb4ovb.png"
+              alt=""
+            />
           </LeftContent>
           <RightContent>
             <Text theme={theme}>
