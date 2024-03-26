@@ -54,15 +54,15 @@ export function Redes({ instagram, facebook }: RedesProps) {
             </Facebook>
           </Social>
         </ContentRedes>
-        {/* <Video>
+        <Video>
           <iframe
             width="100%"
-            src="https://www.youtube.com/embed/-2bUkkL6CX8"
-            title="Apresentação do Centro Logístico Rio Claro"
+            src="https://www.youtube.com/embed/LwuLEmqY1Xc"
+            title="Como é a vida no Recanto Paraiso em Rio Claro - SP?"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           ></iframe>
-        </Video> */}
+        </Video>
       </Content>
     </Container>
   );

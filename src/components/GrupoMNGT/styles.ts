@@ -60,6 +60,7 @@ export const RightContent = styled.div`
   width: 100%;
   background-image: url("mandala.png");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: contain;
   height: 400px;
   border-radius: 25px;

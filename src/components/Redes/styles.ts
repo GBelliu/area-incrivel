@@ -150,7 +150,7 @@ export const Video = styled.div`
   width: 100%;
   iframe {
     /* max-width: 847px; */
-    height: 500px;
+    height: 600px;
     border: none;
     border-radius: 5px;
   }
