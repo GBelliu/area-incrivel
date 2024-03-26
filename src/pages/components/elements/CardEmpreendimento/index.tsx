@@ -73,7 +73,7 @@ export function CardEmpreendimento({
         </ImageBox>
       </Content>
       <ContentButton>
-        <ButtonCard href={linkButton} theme={theme}>
+        <ButtonCard href={linkButton} target="_blank" theme={theme}>
           Quero esse!
         </ButtonCard>
       </ContentButton>
