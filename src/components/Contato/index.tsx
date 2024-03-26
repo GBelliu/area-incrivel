@@ -12,50 +12,50 @@ import Loader from "../elements/Loader";
 import { ArrowRight } from "lucide-react";
 
 export function Contato() {
-  const [num1, setNum1] = useState(Math.floor(Math.random() * 10));
-  const [num2, setNum2] = useState(Math.floor(Math.random() * 10));
   const [data, setData] = useState({
     name: "",
     mail: "",
     phone: "",
   });
   const [loadingForm, setLoadingForm] = useState(false);
-  const form = useRef(null);
+  const form = useRef<any>();
   const sendEmail = (e: any) => {
     e.preventDefault();
     console.log("aaa");
-    // if (data.acceptData === "Sim") {
     setLoadingForm(true);
-    // emailjs
-    //   .send("service_o5gmb8t", "template_opg3y9i", data, "ouHyZsZNc3k8RmyBc")
-    //   .then(
-    //     (result) => {
-    //       toast.success(
-    //         "Dados enviados com sucesso! Entraremos em contato em breve."
-    //       );
+    emailjs
+      .send("service_54yw65s", "template_7i7kl6i", data, "ouHyZsZNc3k8RmyBc")
+      .then(
+        (result) => {
+          console.log(result);
 
-    //       setLoadingForm(true);
-    //       setData({
-    //         name: "",
-    //         mail: "",
-    //         phone: "",
-    //       });
-    //     },
-    //     (error) => {
-    //       toast.error(
-    //         "Ocorreu um erro ao enviar. Preencha os dados e tente novamente!"
-    //       );
-    //       setLoadingForm(true);
-    //     }
-    //   )
-    //   .finally(() => {
-    //     setLoadingForm(false);
-    //     setData({
-    //       name: "",
-    //       mail: "",
-    //       phone: "",
-    //     });
-    //   });
+          toast.success(
+            "Dados enviados com sucesso! Entraremos em contato em breve."
+          );
+
+          setLoadingForm(true);
+          setData({
+            name: "",
+            mail: "",
+            phone: "",
+          });
+        },
+        (error) => {
+          console.log(error);
+          toast.error(
+            "Ocorreu um erro ao enviar. Preencha os dados e tente novamente!"
+          );
+          setLoadingForm(true);
+        }
+      )
+      .finally(() => {
+        setLoadingForm(false);
+        setData({
+          name: "",
+          mail: "",
+          phone: "",
+        });
+      });
   };
 
   return (
@@ -63,7 +63,7 @@ export function Contato() {
       <ContentFormulario>
         <Forms>
           <h1>Contato</h1>
-          <form action="" onSubmit={() => {}} ref={form}>
+          <form action="" onSubmit={sendEmail} ref={form}>
             <div className="formItem">
               <input
                 type="text"
