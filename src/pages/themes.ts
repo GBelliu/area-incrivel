@@ -6,7 +6,7 @@ export interface Theme {
 export const pageThemes = {
   dinapoli1: {
     primaryColor: "#1CD987",
-    secondaryColor: "#3C3C3B",
+    secondaryColor: "#6065da",
   },
   dinapoli2: {
     primaryColor: "#FFCB57",

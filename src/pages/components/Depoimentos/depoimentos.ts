@@ -1,19 +1,22 @@
 export const depoimentos: any = {
   dinapoli1: [
     {
-      text: "Comprar no Di Napoli 1 foi incrível! O atendimento da Área Incrível foi impecável, e mal posso esperar para me mudar para esse lugar maravilhoso.",
-      name: "Paula Lima",
+      text: "Eu trabalho aqui há uns 20 anos e faz dois anos que coloquei meu comércio de gás aqui. Se fosse para comprar uma casa, eu compraria e moraria aqui mesmo. Eu indicaria para quem quer comprar uma casa, comprar aqui!",
+      name: "Vanderlau Aguiar Dias, o Ceará",
+      sub: "Comerciante do Recanto Paraíso",
       img: "",
     },
     {
-      text: "Estou muito feliz com minha escolha no Di Napoli 1! A equipe da Área Incrível foi super atenciosa, e a qualidade da construção é excepcional.",
-      name: "Fernando Costa",
-      img: "dn1/depoimentos/fernando.jpg",
+      text: "É um bairro tranquilo. Tem as paisagens e as pessoas que são bastante amigas. É bem respeitoso e bem agradável. É bom de morar aqui.",
+      name: "Thais Helena de Camargo Leite",
+      sub: "Balconista",
+      img: "",
     },
     {
-      text: "Comprar no Di Napoli 1 foi a melhor decisão que já tomei! O atendimento da Área Incrível foi nota 10, e estou ansiosa para me mudar para esse condomínio incrível.",
-      name: "Camila Santos",
-      img: "dn1/depoimentos/camila.jpg",
+      text: "É um bairro supertranquilo. Já viajei e já deixei minha casa sozinha e graça a Deus ninguém mexe. E agora está crescendo bastante, eu tô feliz",
+      name: "Janete Aparecida da Silva",
+      sub: "Comerciante",
+      img: "",
     },
   ],
 };

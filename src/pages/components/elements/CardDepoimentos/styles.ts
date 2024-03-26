@@ -19,11 +19,12 @@ export const Container = styled.div`
 `;
 
 export const Text = styled.span`
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   @media (max-width: 767px) {
     font-size: 16px;
   }
+  color: #282828;
 `;
 export const PersonDetails = styled.div`
   display: flex;
@@ -45,10 +46,9 @@ export const ProfileDescription = styled.div`
   display: flex;
   flex-flow: column;
   align-items: flex-start;
-  gap: 7px;
 `;
 export const Name = styled.div`
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: #222222;
 
@@ -57,7 +57,7 @@ export const Name = styled.div`
   }
 `;
 export const Sub = styled.div`
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   color: #00000050;
 `;

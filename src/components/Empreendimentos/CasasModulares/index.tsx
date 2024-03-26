@@ -53,7 +53,7 @@ export function CasasModulares() {
             list={
               <List>
                 <ListItem>
-                  <span>•</span> 2 quartos, 1 suite, 1 banheiro, cozinha, sala
+                  <span>•</span> 2 quartos, uma suíte, 1 banheiro, cozinha, sala
                 </ListItem>
                 <ListItem>
                   <span>•</span> 48m² de construção
@@ -70,7 +70,7 @@ export function CasasModulares() {
             list={
               <List>
                 <ListItem>
-                  <span>•</span> 3 quartos, 1 suite, 1 banheiro, cozinha, sala
+                  <span>•</span> 3 quartos, uma suíte, 1 banheiro, cozinha, sala
                 </ListItem>
                 <ListItem>
                   <span>•</span> 55m² de construção

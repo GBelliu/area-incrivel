@@ -95,7 +95,7 @@ export function DiNapoliI() {
         <Estagio percentageTotal={50} listItems={dataPhase} />
         <Garantia />
 
-        {/* <Depoimentos empreendimento="dinapoli1" /> */}
+        <Depoimentos empreendimento="dinapoli1" />
         <Imagens empreendimento="dinapoli1" />
         <PontosDeInteresse
           empreendimento="Di Napoli I"

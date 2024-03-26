@@ -19,8 +19,8 @@ export function Plantas() {
             list={
               <List>
                 <ListItem>
-                  <span>•</span> 2 quartos, 1 suite, sala, cozinha aberta e
-                  ampla área de lazer/lavanderia
+                  <span>•</span> 2 quartos, uma suíte, sala e cozinha em
+                  conceito aberto e ampla área de lazer/lavanderia
                 </ListItem>
                 <ListItem>
                   <span>•</span> Vários ambientes, permitindo adaptações
@@ -34,8 +34,8 @@ export function Plantas() {
             list={
               <List>
                 <ListItem>
-                  <span>•</span> 3 quartos, 1 suite, sala, cozinha conceito
-                  aberto e ampla área de lazer/lavanderia
+                  <span>•</span> 3 quartos, uma suíte, sala e cozinha em
+                  conceito aberto e ampla área de lazer/lavanderia
                 </ListItem>
                 <ListItem>
                   <span>•</span> Projeto potencializa o uso do lote, focando no

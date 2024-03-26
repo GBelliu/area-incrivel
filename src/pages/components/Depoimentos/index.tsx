@@ -26,6 +26,7 @@ export function Depoimentos({ empreendimento }: DepoimentosProps) {
               text={item.text}
               nameDepoimento={item.name}
               imgDepoimento={item.img}
+              subDepoimento={item.sub}
             />
           ))}
         </Cards>

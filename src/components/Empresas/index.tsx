@@ -24,7 +24,7 @@ export function Empresas() {
               Alinhado às novas práticas de sustentabilidade, o condomínio
               oferece diferenciais ambientais, sendo um deles a geração de
               energia solar limpa e renovável, por meio da parceria com a
-              emrpesa Energia Amiga, que também compõe o Grupo MNGT.
+              empresa Energia Amiga, que também compõe o Grupo MNGT.
             </p>
           </EnergiaAmigaContent>
           <LarNoCelularContent>
@@ -44,7 +44,7 @@ export function Empresas() {
               A Lar Incrível é uma construtora comprometida com a inovaçao, seja
               no método construtivo ou na forma de entregar projetos, que podem
               ser customizados pelos compradores. A Lar Incrível tem know-how de
-              mais de 20 anos de experiência na construção de galões para
+              mais de 20 anos de experiência na construção de galpões para
               logística e, agora, usa essa expertise na habitaçao com
               tecnologias sustentáveis, menos poluentes, ágeis e muito mais
               acessíveis à população.

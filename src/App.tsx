@@ -33,7 +33,7 @@ function App() {
       />
       {/* <PorqueArea /> */}
       <Sobre />
-      <Garantia />
+      {/* <Garantia /> */}
       <GrupoMNGT />
       <Contato />
       <Footer />
