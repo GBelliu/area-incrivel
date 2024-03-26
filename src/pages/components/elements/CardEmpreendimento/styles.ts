@@ -49,12 +49,33 @@ export const Content = styled.div`
 
 export const ImageBox = styled.div`
   width: 100%;
-  height: fit-content;
+  height: 150px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.03) translateZ(0px);
+  }
 
   img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+  }
+`;
+
+export const TextImg = styled.div`
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+  span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #282828;
   }
 `;
 
@@ -155,6 +176,7 @@ export const ModalWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 99;
 `;
 
 export const ModalContent = styled.div`
@@ -163,6 +185,7 @@ export const ModalContent = styled.div`
   border-radius: 5px;
   width: 50%;
 
+  position: relative;
   img {
     width: 100%;
   }

@@ -12,6 +12,7 @@ import {
   ImageBox,
   ModalContent,
   ModalWrapper,
+  TextImg,
 } from "./styles";
 import { useTheme } from "../../../ThemeContext";
 import { X } from "lucide-react";
@@ -23,21 +24,23 @@ interface CardEmpreendimentoProps {
   type?: string;
   linkButton?: string;
   img?: string;
+  imgModal?: string;
 }
 
 export function CardEmpreendimento({
   title,
   preco,
   img,
+  imgModal,
   type,
   linkButton,
 }: CardEmpreendimentoProps) {
   const theme = useTheme();
   const [isOpen, setIsOpen] = useState(false);
   const [modalImg, setModalImg] = useState("");
-  const openModal = (img: any) => {
+  const openModal = (imgModal: any) => {
     setIsOpen(true);
-    setModalImg(img);
+    setModalImg(imgModal);
   };
 
   const closeModal = () => {
@@ -61,8 +64,12 @@ export function CardEmpreendimento({
           <p>SAIBA MAIS SOBRE ESSA OPÇÃO</p>
         </ContentTextInfo>
         <Divider theme={theme} />
-
-        <img src={img} onClick={() => openModal(img)}></img>
+        <ImageBox onClick={() => openModal(imgModal)}>
+          <img src={img} />
+          <TextImg>
+            <span>Clique e saiba +</span>
+          </TextImg>
+        </ImageBox>
       </Content>
       <ContentButton>
         <ButtonCard href={linkButton} theme={theme}>

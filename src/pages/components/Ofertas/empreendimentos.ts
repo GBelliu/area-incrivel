@@ -7,7 +7,7 @@ export const empreendimentos: any = {
         list: [
           "É composta por 02 dormitórios, sala de estar, sala de jantar, banheiro, lavanderia, cozinha, varanda e garagem, totalizando 55,65 m²",
         ],
-        img: "/dn1/plantas/PLANTAA.png",
+        planta: "/dn1/plantas/PLANTAA.png",
         modal: "/dn1/modal/TIPOA.jpg",
       },
       {
@@ -16,7 +16,7 @@ export const empreendimentos: any = {
         list: [
           "É composta por 03 dormitórios ou 02 dormitórios mais home-office, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, pátio descoberto, corredor, varanda coberta e garagem, totalizando 59,66 m²",
         ],
-        img: "/dn1/plantas/PLANTAB.png",
+        planta: "/dn1/plantas/PLANTAB.png",
         modal: "/dn1/modal/TIPOB.jpg",
       },
       {
@@ -25,7 +25,7 @@ export const empreendimentos: any = {
         list: [
           "É composta por 03 dormitórios ou 02 dormitórios mais home-office, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, pátio descoberto, corredor, varanda coberta e garagem, totalizando 65,01 m²",
         ],
-        img: "/dn1/plantas/PLANTAC.png",
+        planta: "/dn1/plantas/PLANTAC.png",
         modal: "/dn1/modal/TIPOC.jpg",
       },
       {
@@ -34,7 +34,7 @@ export const empreendimentos: any = {
         list: [
           "Composta por 03 dormitórios ou 02 dormitórios mais home-office, cozinha, sala de jantar e sala de estar, banheiro, banheiro suíte (É composta por 02 dormitórios, sendo 01 suíte), área de serviços, pátio descoberto, corredor, varanda coberta e garagem, totalizando 70,47 m²",
         ],
-        img: "/dn1/plantas/PLANTAD.png",
+        planta: "/dn1/plantas/PLANTAD.png",
         modal: "/dn1/modal/TIPOD.jpg",
       },
       {
@@ -43,7 +43,7 @@ export const empreendimentos: any = {
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar integrados, banheiro, corredor e garagem, totalizando 56,84 m²",
         ],
-        img: "/dn1/plantas/PLANTAE.png",
+        planta: "/dn1/plantas/PLANTAE.png",
         modal: "/dn1/modal/TIPOE.jpg",
       },
       {
@@ -52,7 +52,7 @@ export const empreendimentos: any = {
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar, banheiro, banheiro suíte (É composta por 02 dormitórios, sendo 01 suíte), área de serviços, pátio descoberto, varanda coberta e garagem, totalizando 57,05 m²",
         ],
-        img: "/dn1/plantas/PLANTAFG.png",
+        planta: "/dn1/plantas/PLANTAFG.png",
         modal: "/dn1/modal/TIPOF.jpg",
       },
       {
@@ -61,7 +61,7 @@ export const empreendimentos: any = {
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar, banheiro, banheiro suíte (É composta por 02 dormitórios, sendo 01 suíte), área de serviços, pátio descoberto, varanda coberta e garagem para 01 veículo, totalizando 57,05 m²",
         ],
-        img: "/dn1/plantas/PLANTAFG.png",
+        planta: "/dn1/plantas/PLANTAFG.png",
         modal: "/dn1/modal/TIPOG.jpg",
       },
       {
@@ -70,7 +70,7 @@ export const empreendimentos: any = {
         list: [
           "Composta por 03 dormitórios ou 02 dormitórios mais home-office, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, pátio descoberto, corredor, varanda coberta e garagem, totalizando 63,28 m²",
         ],
-        img: "/dn1/plantas/PLANTAH.png",
+        planta: "/dn1/plantas/PLANTAH.png",
         modal: "/dn1/modal/TIPOH.jpg",
       },
       {
@@ -79,7 +79,7 @@ export const empreendimentos: any = {
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar integrados, banheiro, corredor e garagem, totalizando 43,36 m²",
         ],
-        img: "/dn1/plantas/PLANTAI.png",
+        planta: "/dn1/plantas/PLANTAI.png",
         modal: "/dn1/modal/TIPOI.jpg",
       },
       {
@@ -88,7 +88,7 @@ export const empreendimentos: any = {
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, pátio descoberto, varanda coberta e garagem, totalizando 53,26 m²",
         ],
-        img: "/dn1/plantas/PLANTAJK.png",
+        planta: "/dn1/plantas/PLANTAJK.png",
         modal: "/dn1/modal/TIPOJ.jpg",
       },
       {
@@ -97,7 +97,7 @@ export const empreendimentos: any = {
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, pátio descoberto, varanda coberta e garagem, totalizando 53,26 m²",
         ],
-        img: "/dn1/plantas/PLANTAJK.png",
+        planta: "/dn1/plantas/PLANTAJK.png",
         modal: "/dn1/modal/TIPOK.jpg",
       },
       {
@@ -106,7 +106,7 @@ export const empreendimentos: any = {
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, varanda coberta e garagem, totalizando 46,55 m²",
         ],
-        img: "/dn1/plantas/PLANTAL.png",
+        planta: "/dn1/plantas/PLANTAL.png",
         modal: "/dn1/modal/TIPOL.jpg",
       },
     ],
