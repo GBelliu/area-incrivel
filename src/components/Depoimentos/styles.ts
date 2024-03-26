@@ -91,3 +91,14 @@ export const TestemonialCard = styled.div`
     justify-content: center;
   }
 `;
+
+export const Iframe = styled.div`
+  width: 100%;
+  height: 450px;
+
+  iframe {
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+  }
+`;

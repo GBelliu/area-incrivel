@@ -24,7 +24,7 @@ function App() {
       {/* <Apresentacao /> */}
       <Empreendimentos />
 
-      {/* <Depoimentos /> */}
+      <Depoimentos />
 
       <Empresas />
       <Redes

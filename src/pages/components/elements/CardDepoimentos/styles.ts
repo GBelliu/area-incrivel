@@ -61,3 +61,14 @@ export const Sub = styled.div`
   font-weight: 700;
   color: #00000050;
 `;
+
+export const Iframe = styled.div`
+  width: 100%;
+  height: 250px;
+
+  iframe {
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+  }
+`;

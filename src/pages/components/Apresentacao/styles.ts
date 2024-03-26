@@ -71,7 +71,7 @@ export const Content = styled.div`
   }
 `;
 
-export const Button = styled.button`
+export const Button = styled.a`
   display: flex;
   align-items: center;
   text-align: center;

@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 
 import {
   Container,
+  Iframe,
   Name,
   PersonDetails,
   ProfileDescription,
@@ -16,6 +17,7 @@ interface CardDepoimentosProps {
   imgDepoimento?: string;
   nameDepoimento: string;
   subDepoimento?: string;
+  iframe?: ReactNode;
 }
 
 export function CardDepoimentos({
@@ -23,10 +25,12 @@ export function CardDepoimentos({
   imgDepoimento,
   nameDepoimento,
   subDepoimento,
+  iframe,
 }: CardDepoimentosProps) {
   const theme = useTheme();
   return (
     <Container theme={theme}>
+      <Iframe>{iframe}</Iframe>
       <Text>"{text}"</Text>
       <PersonDetails>
         <ProfileImage>

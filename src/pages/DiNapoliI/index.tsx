@@ -73,18 +73,30 @@ export function DiNapoliI() {
           linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1%21+Tudo+bem%3F"
         />
 
-        {/* <Apresentacao
+        <Apresentacao
           iframe={
             <iframe
               width="100%"
-              src="https://www.youtube.com/embed/-2bUkkL6CX8"
-              title="Apresentação do Centro Logístico Rio Claro"
+              src="https://www.youtube.com/embed/lzeoH57yFck"
+              title="Conheça a casa do Di Napoli I"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
             ></iframe>
           }
+          // iframe={
+          //   <iframe
+          //     width="100%"
+          //     src="https://www.youtube.com/embed/LwuLEmqY1Xc"
+          //     title="Como é a vida no Recanto Paraiso em Rio Claro - SP?"
+          //     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          //     allowFullScreen
+          //   ></iframe>
+          // }
           empreendimento={empreendimento}
-        /> */}
+          apresentacao="/dn1/apresentacaodn1.pdf"
+        />
         <Ofertas
           empreendimento="dinapoli1"
           linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1%21+Tudo+bem%3F"

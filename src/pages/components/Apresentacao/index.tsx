@@ -7,9 +7,14 @@ import { useTheme } from "../../ThemeContext";
 interface ApresentacaoProps {
   iframe?: ReactNode;
   empreendimento?: string;
+  apresentacao?: string;
 }
 
-export function Apresentacao({ iframe, empreendimento }: ApresentacaoProps) {
+export function Apresentacao({
+  iframe,
+  empreendimento,
+  apresentacao,
+}: ApresentacaoProps) {
   const theme = useTheme();
   return (
     <Container id="apresentacao">
@@ -20,7 +25,8 @@ export function Apresentacao({ iframe, empreendimento }: ApresentacaoProps) {
 
         <ContentApresentacao>
           {iframe}
-          <Button>
+
+          <Button href={apresentacao} target="_blank">
             <Download size={25} color="#FFF" />
             Baixar apresentação
           </Button>

@@ -5,6 +5,7 @@ import {
   Container,
   Content,
   FlexContent,
+  Iframe,
   TestemonialCard,
 } from "./styles";
 
@@ -14,7 +15,7 @@ export function Depoimentos() {
       <Content>
         <h1>Depoimentos</h1>
         <FlexContent>
-          <Column>
+          {/* <Column>
             <TestemonialCard>
               <img src="depo1.png" alt="" />
             </TestemonialCard>
@@ -37,7 +38,25 @@ export function Depoimentos() {
             <TestemonialCard>
               <img src="depo6.png" alt="" />
             </TestemonialCard>
-          </Column>
+          </Column> */}
+          <Iframe>
+            <iframe
+              width="100%"
+              src="https://www.youtube.com/embed/VlG1ZN_yhVg"
+              title="Amanda adquiriu a casa própria com a Área Incrível"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </Iframe>
+          <Iframe>
+            <iframe
+              width="100%"
+              src="https://www.youtube.com/embed/gILJtGUXq7c"
+              title="Filipe e Yara adquiriram a casa própria com a Área Incrível"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </Iframe>
         </FlexContent>
       </Content>
     </Container>
