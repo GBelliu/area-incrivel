@@ -35,7 +35,7 @@ export const ModalContent = styled.div`
   }
   @media (max-width: 767px) {
     padding: 10px;
-    width: 300px;
+    width: 370px;
   }
 `;
 
