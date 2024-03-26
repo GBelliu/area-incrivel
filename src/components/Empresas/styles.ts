@@ -83,19 +83,19 @@ export const Content = styled.div`
 
 export const ContentEmpresas = styled.div`
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   width: 100%;
   height: 100%;
-  justify-content: center;
+  justify-content: space-between;
   gap: 25px;
   img {
-    height: 70px;
+    width: 200px;
   }
   h2 {
     font-size: 24px;
     color: #030303;
     font-weight: 600;
+    text-align: center;
   }
 
   p {
@@ -104,11 +104,14 @@ export const ContentEmpresas = styled.div`
     font-weight: 500;
     text-align: center;
   }
+
+  @media (max-width: 1023px) {
+    flex-wrap: wrap;
+  }
 `;
 
 export const LarIncrivelContent = styled.div`
   width: 100%;
-  max-width: 450px;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -123,7 +126,7 @@ export const LarIncrivelContent = styled.div`
 `;
 export const EnergiaAmigaContent = styled.div`
   width: 100%;
-  max-width: 450px;
+
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -138,7 +141,7 @@ export const EnergiaAmigaContent = styled.div`
 `;
 export const LarNoCelularContent = styled.div`
   width: 100%;
-  max-width: 450px;
+
   display: flex;
   flex-flow: column;
   align-items: center;

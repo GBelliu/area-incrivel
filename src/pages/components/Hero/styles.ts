@@ -12,7 +12,7 @@ export const Container = styled.div`
   position: relative;
   overflow: hidden;
   padding: 120px 0 50px 0;
-  background: linear-gradient(#28282860, #282828);
+  background: linear-gradient(#28282800, #282828);
   /* background: #33333365; */
   > img {
     position: absolute;

@@ -106,7 +106,7 @@ export function DiNapoliI() {
           empreendimentoItens="dinapoli1"
         />
 
-        <EA />
+        {/* <EA /> */}
         <SobreArea />
 
         <Redes

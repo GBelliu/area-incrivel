@@ -27,16 +27,6 @@ export function Empresas() {
               empresa Energia Amiga, que também compõe o Grupo MNGT.
             </p>
           </EnergiaAmigaContent>
-          <LarNoCelularContent>
-            <img src="larnocellogo.png" alt="" />
-            <h2>Automação Residencial</h2>{" "}
-            <p>
-              Com a automação residencial mais acessível do mercado, sua casa
-              terá segurança com monitoramento interno e externo por câmeras,
-              controle de eletroeletrônicos domésticos de qualquer lugar, via
-              celular. A automação valoriza seu imóvel em pelo menos 20%.
-            </p>
-          </LarNoCelularContent>
           <LarIncrivelContent>
             <img src="logolar.png" alt="" />
             <h2>Lar Incrivel: Construtora</h2>{" "}
@@ -50,6 +40,17 @@ export function Empresas() {
               acessíveis à população.
             </p>
           </LarIncrivelContent>
+
+          <LarNoCelularContent>
+            <img src="larnocellogo.png" alt="" />
+            <h2>Automação Residencial</h2>{" "}
+            <p>
+              Com a automação residencial mais acessível do mercado, sua casa
+              terá segurança com monitoramento interno e externo por câmeras,
+              controle de eletroeletrônicos domésticos de qualquer lugar, via
+              celular. A automação valoriza seu imóvel em pelo menos 20%.
+            </p>
+          </LarNoCelularContent>
         </ContentEmpresas>
       </Content>
 
