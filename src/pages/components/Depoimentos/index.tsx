@@ -25,7 +25,6 @@ export function Depoimentos({ empreendimento }: DepoimentosProps) {
             <CardDepoimentos
               text={item.text}
               nameDepoimento={item.name}
-              imgDepoimento={item.img}
               subDepoimento={item.sub}
               iframe={item.iframe}
             />
