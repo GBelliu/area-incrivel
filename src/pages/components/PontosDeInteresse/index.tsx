@@ -26,7 +26,7 @@ export function PontosDeInteresse({
     <Container id="apresentacao">
       <Content theme={theme}>
         <h1>
-          Pontos importante da <span>região</span>?
+          Pontos importantes da <span>região</span>?
         </h1>
 
         <ContentPontos>
