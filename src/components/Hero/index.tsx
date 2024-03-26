@@ -14,7 +14,7 @@ export function Hero() {
   return (
     <Container id="home">
       <video id="bgVideo" preload="true" autoPlay loop muted>
-        <source src="./background.mp4" type="video/mp4" />
+        <source src="./backgroundai.mp4" type="video/mp4" />
       </video>
       <Content>
         <ContentText>

@@ -46,6 +46,18 @@ export const Content = styled.div`
   gap: 20px;
   padding: 35px 30px 50px 30px;
 `;
+
+export const ImageBox = styled.div`
+  width: 100%;
+  height: fit-content;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+`;
+
 export const ContentTextInfo = styled.div`
   width: 100%;
   display: flex;
@@ -126,4 +138,41 @@ export const ButtonCard = styled.a`
   &:hover {
     transform: scale(1.03) translateZ(0px);
   }
+`;
+
+export const ModalWrapper = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* fundo escuro para criar o efeito de modal */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const ModalContent = styled.div`
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+
+  img {
+    width: 100%;
+  }
+`;
+
+export const CloseButton = styled.button`
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
 `;

@@ -23,7 +23,7 @@ export const Container = styled.div<ContainerProps>`
 export const Blur = styled.div`
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(7px);
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.2);
   height: 100%;
   width: 100%;
   position: absolute;
@@ -42,7 +42,7 @@ export const Content = styled.div`
   gap: 30px;
   z-index: 2;
   h1 {
-    color: #282828;
+    color: #fff;
     span {
       color: ${(props) => props.theme.primaryColor};
     }

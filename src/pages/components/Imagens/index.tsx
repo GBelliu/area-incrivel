@@ -6,6 +6,7 @@ import {
   Content,
   OptionsContent,
   Option,
+  LoadMoreButton,
 } from "./styles";
 import { useTheme } from "../../ThemeContext";
 import { imagens } from "./imagens";
@@ -31,13 +32,36 @@ export function Imagens({ empreendimento }: ImagensProps) {
   const [tipoSelecionado, setTipoSelecionado] = useState<any>(
     String(Object.keys(imagens?.[empreendimento])[0])
   );
+  const [imagensExibidas, setImagensExibidas] = useState<string[]>([]);
+  const [loadedImages, setLoadedImages] = useState<number>(4);
 
   useEffect(() => {
-    setTipoSelecionado(String(Object.keys(imagens?.[empreendimento])[0]));
+    if (empreendimento && imagens[empreendimento]) {
+      const tipos = Object.keys(imagens[empreendimento]);
+      setTipoSelecionado(tipos[0]); // Seleciona o primeiro tipo de imagem por padrão
+      setImagensExibidas(
+        imagens[empreendimento][tipos[0]].slice(0, loadedImages)
+      );
+    }
   }, [empreendimento]);
 
-  console.log(imagens?.[empreendimento]);
+  const handleLoadMore = () => {
+    setLoadedImages((prevCount) => prevCount + 4);
+  };
 
+  const handleTipoSelecionado = (tipo: string) => {
+    setTipoSelecionado(tipo);
+    setLoadedImages(4); // Reseta o contador de imagens ao mudar o tipo selecionado
+    setImagensExibidas(imagens[empreendimento][tipo].slice(0, 4));
+  };
+
+  useEffect(() => {
+    if (empreendimento && tipoSelecionado) {
+      setImagensExibidas(
+        imagens[empreendimento][tipoSelecionado].slice(0, loadedImages)
+      );
+    }
+  }, [empreendimento, tipoSelecionado, loadedImages]);
   return (
     <Container>
       <Content theme={theme}>
@@ -45,11 +69,11 @@ export function Imagens({ empreendimento }: ImagensProps) {
           Confira mais imagens do seu <span>futuro imóvel</span>!
         </h1>
         <OptionsContent>
-          {Object.keys(imagens?.[empreendimento])?.map((key) => {
+          {Object.keys(imagens?.[empreendimento] || {})?.map((key) => {
             return (
               <Option
                 onClick={() => {
-                  setTipoSelecionado(key);
+                  handleTipoSelecionado(key);
                 }}
                 theme={theme}
                 selected={key === tipoSelecionado}
@@ -60,10 +84,15 @@ export function Imagens({ empreendimento }: ImagensProps) {
           })}
         </OptionsContent>
         <CardsContent>
-          {imagens?.[empreendimento]?.[tipoSelecionado].map((item: any) => {
-            return <img key={item} src={item} alt="" />;
-          })}
+          {imagensExibidas.map((item: string) => (
+            <img key={item} src={item} alt="" />
+          ))}
         </CardsContent>
+        {imagens[empreendimento]?.[tipoSelecionado]?.length > loadedImages && (
+          <LoadMoreButton onClick={handleLoadMore}>
+            Carregar mais
+          </LoadMoreButton>
+        )}
       </Content>
     </Container>
   );

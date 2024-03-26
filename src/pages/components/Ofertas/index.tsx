@@ -82,6 +82,7 @@ export function Ofertas({
                   title={item.title}
                   preco={item.preco}
                   linkButton={linkButton}
+                  img={item.planta}
                   list={
                     <List>
                       {item.list.map((itemList: any) => {

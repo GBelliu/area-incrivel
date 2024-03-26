@@ -73,7 +73,7 @@ export function DiNapoliI() {
           linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1%21+Tudo+bem%3F"
         />
 
-        <Apresentacao
+        {/* <Apresentacao
           iframe={
             <iframe
               width="100%"
@@ -84,7 +84,7 @@ export function DiNapoliI() {
             ></iframe>
           }
           empreendimento={empreendimento}
-        />
+        /> */}
         <Ofertas
           empreendimento="dinapoli1"
           linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1%21+Tudo+bem%3F"
@@ -95,7 +95,7 @@ export function DiNapoliI() {
         <Estagio percentageTotal={50} listItems={dataPhase} />
         <Garantia />
 
-        <Depoimentos empreendimento="dinapoli1" />
+        {/* <Depoimentos empreendimento="dinapoli1" /> */}
         <Imagens empreendimento="dinapoli1" />
         <PontosDeInteresse
           empreendimento="Di Napoli I"

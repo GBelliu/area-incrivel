@@ -21,10 +21,10 @@ function App() {
       <Header />
       <Hero />
       <Numeros />
-      <Apresentacao />
+      {/* <Apresentacao /> */}
       <Empreendimentos />
 
-      <Depoimentos />
+      {/* <Depoimentos /> */}
 
       <Empresas />
       <Redes
