@@ -110,29 +110,67 @@ export const Option = styled.div<OptionProps>`
     `}
 `;
 
-export const LeftImg = styled.div`
-  position: absolute;
-  bottom: -7px;
-  left: 0;
+// export const LeftImg = styled.div`
+//   position: absolute;
+//   bottom: -7px;
+//   left: 0;
 
-  img {
-    svg {
-      .shirt {
-        fill: red;
-      }
-    }
+//   img {
+//     svg {
+//       .shirt {
+//         fill: red;
+//       }
+//     }
+//   }
+// `;
+// export const RightImg = styled.div`
+//   position: absolute;
+//   bottom: -7px;
+//   right: 0;
+
+//   img {
+//     svg {
+//       .shirt {
+//         fill: red;
+//       }
+//     }
+//   }
+// `;
+
+export const LoadMoreButton = styled.button`
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: fit-content;
+  width: fit-content;
+  padding: 15px 20px;
+  background-color: ${(props) => props.theme.primaryColor};
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  gap: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.2s ease-in-out;
+  &:active {
+    transform: scale(0.95) translateZ(0px) !important;
   }
-`;
-export const RightImg = styled.div`
-  position: absolute;
-  bottom: -7px;
-  right: 0;
 
-  img {
-    svg {
-      .shirt {
-        fill: red;
-      }
-    }
+  &:hover {
+    transform: scale(1.03) translateZ(0px);
+  }
+
+  @media (max-width: 1750px) {
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    padding: 15px 20px;
+  }
+  @media (max-width: 767px) {
+    padding: 15px 20px;
+    font-size: 18px;
   }
 `;
