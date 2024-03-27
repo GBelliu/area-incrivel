@@ -1,7 +1,7 @@
 import { ReactNode, useState } from "react";
 import { Link } from "react-scroll";
 import { slide as Menu } from "react-burger-menu";
-import { Container, Content } from "./styles";
+import { ButtonHeader, Container, Content } from "./styles";
 
 export function Header() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
@@ -31,18 +31,110 @@ export function Header() {
           onOpen={() => setIsOpenMenu(true)}
           onClose={() => setIsOpenMenu(false)}
         >
-          <Link to="form" href="/" smooth={true} duration={500} offset={-100}>
+          <Link to="home" href="/" smooth={true} duration={500} offset={-100}>
             Home
           </Link>
-          <Link to="form" href="/" smooth={true} duration={500} offset={-100}>
+          <Link
+            to="numeros"
+            href="/"
+            smooth={true}
+            duration={500}
+            offset={-100}
+          >
+            Nossos números
+          </Link>
+          <Link to="sobre" href="/" smooth={true} duration={500} offset={-100}>
             Sobre
           </Link>
-          <Link to="form" href="/" smooth={true} duration={500} offset={-100}>
-            Produtos
+          <Link
+            to="empreendimento"
+            href="/"
+            smooth={true}
+            duration={500}
+            offset={-100}
+          >
+            Empreendimento
           </Link>
-          <Link to="form" href="/" smooth={true} duration={500} offset={-100}>
-            Contato
+          <Link
+            to="ofertas"
+            href="/"
+            smooth={true}
+            duration={500}
+            offset={-100}
+          >
+            Ofertas
           </Link>
+          <Link
+            to="parceiras"
+            href="/"
+            smooth={true}
+            duration={500}
+            offset={-100}
+          >
+            Empresas parceiras
+          </Link>
+          <Link
+            to="estagio"
+            href="/"
+            smooth={true}
+            duration={500}
+            offset={-100}
+          >
+            Estágio da Obra
+          </Link>
+          <Link
+            to="garantia"
+            href="/"
+            smooth={true}
+            duration={500}
+            offset={-100}
+          >
+            Garantia de Entrega
+          </Link>
+          <Link
+            to="depoimentos"
+            href="/"
+            smooth={true}
+            duration={500}
+            offset={-100}
+          >
+            Depoimentos
+          </Link>
+          <Link
+            to="imagens"
+            href="/"
+            smooth={true}
+            duration={500}
+            offset={-100}
+          >
+            Imagens
+          </Link>
+          <Link to="pontos" href="/" smooth={true} duration={500} offset={-100}>
+            Pontos da Região
+          </Link>
+
+          <Link
+            to="porquearea"
+            href="/"
+            smooth={true}
+            duration={500}
+            offset={-100}
+          >
+            Por que a Área?
+          </Link>
+          <Link to="redes" href="/" smooth={true} duration={500} offset={-100}>
+            Redes Sociais
+          </Link>
+          <Link to="grupo" href="/" smooth={true} duration={500} offset={-100}>
+            Grupo MNGT
+          </Link>
+          <a
+            href="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1%21+Tudo+bem%3F"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ButtonHeader>Fale conosco!</ButtonHeader>
+          </a>
         </Menu>
       </Content>
     </Container>
