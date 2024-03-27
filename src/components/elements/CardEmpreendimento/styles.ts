@@ -108,7 +108,7 @@ export const ContentButton = styled.div`
   }
 `;
 
-export const ButtonCard = styled.button`
+export const ButtonCard = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;

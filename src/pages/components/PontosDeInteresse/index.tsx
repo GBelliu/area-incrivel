@@ -11,7 +11,7 @@ import {
 } from "./styles";
 import { Download, CircleCheck } from "lucide-react";
 import { useTheme } from "../../ThemeContext";
-import { pontos } from "./pontos";
+import { pontos } from "../../utils/pontos";
 
 interface PontosDeInteresseProps {
   empreendimento?: string;

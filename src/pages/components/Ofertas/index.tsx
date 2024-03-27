@@ -12,7 +12,7 @@ import {
 import { useTheme } from "../../ThemeContext";
 import { CardEmpreendimento } from "../elements/CardEmpreendimento";
 import { List, ListItem } from "../elements/CardEmpreendimento/styles";
-import { empreendimentos } from "./empreendimentos";
+import { empreendimentos } from "../../utils/empreendimentos";
 
 interface OfertasProps {
   empreendimento: string;

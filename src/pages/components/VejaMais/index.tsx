@@ -11,7 +11,8 @@ import {
   Sun,
 } from "lucide-react";
 import { useTheme } from "../../ThemeContext";
-import { itensVejaMais } from "./items";
+import { itensVejaMais } from "../../utils/items";
+
 interface VejaMaisProps {
   empreendimento: string;
   empreendimentoItens: string;

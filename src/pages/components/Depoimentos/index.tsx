@@ -5,7 +5,7 @@ import { CardPontos } from "../elements/CardPontos";
 import { Home } from "lucide-react";
 import { CardDepoimentos } from "../elements/CardDepoimentos";
 import { useTheme } from "../../ThemeContext";
-import { depoimentos } from "./depoimentos";
+import { depoimentos } from "../../utils/depoimentos";
 
 interface DepoimentosProps {
   empreendimento: string;

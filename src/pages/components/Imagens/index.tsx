@@ -9,8 +9,9 @@ import {
   LoadMoreButton,
 } from "./styles";
 import { useTheme } from "../../ThemeContext";
-import { imagens } from "./imagens";
+
 import { ModalEmpreendimentos } from "../elements/ModalEmpreendimentos";
+import { imagens } from "../../utils/imagens";
 
 interface ImagensProps {
   empreendimento: string;

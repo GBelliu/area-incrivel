@@ -38,12 +38,12 @@ export function CardEmpreendimento({
         {list}
       </Content>
       <ContentButton>
-        <a
+        <ButtonCard
           href="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1%21+Tudo+bem%3F"
           target="_blank"
         >
-          <ButtonCard>Tenho interesse</ButtonCard>
-        </a>
+          Tenho interesse
+        </ButtonCard>
       </ContentButton>
     </Container>
   );
