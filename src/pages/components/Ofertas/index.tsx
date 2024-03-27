@@ -16,7 +16,6 @@ import { empreendimentos } from "../../utils/empreendimentos";
 
 interface OfertasProps {
   empreendimento: string;
-  linkButton: string;
   background?: string;
 }
 
@@ -34,7 +33,7 @@ interface Empreendimentos {
 
 export function Ofertas({
   empreendimento,
-  linkButton,
+
   background,
 }: OfertasProps) {
   const theme = useTheme();
@@ -108,7 +107,7 @@ export function Ofertas({
                 key={item}
                 title={item.title}
                 preco={item.preco}
-                linkButton={linkButton}
+                linkButton={item.link}
                 img={item.planta}
                 imgModal={item.modal}
                 list={

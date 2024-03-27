@@ -104,7 +104,7 @@ export function Header() {
             Grupo MNGT
           </Link>
           <a
-            href="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1%21+Tudo+bem%3F"
+            href="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20os%20empreendimentos%20da%20%C3%81rea%20Incr%C3%ADvel!"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -18,7 +18,7 @@ export function Explore({ empreendimento, iframe }: ExploreProps) {
         </h1>
         <Content3D>{iframe}</Content3D>
         <a
-          href="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1%21+Tudo+bem%3F"
+          href="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20I"
           target="_blank"
         >
           <Button theme={theme}>Quero conhecer mais</Button>

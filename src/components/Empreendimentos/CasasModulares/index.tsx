@@ -16,6 +16,7 @@ export function CasasModulares() {
           <CardEmpreendimento
             title="casas de 24m2"
             preco="R$641,00"
+            linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20modulares%20de%2024m%C2%B2"
             list={
               <List>
                 <ListItem>
@@ -33,6 +34,7 @@ export function CasasModulares() {
           <CardEmpreendimento
             title="casas de 36m2"
             preco="R$740,00"
+            linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20modulares%20de%2036m%C2%B2"
             list={
               <List>
                 <ListItem>
@@ -50,6 +52,7 @@ export function CasasModulares() {
           <CardEmpreendimento
             title="casas de 48m2"
             preco="R$927,00"
+            linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20modulares%20de%2048m%C2%B2"
             list={
               <List>
                 <ListItem>
@@ -67,6 +70,7 @@ export function CasasModulares() {
           <CardEmpreendimento
             title="casas de 55m2"
             preco="R$1.127,00"
+            linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20modulares%20de%2055m%C2%B2"
             list={
               <List>
                 <ListItem>

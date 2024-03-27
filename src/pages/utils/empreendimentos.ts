@@ -4,6 +4,7 @@ export const empreendimentos: any = {
       {
         title: "casas - tipo a",
         preco: "R$ 1.500,00",
+        link: "https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20tipo%20A,%20do%20Di%20Napoli%20I",
         list: [
           "É composta por 02 dormitórios, sala de estar, sala de jantar, banheiro, lavanderia, cozinha, varanda e garagem, totalizando 55,65 m²",
         ],
@@ -15,6 +16,7 @@ export const empreendimentos: any = {
       {
         title: "casas - tipo b",
         preco: "R$ 1.650,00",
+        link: "https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20tipo%20B,%20do%20Di%20Napoli%20I",
         list: [
           "É composta por 03 dormitórios ou 02 dormitórios mais home-office, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, pátio descoberto, corredor, varanda coberta e garagem, totalizando 59,66 m²",
         ],
@@ -26,6 +28,7 @@ export const empreendimentos: any = {
       {
         title: "casas - tipo c",
         preco: "R$ 1.750,00",
+        link: "https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20tipo%20C,%20do%20Di%20Napoli%20I",
         list: [
           "É composta por 03 dormitórios ou 02 dormitórios mais home-office, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, pátio descoberto, corredor, varanda coberta e garagem, totalizando 65,01 m²",
         ],
@@ -37,6 +40,7 @@ export const empreendimentos: any = {
       {
         title: "casas - tipo d",
         preco: "R$ 1.805,00",
+        link: "https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20tipo%20D,%20do%20Di%20Napoli%20I",
         list: [
           "Composta por 03 dormitórios ou 02 dormitórios mais home-office, cozinha, sala de jantar e sala de estar, banheiro, banheiro suíte (É composta por 02 dormitórios, sendo 01 suíte), área de serviços, pátio descoberto, corredor, varanda coberta e garagem, totalizando 70,47 m²",
         ],
@@ -48,6 +52,7 @@ export const empreendimentos: any = {
       {
         title: "casas - tipo e",
         preco: "R$ 1.620,00",
+        link: "https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20tipo%20E,%20do%20Di%20Napoli%20I",
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar integrados, banheiro, corredor e garagem, totalizando 56,84 m²",
         ],
@@ -59,6 +64,7 @@ export const empreendimentos: any = {
       {
         title: "casas - tipo f",
         preco: "R$ 1.620,00",
+        link: "https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20tipo%20F,%20do%20Di%20Napoli%20I",
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar, banheiro, banheiro suíte (É composta por 02 dormitórios, sendo 01 suíte), área de serviços, pátio descoberto, varanda coberta e garagem, totalizando 57,05 m²",
         ],
@@ -70,6 +76,7 @@ export const empreendimentos: any = {
       {
         title: "casas - tipo g",
         preco: "R$ 1.620,00",
+        link: "https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20tipo%20G,%20do%20Di%20Napoli%20I",
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar, banheiro, banheiro suíte (É composta por 02 dormitórios, sendo 01 suíte), área de serviços, pátio descoberto, varanda coberta e garagem para 01 veículo, totalizando 57,05 m²",
         ],
@@ -81,6 +88,7 @@ export const empreendimentos: any = {
       {
         title: "casas - tipo h",
         preco: "R$ 1.680,00",
+        link: "https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20tipo%20H,%20do%20Di%20Napoli%20I",
         list: [
           "Composta por 03 dormitórios ou 02 dormitórios mais home-office, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, pátio descoberto, corredor, varanda coberta e garagem, totalizando 63,28 m²",
         ],
@@ -92,6 +100,7 @@ export const empreendimentos: any = {
       {
         title: "casas - tipo i",
         preco: "R$ 1.430,00",
+        link: "https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20tipo%20I,%20do%20Di%20Napoli%20I",
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar integrados, banheiro, corredor e garagem, totalizando 43,36 m²",
         ],
@@ -103,6 +112,7 @@ export const empreendimentos: any = {
       {
         title: "casas - tipo j",
         preco: "R$ 1.560,00",
+        link: "https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20tipo%20J,%20do%20Di%20Napoli%20I",
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, pátio descoberto, varanda coberta e garagem, totalizando 53,26 m²",
         ],
@@ -114,6 +124,7 @@ export const empreendimentos: any = {
       {
         title: "casas - tipo k",
         preco: "R$ 1.560,00",
+        link: "https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20tipo%20K,%20do%20Di%20Napoli%20I",
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, pátio descoberto, varanda coberta e garagem, totalizando 53,26 m²",
         ],
@@ -125,6 +136,7 @@ export const empreendimentos: any = {
       {
         title: "casas - tipo l",
         preco: "R$ 1.470,00",
+        link: "https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20tipo%20L,%20do%20Di%20Napoli%20I",
         list: [
           "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, varanda coberta e garagem, totalizando 46,55 m²",
         ],

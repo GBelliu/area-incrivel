@@ -16,6 +16,7 @@ export function Plantas() {
           <CardEmpreendimento
             title="casas - 50m2"
             preco="R$1030,00"
+            linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20de%2050m%C2%B2"
             list={
               <List>
                 <ListItem>
@@ -31,6 +32,7 @@ export function Plantas() {
           <CardEmpreendimento
             title="casas - 60m2"
             preco="R$1226,00"
+            linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20de%2060m%C2%B2"
             list={
               <List>
                 <ListItem>
