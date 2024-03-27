@@ -79,7 +79,7 @@ export function DiNapoliII() {
           }
           empreendimento={empreendimento}
         />
-        <Ofertas linkButton="" empreendimento="dinapoli1" />
+        <Ofertas empreendimento="dinapoli1" />
         {/* <ExplicacaoCasas/> */}
         <Empresas />
         <Estagio percentageTotal={50} listItems={dataPhase} />
