@@ -19,7 +19,7 @@ export function Garantia() {
         <ContentGarantia>
           <LeftContent>
             <img
-              src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492252/public/svgaptos_uah1fs.svg"
+              src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492542/public/garantiaimg_qycxvm.jpg"
               alt=""
             />
           </LeftContent>
