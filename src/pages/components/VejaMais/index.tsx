@@ -33,9 +33,14 @@ export function VejaMais({
             return <CardPontos icon={item.icon} title={item.title} />;
           })}
         </Cards>
-        <Button theme={theme}>
-          Quero receber uma simulação de financiamento
-        </Button>
+        <a
+          href="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1%21+Tudo+bem%3F"
+          target="_blank"
+        >
+          <Button theme={theme}>
+            Quero receber uma simulação de financiamento
+          </Button>
+        </a>
       </Content>
     </Container>
   );
