@@ -86,6 +86,12 @@ export const CardsContent = styled.div`
 
 export const OptionsContent = styled.div`
   display: flex;
+
+  @media (max-width: 767px) {
+    flex-flow: column;
+    width: 100%;
+    gap: 25px;
+  }
 `;
 
 interface OptionProps {
@@ -100,6 +106,7 @@ export const Option = styled.div<OptionProps>`
   font-weight: 500;
   border-bottom: 2px solid #acaeb2;
   cursor: pointer;
+  text-align: center;
 
   ${({ selected }) =>
     selected &&
@@ -108,6 +115,10 @@ export const Option = styled.div<OptionProps>`
       border-bottom: 2px solid ${(props) => props.theme.primaryColor};
       font-weight: 700;
     `}
+
+  @media (max-width: 767px) {
+    width: 100%;
+  }
 `;
 
 // export const LeftImg = styled.div`

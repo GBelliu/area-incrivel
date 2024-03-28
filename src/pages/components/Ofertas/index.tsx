@@ -95,7 +95,7 @@ export function Ofertas({
                 theme={theme}
                 selected={key === tipoSelecionado}
               >
-                {key}
+                {key.replace("_", " ")}
               </Option>
             );
           })}

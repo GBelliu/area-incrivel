@@ -34,4 +34,26 @@ export const itensVejaMais: any = {
       icon: <Sparkles size={90} />,
     },
   ],
+  dinapoli2: [
+    {
+      title: "Pet friendly",
+      icon: <Home size={90} />,
+    },
+    {
+      title: "Valor acessível",
+      icon: <LandPlot size={90} />,
+    },
+    {
+      title: "Isolamento termoacústico",
+      icon: <BedDouble size={90} />,
+    },
+    {
+      title: "Seguro",
+      icon: <ShieldCheck size={90} />,
+    },
+    {
+      title: "Sustentável",
+      icon: <Sun size={90} />,
+    },
+  ],
 };

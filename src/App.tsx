@@ -14,8 +14,15 @@ import { Footer } from "./components/Footer";
 import { Empreendimentos } from "./components/Empreendimentos";
 import { PorqueArea } from "./components/PorqueArea";
 import { Empresas } from "./components/Empresas";
+import ReactPixel from "react-facebook-pixel";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    ReactPixel.init("1528293361047131");
+    // Configurações opcionais, como trackCustom, etc.
+  }, []);
+
   return (
     <main>
       <Header />

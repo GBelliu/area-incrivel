@@ -23,7 +23,8 @@ import { EA } from "../components/EA";
 import { PorqueArea } from "../components/PorqueArea";
 import { Empresas } from "../../components/Empresas";
 import { SobreArea } from "../components/SobreArea";
-
+import { Helmet } from "react-helmet";
+import { GrupoMNGT } from "../../components/GrupoMNGT";
 export function DiNapoliII() {
   const dataPhase = [
     {
@@ -47,59 +48,85 @@ export function DiNapoliII() {
   const empreendimento = "Di Napoli II";
   return (
     <ThemeProvider page="dinapoli2">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>AI | Residencial Di Napoli II</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <Container>
         <Header />
         <Hero
           category="lançamento"
-          image="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492175/public/dinapoli1img_utx995.png"
+          image="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492541/public/dn1/fachadadn1_mnz6x0.jpg"
           subname="Condomínio Residencial"
           name={empreendimento}
           description="Casas de 2 ou 3 quartos"
           value="1.030,00"
-          facebook=""
-          instagram=""
+          facebook="https://www.facebook.com/area.incrivelrc"
+          instagram="https://www.instagram.com/dinapoli_residencial/"
           whatsapp=""
-          buttonLink=""
+          buttonLink="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20I"
         />
         <Numeros />
         <Sobre
-          logoEmpreendimento="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492231/public/logodinapoli1_wapdvq.png"
+          logoEmpreendimento="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492231/public/logodinapoli2_wapdvq.png"
           about="Bem-vindo ao Di Napoli II, onde a inovação e o conforto se unem para criar um ambiente excepcional para você e sua família. Inspirado no nome da terceira maior cidade italiana, Napoli, que significa 'cidade nova', nosso condomínio de casas térreas é a representação perfeita de qualidade e modernidade."
+          linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20I"
         />
 
         <Apresentacao
           iframe={
             <iframe
               width="100%"
-              src="https://www.youtube.com/embed/-2bUkkL6CX8"
-              title="Apresentação do Centro Logístico Rio Claro"
+              src="https://www.youtube.com/embed/lzeoH57yFck"
+              title="Conheça a casa do Di Napoli II"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
             ></iframe>
           }
+          // iframe={
+          //   <iframe
+          //     width="100%"
+          //     src="https://www.youtube.com/embed/LwuLEmqY1Xc"
+          //     title="Como é a vida no Recanto Paraiso em Rio Claro - SP?"
+          //     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          //     allowFullScreen
+          //   ></iframe>
+          // }
           empreendimento={empreendimento}
+          apresentacao="/dn1/apresentacaodn1.pdf"
         />
-        <Ofertas empreendimento="dinapoli1" />
+        <Ofertas
+          empreendimento="dinapoli2"
+          background="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492541/public/dn1/fachadadn1_mnz6x0.jpg"
+        />
         {/* <ExplicacaoCasas/> */}
         <Empresas />
         <Estagio percentageTotal={50} listItems={dataPhase} />
         <Garantia />
 
-        <Depoimentos empreendimento="dinapoli2" />
+        <Depoimentos empreendimento="dinapoli1" />
         <Imagens empreendimento="dinapoli1" />
         <PontosDeInteresse
           empreendimento="Di Napoli II"
-          empreendimentoPonto="dinapoli1"
+          empreendimentoPonto="dinapoli2"
         />
         <VejaMais
           empreendimento={empreendimento}
-          empreendimentoItens="dinapoli1"
+          empreendimentoItens="dinapoli2"
         />
 
-        <EA />
+        {/* <EA /> */}
         <SobreArea />
 
-        <Redes instagram="" facebook="" />
+        <Redes
+          instagram="https://www.instagram.com/dinapoli_residencial/"
+          facebook="https://www.facebook.com/dinapoli2.residencial"
+          mockupImg="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492175/public/dn1/mockupdn1_ee7p8o.png"
+        />
+        <GrupoMNGT />
         <Footer />
       </Container>
     </ThemeProvider>
