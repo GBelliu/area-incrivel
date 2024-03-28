@@ -16,11 +16,13 @@ import { PorqueArea } from "./components/PorqueArea";
 import { Empresas } from "./components/Empresas";
 import ReactPixel from "react-facebook-pixel";
 import { useEffect } from "react";
+import TagManager from "react-gtm-module";
 
 function App() {
   useEffect(() => {
     ReactPixel.init("1528293361047131");
-    // Configurações opcionais, como trackCustom, etc.
+
+    TagManager.initialize({ gtmId: "GTM-KXPBB883" });
   }, []);
 
   return (
