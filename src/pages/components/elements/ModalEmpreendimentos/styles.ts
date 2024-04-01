@@ -30,6 +30,10 @@ export const ModalContent = styled.div`
     border-radius: 5px;
   }
 
+  @media (min-width: 1023px) {
+    margin-top: 50px;
+  }
+
   @media (min-width: 768px) and (max-width: 1023px) {
     width: 600px;
   }
