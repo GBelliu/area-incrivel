@@ -14,21 +14,21 @@ export function CasasModulares() {
         </h1>
         <ContentCards>
           <CardEmpreendimento
-            title="casas de 39m2"
+            title="CASAS DE 39m²"
             preco="R$740,00"
             linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20modulares%20de%2036m%C2%B2"
             img="https://res.cloudinary.com/duv6mjghr/image/upload/v1712086280/casade39_imj7kh.png"
             imgModal="https://res.cloudinary.com/duv6mjghr/image/upload/v1712086181/casa39_jbprwr.png"
           />
           <CardEmpreendimento
-            title="casas de 48m2"
+            title="CASAS DE 48m²"
             preco="R$931,00"
             linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20modulares%20de%2048m%C2%B2"
             img="https://res.cloudinary.com/duv6mjghr/image/upload/v1712086280/casade48_n6x98f.png"
             imgModal="https://res.cloudinary.com/duv6mjghr/image/upload/v1712086181/casa48_si74gq.png"
           />
           <CardEmpreendimento
-            title="casas de 57m2"
+            title="CASAS DE 57m²"
             preco="R$1.163,00"
             linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20modulares%20de%2055m%C2%B2"
             img="https://res.cloudinary.com/duv6mjghr/image/upload/v1712086280/casade57_xjwly9.png"
