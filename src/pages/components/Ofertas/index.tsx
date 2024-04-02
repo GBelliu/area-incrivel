@@ -41,7 +41,7 @@ export function Ofertas({
     String(Object.keys(empreendimentos?.[empreendimento])[0])
   );
   const [ofertasExibidas, setOfertasExibidas] = useState<string[]>([]);
-  const [loadedOfertas, setLoadedOfertas] = useState<number>(3);
+  // const [loadedOfertas, setLoadedOfertas] = useState<number>(3);
 
   // useEffect(() => {
   //   setTipoSelecionado(
@@ -52,31 +52,27 @@ export function Ofertas({
     if (empreendimento && empreendimentos[empreendimento]) {
       const tipos = Object.keys(empreendimentos[empreendimento]);
       setTipoSelecionado(tipos[0]); // Seleciona o primeiro tipo de imagem por padrão
-      setOfertasExibidas(
-        empreendimentos[empreendimento][tipos[0]].slice(0, loadedOfertas)
-      );
+      setOfertasExibidas(empreendimentos[empreendimento][tipos[0]]);
     }
   }, [empreendimento]);
 
-  const handleLoadMore = () => {
-    setLoadedOfertas((prevCount) => prevCount + 3);
-  };
+  // const handleLoadMore = () => {
+  //   setLoadedOfertas((prevCount) => prevCount + 3);
+  // };
 
   const handleTipoSelecionado = (tipo: string) => {
     setTipoSelecionado(tipo);
-    setLoadedOfertas(4); // Reseta o contador de imagens ao mudar o tipo selecionado
-    setOfertasExibidas(empreendimentos[empreendimento][tipo].slice(0, 3));
+    // setLoadedOfertas(4); // Reseta o contador de imagens ao mudar o tipo selecionado
+    setOfertasExibidas(empreendimentos[empreendimento][tipo]);
   };
 
-  useEffect(() => {
-    if (empreendimento && tipoSelecionado) {
-      setOfertasExibidas(
-        empreendimentos[empreendimento][tipoSelecionado].slice(0, loadedOfertas)
-      );
-    }
-  }, [empreendimento, tipoSelecionado, loadedOfertas]);
-
-  // console.log(String(Object.keys(empreendimentos?.[empreendimento])[0]));
+  // useEffect(() => {
+  //   if (empreendimento && tipoSelecionado) {
+  //     setOfertasExibidas(
+  //       empreendimentos[empreendimento][tipoSelecionado].slice(0, loadedOfertas)
+  //     );
+  //   }
+  // }, [empreendimento, tipoSelecionado, loadedOfertas]);
 
   return (
     <Container backgroundImg={background}>
@@ -85,21 +81,26 @@ export function Ofertas({
         <h1>
           Confira nossas <span>ofertas</span>!
         </h1>
-        <OptionsContent>
-          {Object.keys(empreendimentos?.[empreendimento] || {})?.map((key) => {
-            return (
-              <Option
-                onClick={() => {
-                  handleTipoSelecionado(key);
-                }}
-                theme={theme}
-                selected={key === tipoSelecionado}
-              >
-                {key.replace("_", " ")}
-              </Option>
-            );
-          })}
-        </OptionsContent>
+        {Object.keys(empreendimentos?.[empreendimento]).length === 1 ? null : (
+          <OptionsContent>
+            {Object.keys(empreendimentos?.[empreendimento] || {})?.map(
+              (key) => {
+                return (
+                  <Option
+                    onClick={() => {
+                      handleTipoSelecionado(key);
+                    }}
+                    theme={theme}
+                    selected={key === tipoSelecionado}
+                  >
+                    {key.replace("_", " ")}
+                  </Option>
+                );
+              }
+            )}
+          </OptionsContent>
+        )}
+
         <CardsContent>
           {ofertasExibidas.map((item: any) => {
             return (
@@ -125,12 +126,12 @@ export function Ofertas({
             );
           })}
         </CardsContent>
-        {empreendimentos[empreendimento]?.[tipoSelecionado]?.length >
+        {/* {empreendimentos[empreendimento]?.[tipoSelecionado]?.length >
           loadedOfertas && (
           <LoadMoreButton theme={theme} onClick={handleLoadMore}>
             Carregar mais
           </LoadMoreButton>
-        )}
+        )} */}
       </Content>
     </Container>
   );

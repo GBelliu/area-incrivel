@@ -60,7 +60,7 @@ export function CardEmpreendimento({
       </ContentHeader>
       <Content>
         <ContentTextInfo>
-          <span>parcelas mensais a partir de</span>
+          <span>parcelas mensais médias a partir de</span>
           <h3>{preco}</h3>
           <p>SAIBA MAIS SOBRE ESSA OPÇÃO</p>
         </ContentTextInfo>
@@ -74,18 +74,10 @@ export function CardEmpreendimento({
       </Content>
       <ContentButton>
         <ButtonCard href={linkButton} target="_blank" theme={theme}>
-          Quero esse!
+          Quero saber mais!
         </ButtonCard>
       </ContentButton>
       {isOpen && (
-        // <ModalWrapper onClick={handleOutsideClick}>
-        //   <ModalContent>
-        //     <CloseButton onClick={closeModal}>
-        //       <X size={24} />
-        //     </CloseButton>
-        //     <img src={modalImg} alt="Modal Image" />
-        //   </ModalContent>
-        // </ModalWrapper>
         <ModalEmpreendimentos
           onClickModal={handleOutsideClick}
           onClickClose={closeModal}

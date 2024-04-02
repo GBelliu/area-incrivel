@@ -45,6 +45,7 @@ export const Content = styled.div`
 
 export const FlexContent = styled.div`
   display: flex;
+  justify-content: space-between;
   flex-flow: row;
   gap: 20px;
   width: 100%;
@@ -54,6 +55,7 @@ export const FlexContent = styled.div`
   @media (min-width: 768px) and (max-width: 1023px) {
     display: flex;
     flex-flow: column;
+    align-items: center;
     &:not(:first-child) {
       flex-flow: column-reverse;
     }
@@ -61,6 +63,7 @@ export const FlexContent = styled.div`
   @media (max-width: 767px) {
     display: flex;
     flex-flow: column;
+    align-items: center;
     &:not(:first-child) {
       flex-flow: column-reverse;
     }
@@ -93,7 +96,7 @@ export const TestemonialCard = styled.div`
 `;
 
 export const Iframe = styled.div`
-  width: 100%;
+  width: fit-content;
   height: 450px;
 
   iframe {

@@ -12,6 +12,12 @@ export function PorqueArea() {
     <Container>
       <Content>
         <h1>Por que a Área Incrível?</h1>
+        <p>
+          A <span>Área Incrível</span> é uma empresa do Grupo MNGT Brasil, que
+          há mais de 30 anos investe em Rio Claro e sua comunidade apoiando o
+          potencial do município e participando de seu crescimento e
+          desenvolvimento econômico, social e cultural.
+        </p>
         <Abouts>
           <CardPorque title="Atendimento humanizado" />
           <CardPorque title="Atendimento humanizado" />

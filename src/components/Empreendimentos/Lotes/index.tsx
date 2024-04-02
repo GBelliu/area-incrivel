@@ -15,19 +15,19 @@ export function Lotes() {
         <ContentCards>
           <CardEmpreendimento
             title="lotes de 105m2"
-            preco="R$641,00"
+            preco="R$583,00"
             linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20os%20lotes%20de%20105m%C2%B2"
           />
           <CardEmpreendimento
             title="lotes de 120m2"
-            preco="R$732,00"
+            preco="R$665,00"
             linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20os%20lotes%20de%20120m%C2%B2"
           />
         </ContentCards>
       </Content>
       <Image>
         <img
-          src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492242/public/lote_rbkbxn.png"
+          src="https://res.cloudinary.com/duv6mjghr/image/upload/v1712079247/loteimg_uo0oqf.png"
           alt=""
         />
       </Image>

@@ -131,3 +131,38 @@ export const ButtonCard = styled.a`
     transform: scale(1.03) translateZ(0px);
   }
 `;
+
+export const ImageBox = styled.div`
+  width: 100%;
+  height: 150px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  &:active {
+    transform: scale(0.95) translateZ(0px) !important;
+  }
+
+  &:hover {
+    transform: scale(1.03) translateZ(0px);
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+`;
+
+export const TextImg = styled.div`
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+  span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #282828;
+  }
+`;

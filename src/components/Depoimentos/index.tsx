@@ -57,6 +57,22 @@ export function Depoimentos() {
               allowFullScreen
             ></iframe>
           </Iframe>
+          <Iframe>
+            <iframe
+              width="100%"
+              src="https://www.youtube.com/embed/EcIjBCgyyVk"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </Iframe>
+          <Iframe>
+            <iframe
+              width="100%"
+              src="https://www.youtube.com/embed/kfIll4lyCF0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </Iframe>
         </FlexContent>
       </Content>
     </Container>

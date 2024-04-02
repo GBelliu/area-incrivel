@@ -10,41 +10,22 @@ export function Plantas() {
     <Container>
       <Content>
         <h1>
-          Plantas in<span>críveis</span>
+          Casas in<span>críveis</span>
         </h1>
         <ContentCards>
           <CardEmpreendimento
-            title="casas - 50m2"
-            preco="R$1030,00"
+            title="casas - 52m2"
+            preco="R$1047,00"
             linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20de%2050m%C2%B2"
-            list={
-              <List>
-                <ListItem>
-                  <span>•</span> 2 quartos, uma suíte, sala e cozinha em
-                  conceito aberto e ampla área de lazer/lavanderia
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Vários ambientes, permitindo adaptações
-                </ListItem>
-              </List>
-            }
+            img="https://res.cloudinary.com/duv6mjghr/image/upload/v1712086280/casade52_lpf4hn.png"
+            imgModal="https://res.cloudinary.com/duv6mjghr/image/upload/v1712086181/casa52_nmfozf.png"
           />
           <CardEmpreendimento
             title="casas - 60m2"
-            preco="R$1226,00"
+            preco="R$1238,00"
             linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20de%2060m%C2%B2"
-            list={
-              <List>
-                <ListItem>
-                  <span>•</span> 3 quartos, uma suíte, sala e cozinha em
-                  conceito aberto e ampla área de lazer/lavanderia
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Projeto potencializa o uso do lote, focando no
-                  conforto
-                </ListItem>
-              </List>
-            }
+            img="https://res.cloudinary.com/duv6mjghr/image/upload/v1712086279/casade60_sa1n9t.png"
+            imgModal="https://res.cloudinary.com/duv6mjghr/image/upload/v1712086182/casa60_yy2kyl.png"
           />
         </ContentCards>
       </Content>

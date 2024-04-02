@@ -14,76 +14,25 @@ export function CasasModulares() {
         </h1>
         <ContentCards>
           <CardEmpreendimento
-            title="casas de 24m2"
-            preco="R$641,00"
-            linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20modulares%20de%2024m%C2%B2"
-            list={
-              <List>
-                <ListItem>
-                  <span>•</span> 1 quarto, 1 banheiro e cozinha
-                </ListItem>
-                <ListItem>
-                  <span>•</span> 24m² de construção
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Estrutura preparada para ampliação
-                </ListItem>
-              </List>
-            }
-          />
-          <CardEmpreendimento
-            title="casas de 36m2"
+            title="casas de 39m2"
             preco="R$740,00"
             linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20modulares%20de%2036m%C2%B2"
-            list={
-              <List>
-                <ListItem>
-                  <span>•</span> 2 quartos, 1 banheiro, cozinha, sala
-                </ListItem>
-                <ListItem>
-                  <span>•</span> 36m² de construção
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Estrutura preparada para ampliação
-                </ListItem>
-              </List>
-            }
+            img="https://res.cloudinary.com/duv6mjghr/image/upload/v1712086280/casade39_imj7kh.png"
+            imgModal="https://res.cloudinary.com/duv6mjghr/image/upload/v1712086181/casa39_jbprwr.png"
           />
           <CardEmpreendimento
             title="casas de 48m2"
-            preco="R$927,00"
+            preco="R$931,00"
             linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20modulares%20de%2048m%C2%B2"
-            list={
-              <List>
-                <ListItem>
-                  <span>•</span> 2 quartos, uma suíte, 1 banheiro, cozinha, sala
-                </ListItem>
-                <ListItem>
-                  <span>•</span> 48m² de construção
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Estrutura preparada para ampliação
-                </ListItem>
-              </List>
-            }
+            img="https://res.cloudinary.com/duv6mjghr/image/upload/v1712086280/casade48_n6x98f.png"
+            imgModal="https://res.cloudinary.com/duv6mjghr/image/upload/v1712086181/casa48_si74gq.png"
           />
           <CardEmpreendimento
-            title="casas de 55m2"
-            preco="R$1.127,00"
+            title="casas de 57m2"
+            preco="R$1.163,00"
             linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20modulares%20de%2055m%C2%B2"
-            list={
-              <List>
-                <ListItem>
-                  <span>•</span> 3 quartos, uma suíte, 1 banheiro, cozinha, sala
-                </ListItem>
-                <ListItem>
-                  <span>•</span> 55m² de construção
-                </ListItem>
-                <ListItem>
-                  <span>•</span> Estrutura preparada para ampliação
-                </ListItem>
-              </List>
-            }
+            img="https://res.cloudinary.com/duv6mjghr/image/upload/v1712086280/casade57_xjwly9.png"
+            imgModal="https://res.cloudinary.com/duv6mjghr/image/upload/v1712086181/casa57_pacz63.png"
           />
         </ContentCards>
       </Content>

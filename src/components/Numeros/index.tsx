@@ -7,7 +7,6 @@ export function Numeros() {
   return (
     <Container id="numeros">
       <Content>
-        <h1>Nossos números</h1>
         <ContentNumeros>
           <ItemNumeros>
             <CalendarCheck color="#030303" strokeWidth={2.25} size={90} />
@@ -28,8 +27,8 @@ export function Numeros() {
           <ItemNumeros>
             <HeartHandshake color="#030303" strokeWidth={2.25} size={90} />
 
-            <h2>90%</h2>
-            <p>Taxa de conversão</p>
+            <h2>100%</h2>
+            <p>Taxa de satisfação</p>
           </ItemNumeros>
         </ContentNumeros>
       </Content>

@@ -8,8 +8,6 @@ export function Numeros() {
   return (
     <Container>
       <Content>
-        <h1>Nossos números</h1>
-
         <ContentDados>
           <CardDados
             data="105 a 152m²"

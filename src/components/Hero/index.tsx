@@ -23,7 +23,7 @@ export function Hero() {
         <ContentText>
           <h1>Realize o sonho de viver em um lugar especial</h1>
 
-          <h2>Conheça nossos empreendimentos disponíveis</h2>
+          <h2>Conheça nossos projetos disponíveis</h2>
           <Link
             to="empreendimentos"
             href="/"

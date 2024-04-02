@@ -47,7 +47,7 @@ export function Hero({
 
           <Value>
             <h2>{description}</h2>
-            <h2>Parcelas mensais a partir de:</h2>
+            <h2>parcelas mensais médias a partir de:</h2>
             <h3>R${value}</h3>
           </Value>
 
