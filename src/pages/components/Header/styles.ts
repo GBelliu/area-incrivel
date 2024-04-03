@@ -10,10 +10,19 @@ export const Container = styled.div<HeaderProps>`
   background-color: white;
   justify-content: center;
   position: fixed;
-  background-color: ${({ background }) =>
-    background ? "#282828" : "transparent"};
+  /* background-color: ${({ background }) =>
+    background ? "#282828" : "transparent"}; */
+  background-color: #28282890;
 
   z-index: 99;
+
+  ${({ background }) =>
+    background &&
+    css`
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(7px);
+    `};
 `;
 export const Content = styled.div`
   max-width: 1394px;
@@ -51,11 +60,10 @@ export const Content = styled.div`
   .bm-burger-button {
     position: absolute;
     right: 0;
-    top: 18px;
+    top: 14px;
     width: 33px;
     height: 30px;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-bottom: 10px;
     display: none;
     z-index: 990 !important;
     display: flex;

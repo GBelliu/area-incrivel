@@ -11,7 +11,7 @@ export const Container = styled.div<HeaderProps>`
   justify-content: center;
   position: fixed;
   background-color: ${({ background }) =>
-    background ? "rgba(204, 204, 204, 0.1)" : "transparent"};
+    background ? "#28282890" : "transparent"};
 
   ${({ background }) =>
     background &&
@@ -72,7 +72,7 @@ export const Content = styled.div`
 
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #c3c3c3;
+    background: #fff;
   }
 
   /* Color/shape of burger icon bars on hover*/

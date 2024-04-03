@@ -62,6 +62,12 @@ export function Redes({ instagram, facebook }: RedesProps) {
               </a>
             </Facebook>
           </Social>
+          <Mockup>
+            <img
+              src="https://res.cloudinary.com/duv6mjghr/image/upload/v1712090965/facebookmockup_zvpyzs.png"
+              alt=""
+            />
+          </Mockup>
         </ContentRedes>
       </Content>
     </Container>
