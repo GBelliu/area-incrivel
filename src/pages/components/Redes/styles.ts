@@ -70,7 +70,7 @@ export const ContentRedes = styled.div`
   justify-content: space-between;
   gap: 30px;
 
-  @media (max-width: 767px) {
+  @media (max-width: 1023px) {
     flex-flow: column-reverse;
   }
 `;
@@ -122,6 +122,12 @@ export const Text = styled.div`
     font-size: 28px;
     font-weight: 600;
     color: #fff;
+  }
+
+  @media (max-width: 1023px) {
+    h2 {
+      font-size: 20px;
+    }
   }
 `;
 interface ButtonProps {

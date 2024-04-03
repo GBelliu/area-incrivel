@@ -8,6 +8,11 @@ import {
   Item,
   Itens,
   Mapa,
+  Table,
+  TableCell,
+  TableContainer,
+  TableHeader,
+  TableRow,
 } from "./styles";
 import { Download, CircleCheck } from "lucide-react";
 import { useTheme } from "../../ThemeContext";
@@ -28,7 +33,11 @@ export function PontosDeInteresse({
         <h1>
           Pontos importantes da <span>região</span>?
         </h1>
-
+        <p>
+          Você e sua família terão acesso a toda estrutura do bairro, que conta
+          com rede de comércio, saúde e educação diversificada, garantindo
+          qualidade de vida e serviços na porta de casa.
+        </p>
         <ContentPontos>
           <Mapa>
             <iframe
@@ -39,16 +48,36 @@ export function PontosDeInteresse({
             ></iframe>
           </Mapa>
           <Itens>
-            {pontos?.[empreendimentoPonto].list.map((item: any) => {
-              return (
-                <Item>
-                  <CircleCheck color={theme.primaryColor} strokeWidth={2.5} />
-                  <span>{item}</span>
-                </Item>
-              );
-            })}
+            <TableContainer>
+              <Table>
+                <thead>
+                  <TableRow>
+                    <TableHeader>Estabelecimento</TableHeader>
+                    <TableHeader>Estabelecimentos</TableHeader>
+                    <TableHeader>Mais Próximo</TableHeader>
+                  </TableRow>
+                </thead>
+                <tbody>
+                  {pontos?.[empreendimentoPonto].list.map((item: any) => {
+                    return (
+                      <TableRow theme={theme}>
+                        <TableCell>{item.estabelecimento}</TableCell>
+                        <TableCell>{item.qtd}</TableCell>
+                        <TableCell>{item.prox}</TableCell>
+                      </TableRow>
+                    );
+                  })}
+                </tbody>
+              </Table>
+            </TableContainer>
           </Itens>
         </ContentPontos>
+        <a
+          href="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20I"
+          target="_blank"
+        >
+          <Button theme={theme}>Quero conhecer mais sobre o bairro</Button>
+        </a>
       </Content>
     </Container>
   );

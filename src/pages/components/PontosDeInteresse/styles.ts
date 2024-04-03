@@ -34,6 +34,13 @@ export const Content = styled.div`
     }
   }
 
+  > p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+  }
+
   @media (max-width: 1023px) {
     padding: 20px 0;
   }
@@ -65,15 +72,23 @@ export const Button = styled.button`
   height: fit-content;
   width: fit-content;
   padding: 20px 30px;
-  background-color: #7b7b7b;
+  background-color: ${(props) => props.theme.primaryColor};
   border: none;
   border-radius: 10px;
-  color: #fff;
+  color: #f3f3f3;
   font-size: 20px;
   font-weight: 500;
   gap: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.15);
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:active {
+    transform: scale(0.95) translateZ(0px) !important;
+  }
+
+  &:hover {
+    transform: scale(1.03) translateZ(0px);
+  }
 
   @media (max-width: 1750px) {
   }
@@ -152,4 +167,44 @@ export const Item = styled.div`
       font-size: 20px;
     }
   }
+`;
+
+export const TableContainer = styled.div`
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  color: #030303;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media (max-width: 1023px) {
+    overflow-x: auto;
+  }
+`;
+
+export const Table = styled.table`
+  width: 100%;
+  border-collapse: collapse;
+`;
+
+export const TableHeader = styled.th`
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 12px;
+  background-color: #f8f9fa;
+`;
+
+export const TableRow = styled.tr`
+  &:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  background-color: ${(props) => props.theme.primaryColor};
+`;
+
+export const TableCell = styled.td`
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 12px;
 `;

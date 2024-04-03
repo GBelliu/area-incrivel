@@ -32,6 +32,12 @@ export const Content = styled.div`
     color: #030303;
   }
 
+  > p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+  }
+
   @media (max-width: 1750px) {
     max-width: 965px;
     gap: 50px;

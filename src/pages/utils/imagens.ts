@@ -1,16 +1,14 @@
 export const imagens: any = {
   dinapoli1: {
-    plantas: [
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492208/public/dn1/plantas/PLANTAA_ggavld.png",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492212/public/dn1/plantas/PLANTAB_hy8rxn.png",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492212/public/dn1/plantas/PLANTAC_ngwpet.png",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492213/public/dn1/plantas/PLANTAD.png",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492217/public/dn1/plantas/PLANTAE_crmzbo.png",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492263/public/dn1/plantas/PLANTAFG_vblwo1.png",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492222/public/dn1/plantas/PLANTAH_xcscde.png",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492230/public/dn1/plantas/PLANTAI_apdijc.png",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492238/public/dn1/plantas/PLANTAJK_ej1ctq.png",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492243/public/dn1/plantas/PLANTAL_rgbdri.png",
+    projeto: [
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712150630/dn1/projeto/dn1exterior_vwfcm5.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492541/public/dn1/fachadadn1_mnz6x0.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712150628/dn1/projeto/dn1banheiro_mzfj4a.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712150627/dn1/projeto/DI_NAPOLI_I_SALA_jsbmls.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712150626/dn1/projeto/DI_NAPOLI_I_SALA_E_COZINHA_duwfbf.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712150626/dn1/projeto/DI_NAPOLI_I_QUARTO_SUITE_01_cgc11e.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712150625/dn1/projeto/dn1vistacima_ygugbr.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712150625/dn1/projeto/DI_NAPOLI_I_COZINHA_k8skhn.jpg",
     ],
 
     obras: [

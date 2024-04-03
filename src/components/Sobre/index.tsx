@@ -13,6 +13,12 @@ export function Sobre() {
     <Container id="porquearea">
       <Content>
         <h1>Por que a Área Incrível?</h1>
+        <p>
+          A Área Incrível, empresa do Grupo MNGT, é uma incorporadora
+          especializada na escuta ativa dos clientes, criando e entregando casas
+          exatamentes como as pessoas querem. Apenas em 2024 serão entregues
+          mais de 300 moradias incríveis.
+        </p>
         <Abouts>
           <AboutItemLeft
             number="1"
