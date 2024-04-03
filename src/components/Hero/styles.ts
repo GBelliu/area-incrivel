@@ -37,7 +37,7 @@ export const Container = styled.div`
   h2 {
     color: #fff;
     font-family: "Poppins", sans-serif;
-    font-size: 32px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

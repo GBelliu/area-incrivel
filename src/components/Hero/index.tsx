@@ -21,9 +21,9 @@ export function Hero() {
       </video>
       <Content>
         <ContentText>
-          <h1>Realize o sonho de viver em um lugar especial</h1>
+          <h1>Realize o sonho de viver em um lugar incrível</h1>
 
-          <h2>Conheça nossos projetos disponíveis</h2>
+          <h2>Escolha onde você quer morar</h2>
           <Link
             to="empreendimentos"
             href="/"
@@ -31,7 +31,7 @@ export function Hero() {
             duration={1500}
             offset={-100}
           >
-            <ButtonHero>Quero conhecer os empreendimentos</ButtonHero>
+            <ButtonHero>Quero escolher</ButtonHero>
           </Link>
         </ContentText>
         <Link
