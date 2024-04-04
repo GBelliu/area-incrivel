@@ -8,7 +8,7 @@ export const Container = styled.div`
     );
   background-size: cover;
   background-repeat: no-repeat;
-  height: fit-content;
+  height: 100%;
   width: 100%;
   border-radius: 20px;
   padding: 25px;
