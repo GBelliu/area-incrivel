@@ -56,7 +56,7 @@ export function Redes({ instagram, facebook, mockupImg }: RedesProps) {
               <Text>
                 <h2>Acompanhe nosso Face - Di Napoli I</h2>
               </Text>
-              <a href={facebook}>
+              <a href={facebook} target="_blank">
                 <Button rede="face">Ver perfil</Button>
               </a>
             </Facebook>

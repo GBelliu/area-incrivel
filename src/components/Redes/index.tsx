@@ -57,7 +57,7 @@ export function Redes({ instagram, facebook }: RedesProps) {
               <Text>
                 <h2>Acompanhe nosso Face - Área IncrívelI</h2>
               </Text>
-              <a href={facebook}>
+              <a href={facebook} target="_blank">
                 <Button rede="face">Ver perfil</Button>
               </a>
             </Facebook>
