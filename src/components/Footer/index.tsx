@@ -67,7 +67,7 @@ export function Footer() {
               >
                 <Item>Nossos números</Item>
               </Link>
-              <Link
+              {/* <Link
                 to="apresentacao"
                 href="/"
                 smooth={true}
@@ -75,7 +75,7 @@ export function Footer() {
                 offset={-100}
               >
                 <Item>Apresentação</Item>
-              </Link>
+              </Link> */}
               <Link
                 to="empreendimentos"
                 href="/"
@@ -83,7 +83,7 @@ export function Footer() {
                 duration={1000}
                 offset={-100}
               >
-                <Item>Empreendimentos</Item>
+                <Item>Ofertas</Item>
               </Link>
 
               <Link
@@ -122,14 +122,16 @@ export function Footer() {
               >
                 <Item>Por que a Área?</Item>
               </Link>
-              <Link
+              {/* <Link
                 to="garantia"
                 href="/"
                 smooth={true}
                 duration={500}
                 offset={-100}
-              ></Link>
-              <Item>Garantia de Entrega</Item>
+              >
+                <Item>Garantia de Entrega</Item>
+              </Link> */}
+
               <Link
                 to="grupo"
                 href="/"
@@ -152,7 +154,7 @@ export function Footer() {
               >
                 <Item>WhatsApp</Item>
               </a>
-              <a href="mailto:">
+              <a href="mailto:marketing@grupomngt.com.br">
                 <Item>E-mail</Item>
               </a>
               <a

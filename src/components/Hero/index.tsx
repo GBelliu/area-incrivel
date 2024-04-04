@@ -34,17 +34,15 @@ export function Hero() {
             <ButtonHero>Quero escolher</ButtonHero>
           </Link>
         </ContentText>
-        <Link
-          to="apresentacao"
-          href="/"
-          smooth={true}
-          duration={1500}
-          offset={-100}
-        >
+        <Link to="numeros" href="/" smooth={true} duration={1500} offset={-100}>
           <ArrowBottom>
-            <span>CLIQUE E ASSISTA SOBRE NOSSA HISTÓRIA</span>
+            <span>ACOMPANHE NOSSA HISTÓRIA</span>
             <ChevronDown size={40} color="#FFFFFF" />
           </ArrowBottom>
+          {/* <ArrowBottom>
+            <span>CLIQUE E ASSISTA SOBRE NOSSA HISTÓRIA</span>
+            <ChevronDown size={40} color="#FFFFFF" />
+          </ArrowBottom> */}
         </Link>
       </Content>
     </Container>

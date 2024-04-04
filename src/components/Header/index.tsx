@@ -43,7 +43,7 @@ export function Header() {
           >
             Nossos números
           </Link>
-          <Link
+          {/* <Link
             to="apresentacao"
             href="/"
             smooth={true}
@@ -51,7 +51,7 @@ export function Header() {
             offset={-100}
           >
             Apresentação
-          </Link>
+          </Link> */}
           <Link
             to="empreendimentos"
             href="/"
@@ -59,7 +59,7 @@ export function Header() {
             duration={500}
             offset={-100}
           >
-            Empreendimentos
+            Ofertas
           </Link>
           <Link
             to="depoimentos"
@@ -91,7 +91,7 @@ export function Header() {
           >
             Por que a Área?
           </Link>
-          <Link
+          {/* <Link
             to="garantia"
             href="/"
             smooth={true}
@@ -99,7 +99,7 @@ export function Header() {
             offset={-100}
           >
             Garantia de Entrega
-          </Link>
+          </Link> */}
           <Link to="grupo" href="/" smooth={true} duration={500} offset={-100}>
             Grupo MNGT
           </Link>
