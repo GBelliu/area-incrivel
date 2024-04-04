@@ -56,7 +56,7 @@ export function SobreArea() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Button>Quero saber mais sobre a Área Incrível</Button>
+          <Button>Falar com um consultor incrível</Button>
         </a>
       </Content>
     </Container>

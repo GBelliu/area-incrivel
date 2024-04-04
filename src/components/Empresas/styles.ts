@@ -83,7 +83,7 @@ export const Content = styled.div`
 
 export const ContentEmpresas = styled.div`
   display: flex;
-  align-items: center;
+  align-items: stretch;
   width: 100%;
   height: 100%;
   justify-content: space-between;
