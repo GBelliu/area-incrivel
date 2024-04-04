@@ -16,7 +16,7 @@ export function Numeros() {
           <ItemNumeros>
             <LandPlot color="#030303" strokeWidth={2.25} size={90} />
 
-            <h2>5000</h2>
+            <h2>5.000</h2>
             <p>Casas de 48m² construídas</p>
           </ItemNumeros>
           <ItemNumeros>
