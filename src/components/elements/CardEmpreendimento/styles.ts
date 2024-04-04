@@ -33,6 +33,10 @@ export const ContentHeader = styled.div<CardProps>`
     line-height: 150%;
     letter-spacing: 6px;
     font-weight: 500;
+
+    span {
+      letter-spacing: 2px;
+    }
   }
 `;
 

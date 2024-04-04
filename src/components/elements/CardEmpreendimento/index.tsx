@@ -14,7 +14,7 @@ import {
 import { ModalEmpreendimentos } from "../../../pages/components/elements/ModalEmpreendimentos";
 
 interface CardEmpreendimentoProps {
-  title?: string;
+  title?: ReactNode;
   preco?: string;
   list?: ReactNode;
   type?: string;
@@ -49,9 +49,7 @@ export function CardEmpreendimento({
   };
   return (
     <Container type={type}>
-      <ContentHeader>
-        <h2>{title}</h2>
-      </ContentHeader>
+      <ContentHeader>{title}</ContentHeader>
       <Content>
         <ContentTextInfo>
           <span>parcelas mensais médias a partir de</span>

@@ -35,15 +35,14 @@ export function Empresas() {
               src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492239/public/logolar_m5m4nx.png"
               alt=""
             />
-            <h2>Lar Incrivel: Construtora</h2>{" "}
+            {/* <h2>Lar Incrivel: Construtora</h2>{" "} */}
             <p>
               A Lar Incrível é uma construtora comprometida com a inovaçao, seja
               no método construtivo ou na forma de entregar projetos, que podem
               ser customizados pelos compradores. A Lar Incrível tem know-how de
-              mais de 20 anos de experiência na construção de galpões para
-              logística e, agora, usa essa expertise na habitaçao com
-              tecnologias sustentáveis, menos poluentes, ágeis e muito mais
-              acessíveis à população.
+              mais de 20 anos na construção de galpões para logística e, agora,
+              usa essa expertise na habitaçao com tecnologias sustentáveis,
+              menos poluentes, ágeis e muito mais acessíveis à população.
             </p>
           </LarIncrivelContent>
 
@@ -56,8 +55,8 @@ export function Empresas() {
             <p>
               Com a automação residencial mais acessível do mercado, sua casa
               terá segurança com monitoramento interno e externo por câmeras,
-              controle de eletroeletrônicos domésticos de qualquer lugar, via
-              celular. A automação valoriza seu imóvel em pelo menos 20%.
+              controle de eletroeletrônicos de qualquer lugar, via celular. A
+              automação valoriza seu imóvel em pelo menos 20%.
             </p>
           </LarNoCelularContent>
         </ContentEmpresas>
