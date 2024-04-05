@@ -28,20 +28,37 @@ import { GrupoMNGT } from "../../components/GrupoMNGT";
 export function DiNapoliI() {
   const dataPhase = [
     {
-      name: "Terraplanagem",
-      value: 100,
-    },
-    {
       name: "Fundação",
       value: 100,
     },
     {
       name: "Alvenaria",
-      value: 75,
+      value: 100,
     },
     {
-      name: "Acabamento",
-      value: 20,
+      name: "Cobertura",
+      value: 33,
+    },
+    {
+      name: "Passagem de Elétrica",
+      value: 0,
+    },
+    {
+      name: "Pintura e Acabamentos",
+      value: 50,
+    },
+    {
+      name: "Esquadrias e Marmoaria",
+      value: 50,
+    },
+
+    {
+      name: "Pisos e Azulejos",
+      value: 50,
+    },
+    {
+      name: "Portas e Janelas",
+      value: 50,
     },
   ];
 
@@ -104,7 +121,7 @@ export function DiNapoliI() {
         />
         {/* <ExplicacaoCasas/> */}
         <Empresas />
-        <Estagio percentageTotal={50} listItems={dataPhase} />
+        <Estagio percentageTotal={55} listItems={dataPhase} />
         <Garantia />
 
         <Depoimentos empreendimento="dinapoli1" />

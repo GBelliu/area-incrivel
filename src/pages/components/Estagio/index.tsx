@@ -27,7 +27,7 @@ export function Estagio({ percentageTotal, listItems }: EstagioProps) {
   return (
     <Container>
       <Content>
-        <h1>Estágio da Obra</h1>
+        <h1>Estágio da Obra - Condomínio</h1>
         <DataContainer>
           <GraphicContainer>
             <CircularProgressbar
@@ -42,9 +42,7 @@ export function Estagio({ percentageTotal, listItems }: EstagioProps) {
           <DataContent>
             {listItems.map((item: any, key: any) => (
               <ProgressContent key={key}>
-                <span>
-                  {item.value}% {item.name}
-                </span>
+                <span>{item.name}</span>
                 <ProgressBar
                   completed={item.value}
                   bgColor={`linear-gradient(45deg, ${theme.primaryColor}, ${theme.secondaryColor})`}

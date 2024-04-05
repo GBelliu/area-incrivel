@@ -79,6 +79,9 @@ export const GraphicContainer = styled.div`
 `;
 export const DataContent = styled.div`
   width: 100%;
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
 `;
 export const ProgressContent = styled.div`
   span {
