@@ -71,8 +71,12 @@ export const CardsContent = styled.div`
   @media (max-width: 1750px) {
   }
   @media (min-width: 768px) and (max-width: 1023px) {
+    display: flex;
+    flex-flow: column;
   }
   @media (max-width: 767px) {
+    display: flex;
+
     flex-flow: column;
   }
 `;
