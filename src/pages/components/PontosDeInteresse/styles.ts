@@ -109,7 +109,7 @@ export const ContentPontos = styled.div`
   gap: 30px;
   height: 450px;
 
-  @media (max-width: 767px) {
+  @media (max-width: 1023px) {
     flex-flow: column-reverse;
     height: fit-content;
   }
@@ -127,18 +127,23 @@ export const Mapa = styled.div`
     border-radius: 5px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 1023px) {
     height: 300px;
   }
 `;
 export const Itens = styled.div`
   width: 100%;
-  height: 100%;
+  height: fit-content;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
   align-items: flex-start;
   padding: 25px 0;
+
+  p {
+    color: #ccc;
+    font-size: 12px;
+  }
 
   @media (max-width: 767px) {
     gap: 7px;

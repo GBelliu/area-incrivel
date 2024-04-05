@@ -70,6 +70,7 @@ export function PontosDeInteresse({
                 </tbody>
               </Table>
             </TableContainer>
+            <p>*Pesquisa feita em um radar de aproximadamente 4 km.</p>
           </Itens>
         </ContentPontos>
         <a
