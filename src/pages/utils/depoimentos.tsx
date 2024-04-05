@@ -1,7 +1,7 @@
 export const depoimentos: any = {
   dinapoli1: [
     {
-      text: "Eu trabalho aqui há uns 20 anos e faz dois anos que coloquei meu comércio de gás aqui. Se fosse para comprar uma casa, eu compraria e moraria aqui mesmo. Eu indicaria para quem quer comprar uma casa, comprar aqui!",
+      text: "Comerciante Vanderlau Aguiar Dias, o Ceará do Gás, trabalha há 18 anos no bairro e fixou seu comércio na esquina da avenida 68. Para ele, a região tem uma rede comercial e de serviços completa.",
       name: "Vanderlau Aguiar Dias, o Ceará",
       sub: "Comerciante do Recanto Paraíso",
       img: "",
@@ -18,7 +18,7 @@ export const depoimentos: any = {
       ),
     },
     {
-      text: "É um bairro tranquilo. Tem as paisagens e as pessoas que são bastante amigas. É bem respeitoso e bem agradável. É bom de morar aqui.",
+      text: "Bruno Alexandre Rossi, comerciante na área de farmácia, explica que o bairro é antigo e com boa estrutura comercial e de serviços, além de facilidade no acesso.",
       name: "Bruno Alexandre Rossi",
       sub: "Farmacêutico",
       img: "",
@@ -35,7 +35,7 @@ export const depoimentos: any = {
       ),
     },
     {
-      text: "É um bairro supertranquilo. Já viajei e já deixei minha casa sozinha e graça a Deus ninguém mexe. E agora está crescendo bastante, eu tô feliz",
+      text: "O serralheiro Agnaldo Zumpano diz que bairro Recanto Paraíso é um lugar tranquilo e tem uma vizinhança amigável e parceira nos momentos difíceis.",
       name: "Agnaldo Zumpano",
       sub: "Serralheiro",
       img: "",

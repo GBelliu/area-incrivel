@@ -10,12 +10,12 @@ export function Numeros() {
       <Content>
         <ContentDados>
           <CardDados
-            data="105 a 152m²"
+            data="105 a 152 m²"
             title="ÁREA TERRENO"
             icon={<LandPlot color="#fff" strokeWidth={2} size={90} />}
           />
           <CardDados
-            data="43 a 70m²"
+            data="43 a 70 m²"
             title="ÁREA CONSTRUÍDA"
             icon={<Home color="#fff" strokeWidth={2} size={90} />}
           />

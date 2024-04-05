@@ -16,7 +16,7 @@ export function CasasModulares() {
           <CardEmpreendimento
             title={
               <h2>
-                CASAS DE 39<span>m²</span>
+                CASAS DE 39 <span>m²</span>
               </h2>
             }
             preco="R$ 740,00"
@@ -27,7 +27,7 @@ export function CasasModulares() {
           <CardEmpreendimento
             title={
               <h2>
-                CASAS DE 48<span>m²</span>
+                CASAS DE 48 <span>m²</span>
               </h2>
             }
             preco="R$ 931,00"
@@ -38,7 +38,7 @@ export function CasasModulares() {
           <CardEmpreendimento
             title={
               <h2>
-                CASAS DE 57<span>m²</span>
+                CASAS DE 57 <span>m²</span>
               </h2>
             }
             preco="R$ 1.163,00"

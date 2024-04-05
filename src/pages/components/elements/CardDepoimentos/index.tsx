@@ -31,7 +31,7 @@ export function CardDepoimentos({
   return (
     <Container theme={theme}>
       <Iframe>{iframe}</Iframe>
-      <Text>"{text}"</Text>
+      <Text>{text}</Text>
       <PersonDetails>
         {/* <ProfileImage>
           {imgDepoimento ? (

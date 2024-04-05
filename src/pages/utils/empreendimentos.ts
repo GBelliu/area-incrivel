@@ -151,36 +151,36 @@ export const empreendimentos: any = {
   dinapoli2: {
     lotes: [
       {
-        title: "lotes de 105m²",
+        title: "lotes de 105 m²",
         preco: "R$ 617,00",
         list: ["item 1", "item 2", "item 3"],
       },
     ],
     casas_modulares: [
       {
-        title: "casa de 39m²",
+        title: "casa de 39 m²",
         preco: "R$ 740,00",
         list: ["item 1", "item 2", "item 3"],
       },
       {
-        title: "casa de 48m²",
+        title: "casa de 48 m²",
         preco: "R$ 931,00",
         list: ["item 1", "item 2", "item 3"],
       },
       {
-        title: "casa de 57m²",
+        title: "casa de 57 m²",
         preco: "R$ 1.163,00",
         list: ["item 1", "item 2", "item 3"],
       },
     ],
     casas_padrão: [
       {
-        title: "casa de 52m²",
+        title: "casa de 52 m²",
         preco: "R$ 1.047,00",
         list: ["item 1", "item 2", "item 3"],
       },
       {
-        title: "casa de 60m²",
+        title: "casa de 60 m²",
         preco: "R$ 1.238,00",
         list: ["item 1", "item 2", "item 3"],
       },

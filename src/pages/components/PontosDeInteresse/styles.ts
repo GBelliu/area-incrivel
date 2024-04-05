@@ -212,4 +212,12 @@ export const TableCell = styled.td`
   border: 1px solid #dddddd;
   text-align: left;
   padding: 12px;
+
+  &:nth-child(even) {
+    text-align: center;
+  }
+
+  &:last-child {
+    text-align: right;
+  }
 `;
