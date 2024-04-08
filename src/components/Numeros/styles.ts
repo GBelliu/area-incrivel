@@ -49,7 +49,7 @@ export const ContentNumeros = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 
   @media (max-width: 1750px) {
     flex-wrap: wrap;

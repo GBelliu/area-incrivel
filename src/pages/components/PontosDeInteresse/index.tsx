@@ -53,7 +53,7 @@ export function PontosDeInteresse({
                 <thead>
                   <TableRow>
                     <TableHeader>Estabelecimento</TableHeader>
-                    <TableHeader>Estabelecimentos</TableHeader>
+                    <TableHeader>Quantidade</TableHeader>
                     <TableHeader>Mais Próximo</TableHeader>
                   </TableRow>
                 </thead>
