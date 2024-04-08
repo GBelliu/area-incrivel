@@ -196,7 +196,7 @@ export const Table = styled.table`
 
 export const TableHeader = styled.th`
   border: 1px solid #dddddd;
-  text-align: left;
+  text-align: center;
   padding: 12px;
   background-color: #f8f9fa;
 `;
