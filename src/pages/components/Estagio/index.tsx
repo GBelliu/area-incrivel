@@ -24,6 +24,8 @@ interface EstagioProps {
 
 export function Estagio({ percentageTotal, listItems }: EstagioProps) {
   const theme = useTheme();
+
+  listItems.sort((a, b) => b.value - a.value);
   return (
     <Container>
       <Content>
