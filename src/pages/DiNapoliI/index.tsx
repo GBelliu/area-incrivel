@@ -62,6 +62,11 @@ export function DiNapoliI() {
     },
   ];
 
+  const totalValue = dataPhase.reduce((acc, curr) => acc + curr.value, 0);
+
+  // Calculando a média como uma porcentagem
+  const mediaPorcentagem = totalValue / dataPhase.length;
+
   const empreendimento = "Di Napoli I";
   return (
     <ThemeProvider page="dinapoli1">
@@ -84,7 +89,7 @@ export function DiNapoliI() {
           whatsapp=""
           buttonLink="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20I"
         />
-        <Numeros />
+        <Numeros empreendimentoItens="dinapoli1" />
         <Sobre
           logoEmpreendimento="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492231/public/logodinapoli1_wapdvq.png"
           about="Bem-vindo ao Di Napoli I, onde a inovação e o conforto se unem para criar um ambiente excepcional para você e sua família. Inspirado no nome da terceira maior cidade italiana, Napoli, que significa 'cidade nova', nosso condomínio de casas térreas é a representação perfeita de qualidade e modernidade."
@@ -121,7 +126,10 @@ export function DiNapoliI() {
         />
         {/* <ExplicacaoCasas/> */}
         <Empresas />
-        <Estagio percentageTotal={55} listItems={dataPhase} />
+        <Estagio
+          percentageTotal={Number(mediaPorcentagem.toFixed(0))}
+          listItems={dataPhase}
+        />
         <Garantia />
 
         <Depoimentos empreendimento="dinapoli1" />
@@ -141,7 +149,8 @@ export function DiNapoliI() {
         <Redes
           instagram="https://www.instagram.com/dinapoli_residencial/"
           facebook="https://www.facebook.com/dinapoli1.residencial"
-          mockupImg="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492175/public/dn1/mockupdn1_ee7p8o.png"
+          mockupImgInsta="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492175/public/dn1/mockupdn1_ee7p8o.png"
+          mockupImgFace="https://res.cloudinary.com/duv6mjghr/image/upload/v1712167494/dn1/facedn1mockup_rsebyl.png"
         />
         <GrupoMNGT />
         <Footer />

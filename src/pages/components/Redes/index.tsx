@@ -15,10 +15,16 @@ import { useTheme } from "../../ThemeContext";
 interface RedesProps {
   instagram?: string;
   facebook?: string;
-  mockupImg?: string;
+  mockupImgInsta?: string;
+  mockupImgFace?: string;
 }
 
-export function Redes({ instagram, facebook, mockupImg }: RedesProps) {
+export function Redes({
+  instagram,
+  facebook,
+  mockupImgInsta,
+  mockupImgFace,
+}: RedesProps) {
   const theme = useTheme();
   return (
     <Container id="redes">
@@ -29,7 +35,7 @@ export function Redes({ instagram, facebook, mockupImg }: RedesProps) {
 
         <ContentRedes>
           <Mockup>
-            <img src={mockupImg} alt="" />
+            <img src={mockupImgInsta} alt="" />
           </Mockup>
           <Social>
             <Instagram>
@@ -62,10 +68,7 @@ export function Redes({ instagram, facebook, mockupImg }: RedesProps) {
             </Facebook>
           </Social>
           <Mockup>
-            <img
-              src="https://res.cloudinary.com/duv6mjghr/image/upload/v1712167494/dn1/facedn1mockup_rsebyl.png"
-              alt=""
-            />
+            <img src={mockupImgFace} alt="" />
           </Mockup>
         </ContentRedes>
       </Content>

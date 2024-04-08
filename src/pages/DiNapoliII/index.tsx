@@ -1,12 +1,10 @@
 import { ReactNode } from "react";
 
 import { Container } from "./styles";
-
 import { Footer } from "../../components/Footer";
 import { Hero } from "../components/Hero";
 import { Sobre } from "../components/Sobre";
 import { ThemeProvider } from "../ThemeContext";
-
 import { Apresentacao } from "../components/Apresentacao";
 import { VejaMais } from "../components/VejaMais";
 import { Estagio } from "../components/Estagio";
@@ -28,22 +26,41 @@ import { GrupoMNGT } from "../../components/GrupoMNGT";
 export function DiNapoliII() {
   const dataPhase = [
     {
-      name: "Terraplanagem",
-      value: 100,
-    },
-    {
       name: "Fundação",
       value: 100,
     },
+
     {
-      name: "Alvenaria",
-      value: 75,
+      name: "Passagem de Elétrica",
+      value: 25,
     },
     {
-      name: "Acabamento",
-      value: 20,
+      name: "Levantamento de Placas Lightwall",
+      value: 90,
+    },
+    {
+      name: "Pintura e Acabamentos",
+      value: 25,
+    },
+    {
+      name: "Esquadrias e Marmoaria",
+      value: 0,
+    },
+
+    {
+      name: "Pisos e Azulejos",
+      value: 25,
+    },
+    {
+      name: "Portas e Janelas",
+      value: 0,
     },
   ];
+
+  const totalValue = dataPhase.reduce((acc, curr) => acc + curr.value, 0);
+
+  // Calculando a média como uma porcentagem
+  const mediaPorcentagem = totalValue / dataPhase.length;
 
   const empreendimento = "Di Napoli II";
   return (
@@ -57,21 +74,21 @@ export function DiNapoliII() {
         <Header />
         <Hero
           category="lançamento"
-          image="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492541/public/dn1/fachadadn1_mnz6x0.jpg"
+          video="https://res.cloudinary.com/duv6mjghr/video/upload/v1712586384/dn2/dinapoli2background_topkaf.mp4"
           subname="Condomínio Residencial"
           name={empreendimento}
-          description="Casas de 2 ou 3 quartos"
-          value="1.030,00"
+          description="Lotes | Casas Modulares | Casas incríveis"
+          value="617,00"
           facebook="https://www.facebook.com/area.incrivelrc"
-          instagram="https://www.instagram.com/dinapoli_residencial/"
+          instagram="https://www.instagram.com/dinapoli_2_residencial/"
           whatsapp=""
-          buttonLink="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20I"
+          buttonLink="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20II"
         />
-        <Numeros />
+        <Numeros empreendimentoItens="dinapoli2" />
         <Sobre
-          logoEmpreendimento="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492231/public/logodinapoli2_wapdvq.png"
-          about="Bem-vindo ao Di Napoli II, onde a inovação e o conforto se unem para criar um ambiente excepcional para você e sua família. Inspirado no nome da terceira maior cidade italiana, Napoli, que significa 'cidade nova', nosso condomínio de casas térreas é a representação perfeita de qualidade e modernidade."
-          linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20I"
+          logoEmpreendimento="https://res.cloudinary.com/duv6mjghr/image/upload/v1712586382/dn2/logodn2_xi3ie4.png"
+          about="O lugar do seu sonho é o Condompinio Di Napoli II, que fica num bairro encantador, o Recanto Paraíso. São exclusivos 36 lotes de 105 m² a 120 m², com vista encantadora para a Serra do Itaqueri. Sua casa pode ser modular ou ter uma planta incrível bem charmosa, humanizada e tecnológica. O Di Napoli II é o lugar para ser e pertencer, com possibilidade de geração de energia solar limpa, automação residencial e qualidade de vida excepcional."
+          linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20II"
         />
 
         <Apresentacao
@@ -96,19 +113,22 @@ export function DiNapoliII() {
           //   ></iframe>
           // }
           empreendimento={empreendimento}
-          apresentacao="/dn1/apresentacaodn1.pdf"
+          apresentacao="https://res.cloudinary.com/duv6mjghr/image/upload/v1712592778/dn2/Di_Napoli_II_1_pmql2g.png"
         />
         <Ofertas
           empreendimento="dinapoli2"
-          background="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492541/public/dn1/fachadadn1_mnz6x0.jpg"
+          background="https://res.cloudinary.com/duv6mjghr/image/upload/v1712586384/dn2/portariadn2_zldii3.jpg"
         />
         {/* <ExplicacaoCasas/> */}
         <Empresas />
-        <Estagio percentageTotal={50} listItems={dataPhase} />
+        <Estagio
+          percentageTotal={Number(mediaPorcentagem.toFixed(0))}
+          listItems={dataPhase}
+        />
         <Garantia />
 
         <Depoimentos empreendimento="dinapoli1" />
-        <Imagens empreendimento="dinapoli1" />
+        <Imagens empreendimento="dinapoli2" />
         <PontosDeInteresse
           empreendimento="Di Napoli II"
           empreendimentoPonto="dinapoli2"
@@ -124,7 +144,8 @@ export function DiNapoliII() {
         <Redes
           instagram="https://www.instagram.com/dinapoli_residencial/"
           facebook="https://www.facebook.com/dinapoli2.residencial"
-          mockupImg="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492175/public/dn1/mockupdn1_ee7p8o.png"
+          mockupImgInsta="https://res.cloudinary.com/duv6mjghr/image/upload/v1712595391/dn2/dn2mockupinsta_a2mj66.png"
+          mockupImgFace="https://res.cloudinary.com/duv6mjghr/image/upload/v1712595392/dn2/dn2mockupface_bi0jat.png"
         />
         <GrupoMNGT />
         <Footer />

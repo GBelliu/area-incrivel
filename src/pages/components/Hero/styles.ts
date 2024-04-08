@@ -24,6 +24,16 @@ export const Container = styled.div`
     object-fit: cover;
   }
 
+  > video {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    filter: brightness(0.7);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
   @media (max-width: 1750px) {
   }
   @media (min-width: 768px) and (max-width: 1023px) {

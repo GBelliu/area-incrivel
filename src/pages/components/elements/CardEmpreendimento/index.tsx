@@ -65,12 +65,14 @@ export function CardEmpreendimento({
           <p>SAIBA MAIS SOBRE ESSA OPÇÃO</p>
         </ContentTextInfo>
         <Divider theme={theme} />
-        <ImageBox onClick={() => openModal(imgModal)}>
-          <img src={img} />
-          <TextImg>
-            <span>Clique e saiba +</span>
-          </TextImg>
-        </ImageBox>
+        {img && (
+          <ImageBox onClick={() => openModal(imgModal)}>
+            <img src={img} />
+            <TextImg>
+              <span>Clique e saiba +</span>
+            </TextImg>
+          </ImageBox>
+        )}
       </Content>
       <ContentButton>
         <ButtonCard href={linkButton} target="_blank" theme={theme}>

@@ -3,32 +3,20 @@ import { ReactNode } from "react";
 import { Container, Content, ContentDados } from "./styles";
 import { CardDados } from "../elements/CardDados";
 import { Boxes, HeartHandshake, Home, LandPlot } from "lucide-react";
-
-export function Numeros() {
+import { numeros } from "../../utils/numeros";
+interface NumerosProps {
+  empreendimentoItens: string;
+}
+export function Numeros({ empreendimentoItens }: NumerosProps) {
   return (
     <Container>
       <Content>
         <ContentDados>
-          <CardDados
-            data="105 a 152 m²"
-            title="ÁREA TERRENO"
-            icon={<LandPlot color="#fff" strokeWidth={2} size={90} />}
-          />
-          <CardDados
-            data="43 a 70 m²"
-            title="ÁREA CONSTRUÍDA"
-            icon={<Home color="#fff" strokeWidth={2} size={90} />}
-          />
-          <CardDados
-            data="36"
-            title="UNIDADES"
-            icon={<Boxes color="#fff" strokeWidth={2} size={90} />}
-          />
-          <CardDados
-            data="Recanto Paraíso"
-            title="LOCALIZAÇÃO"
-            icon={<HeartHandshake color="#fff" strokeWidth={2} size={90} />}
-          />
+          {numeros?.[empreendimentoItens].map((item: any) => {
+            return (
+              <CardDados data={item.data} title={item.title} icon={item.icon} />
+            );
+          })}
         </ContentDados>
       </Content>
     </Container>

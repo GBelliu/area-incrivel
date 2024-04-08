@@ -32,6 +32,10 @@ export const Content = styled.div`
     color: #404040;
   }
 
+  img {
+    max-width: 450px;
+  }
+
   @media (max-width: 1750px) {
     max-width: 965px;
     gap: 50px;

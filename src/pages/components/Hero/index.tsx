@@ -11,6 +11,7 @@ import {
 
 interface HeroProps {
   image?: string;
+  video?: string;
   category?: string;
   subname?: string;
   name?: string;
@@ -24,6 +25,7 @@ interface HeroProps {
 
 export function Hero({
   image,
+  video,
   category,
   subname,
   name,
@@ -36,7 +38,8 @@ export function Hero({
 }: HeroProps) {
   return (
     <Container id="home">
-      <img src={image} alt="" />
+      {image && <img src={image} alt="" />}
+      {video && <video src={video} autoPlay loop muted />}
       <Content>
         <ContentText>
           <Category>{category}</Category>
