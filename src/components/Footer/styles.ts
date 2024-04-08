@@ -29,7 +29,7 @@ export const Content = styled.div`
   }
 
   @media (max-width: 1750px) {
-    max-width: 1280px;
+    max-width: 965px;
     gap: 50px;
   }
   @media (min-width: 768px) and (max-width: 1023px) {
